@@ -9,18 +9,35 @@ console.log(texturePath)
 var toolbar = require('toolbar')
 var opts = {
 		texturePath: '.'+texturePath,
+        materialFlatColor :true,
     materials: [
-    'crate',
-    'alphatex0',
-    'panorama0',
-    'panorama1',
-    'panorama2',
-    'panorama3',
-    'grass', 'brick', 'dirt', 'obsidian'],
+    
+    //'alphatex0',
+    '#445566','#1133CC',
+    '#00C5FF','#FFC500',
+    
+    '#FFFFFF',
+    '#ECECFF',
+    '#CCCCFF',
+    '#999999',
+    '#666666',
+    '#333333',    
+    '#222222',    
+    '#111111',    
+    '#000000'
+    ],
 		//texturePath: texturePath,
 		 generate: function(x,y,z) {
 //|| y==2 && Math.random()>.5
-    		return y==0;//( (z<20 && y<20 && x % 100==0) || y==1 ) ? Math.floor(Math.random() * 4) + 1 : 0// sphere world
+            var inside=(x>0 && x<100 && z>0 && z<100 )
+    		if(y==-1)
+            {
+                return inside ? 2 : 1
+
+            }else if((y>-1 && y<5) && (x==0 || x==100 || z==0 || z==100)){
+
+            }
+            //( (z<20 && y<20 && x % 100==0) || y==1 ) ? Math.floor(Math.random() * 4) + 1 : 0// sphere world
   		},
 	}
 
