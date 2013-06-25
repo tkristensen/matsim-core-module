@@ -41,6 +41,8 @@
     "voxel-engine": "~0.18.2",
     "voxel":"0.3.1",
     "minecraft-skin":"0.1.2",
-    "three":"0.58.9"
+    "three":"0.58.9",
+    "tinycolor2":"0.9.9",
+     "toolbar":"0.0.5"
   }
 }
