@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Voxel HUD</title>
-
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css">
+ <link rel="stylesheet" href="style.css">
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -15,17 +16,30 @@
     <meta name="apple-mobile-web-app-title" content="Voxel HUD">
 
     <!-- Include the compiled Ratchet CSS -->
-    <link rel="stylesheet" href="../ratchet.css">
+    <!--<link rel="stylesheet" href="../ratchet.css">-->
     <style type="text/css">
       li:hover { cursor: hand; cursor: pointer; }
     </style>
   </head>
   <body>
+
+<div class="pure-g">
+
+    <div class="pure-u-1-6" id="ui"> 
+     <div id="uihost" style="height:100%;"></div>
+   </div>
+    <div class="pure-u-1-2" id="container">  
+      
+    </div>
+
+</div>
+
+
   <div >
     <p>
       MATsim - <span id="info"></span>
     </p>
-    <div id="container"></div >
+   
     <nav class="bar-tab">
       <ul class="tab-inner">
         <li class="tab-item active">
@@ -50,7 +64,10 @@
         </li>
       </ul>
     </nav>
+  
   </div>
+ <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="jquery.knob.js"></script>
   <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>

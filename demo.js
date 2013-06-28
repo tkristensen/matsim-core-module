@@ -4,11 +4,11 @@
 
 
 
-var periodictabledata=require('./data/default-periodic-table.json')
-
-var textures = "http://commondatastorage.googleapis.com/voxeltextures/"
-var texturePath = './node_modules/painterly-textures/textures/';//require('painterly-textures')("./")
-hsbutil            = require('./lib/hsbutil.js')
+var periodictabledata   = require('./data/default-periodic-table.json')
+//require('./data/smalltable.json') 
+var textures            = "http://commondatastorage.googleapis.com/voxeltextures/"
+var texturePath         = './node_modules/painterly-textures/textures/';//require('painterly-textures')("./")
+hsbutil                 = require('./lib/hsbutil.js')
 var numElements=0
 for(var element in periodictabledata)
 {
@@ -23,9 +23,9 @@ var materials=['#000000','#FFFFFF',
         numElements
     )
 var tempmaterials=hsbutil.colorRange(   
-        {h:140,s:100,v:90},
-        {h:360,s:100,v:90},
-        numElements
+        {h:0,s:20,v:10},
+        {h:110,s:100,v:90},
+        100
     )
 /*
     hsbutil.colorRange(   
@@ -55,7 +55,8 @@ var tempmaterials=hsbutil.colorRange(
 materials= materials.concat(ccc)
 materials= materials.concat(tempmaterials)
 
-console.log("materials",materials)
+console.log("materials",materials.length)
+console.log("materials",tempmaterials.length)
 
 console.log(texturePath)
 var worlddim=30
@@ -81,47 +82,35 @@ var opts = {
   		},
 	}
 
-var UserInputModule=require("./lib/UserInputModule.js")
-var AtomSprayCommand=require("./lib/commands/AtomSprayCommand.js")
-var SpeedToggleCommand=require("./lib/commands/SpeedToggleCommand.js")
-var CreateTestAtomCommand=require("./lib/commands/CreateTestAtomCommand.js")
+
+var UserInputModule         = require("./lib/modules/UserInputModule.js")
+var VoxelAvatarModule       = require("./lib/modules/VoxelAvatarModule.js")
+
+var AtomSprayCommand        = require("./lib/commands/AtomSprayCommand.js")
+var SpeedToggleCommand      = require("./lib/commands/SpeedToggleCommand.js")
+var CreateTestAtomCommand   = require("./lib/commands/CreateTestAtomCommand.js")
+var TempToggleCommand       = require("./lib/commands/TempToggleCommand")
 
 var facadeconfig    ={
     modules:[
-        {notification:"userinput",c:new UserInputModule()}
+        {notification:"userinput",          c:new UserInputModule()        }
+        ,{notification:"avatar",            c:new VoxelAvatarModule()        }
     ],
     commands:[
-        {notification:"spray_atoms",c:new AtomSprayCommand()},
-        {notification:"speed_toggle",c:new SpeedToggleCommand()}
-        ,{notification:"create_moveatom",c:new CreateTestAtomCommand()},
-    ]
-}
-var highlight 	= require('voxel-highlight')
-var player 		= require('voxel-player')
+        {notification:"spray_atoms",        c:new AtomSprayCommand()        }
+        ,{notification:"speed_toggle",      c:new SpeedToggleCommand()     }
+        ,{notification:"create_moveatom",   c:new CreateTestAtomCommand()   }
+        ,{notification:"temp_incr",         c:new TempToggleCommand()       }        
+        ]
+    }
+
+
 var voxel 		= require('voxel')
 var extend 		= require('extend')
-var fly 		= require('voxel-fly')
-var walk 		= require('voxel-walk')
 var game 		= require('voxel-engine')(opts)
-//game.materials.load(['grass', 'dirt', 'grass_dirt','brick', 'dirt'])
-
 
 window.game = game // for debugging
 game.appendTo("#container")
-
-var createPlayer = player(game)
-
-// create the player from a minecraft skin file and tell the
-// game to use it as the main player
-var avatar = createPlayer(opts.playerSkin || 'player.png')
-avatar.possess()
-avatar.yaw.position.set(-10, 14, -10)
-
-var makeFly = fly(game)
-var target 	= game.controls.target()
-game.flyer 	= makeFly(target)
-
-
 
 
 var SimEngine = require('./lib/SimEngine.js').engine

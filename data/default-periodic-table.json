@@ -2088,7 +2088,15 @@
         "electronic_configuration" : "[Rn]5f6d7s²",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
-    },
+    }
+
+
+
+
+
+
+
+    /*,
     "Curium": {
         "symbol" : "Cm",
         "atomic_number" : 96,
@@ -2594,5 +2602,5 @@
         "electronic_configuration" : "n/a",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
-    }
+    }*/
 }
