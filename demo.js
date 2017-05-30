@@ -4,7 +4,7 @@
 
 
 
-var periodictabledata   = require('./data/mediumtable.json') //require('./data/default-periodic-table.json')
+var periodictabledata   = require('./data/smalltable.json') //require('./data/default-periodic-table.json')
 //require('./data/smalltable.json') 
 var textures            = "http://commondatastorage.googleapis.com/voxeltextures/"
 var texturePath         = './node_modules/painterly-textures/textures/';//require('painterly-textures')("./")

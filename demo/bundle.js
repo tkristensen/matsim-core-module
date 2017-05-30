@@ -1,6 +1,6 @@
 ;(function(e,t,n){function i(n,s){if(!t[n]){if(!e[n]){var o=typeof require=="function"&&require;if(!s&&o)return o(n,!0);if(r)return r(n,!0);throw new Error("Cannot find module '"+n+"'")}var u=t[n]={exports:{}};e[n][0].call(u.exports,function(t){var r=e[n][1][t];return i(r?r:t)},u,u.exports)}return t[n].exports}var r=typeof require=="function"&&require;for(var s=0;s<n.length;s++)i(n[s]);return i})({1:[function(require,module,exports){
 module.exports={
-   "Hydrogen": {
+    "Hydrogen": {
         "symbol" : "H",
         "atomic_number" : 1,
         "atomic_weight" : 1.00794,
@@ -22,579 +22,7 @@ module.exports={
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.750
     },
-    "Helium": {
-        "symbol" : "He",
-        "atomic_number" : 2,
-        "atomic_weight" : 4.002602,
-        "density g/cm" : "0.147 (@ -270°C)",
-        "melting_point K" : 0.95,
-        "boiling_point K" : 4.216,
-        "atomic_radius pm" : 0.0,
-        "covalent_radius pm" : "-",
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 31.8,
-        "specific_heat (@20°C J/g mol)" : 5.188,
-        "fusion_heat (kJ/mol)" : "-",
-        "evaporation_heat (kJ/mol)" : 0.08,
-        "thermal_conductivity" : 0.152,
-        "pauling_negativity" : "-",
-        "first_ionizing kJ/mol" : 2361.3,
-        "oxidation_states" : "-",
-        "electronic_configuration" : "1s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.570
-    },
-    "Lithium": {
-        "symbol" : "Li",
-        "atomic_number" : 3,
-        "atomic_weight" : 6.941,
-        "density g/cm" : 0.534,
-        "melting_point K" : 553.69,
-        "boiling_point K" : 1118.15,
-        "atomic_radius pm" : 155,
-        "covalent_radius pm" : 163,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 13.1,
-        "specific_heat (@20°C J/g mol)" : 3.489,
-        "fusion_heat (kJ/mol)" : 2.89,
-        "evaporation_heat (kJ/mol)" : 148,
-        "thermal_conductivity" : 84.8,
-        "pauling_negativity" : 0.98,
-        "first_ionizing kJ/mol" : 519.9,
-        "oxidation_states" : 1,
-        "electronic_configuration" : "[He]2s¹",
-        "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.490
-    },
-    "Beryllium": {
-        "symbol" : "Be",
-        "atomic_number" : 4,
-        "atomic_weight" : 9.01218,
-        "density g/cm" : 1.848,
-        "melting_point K" : 1551,
-        "boiling_point K" : 3243,
-        "atomic_radius pm" : 112,
-        "covalent_radius pm" : 90,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 5.0,
-        "specific_heat (@20°C J/g mol)" : 1.824,
-        "fusion_heat (kJ/mol)" : 12.21,
-        "evaporation_heat (kJ/mol)" : 309,
-        "thermal_conductivity" : 201,
-        "pauling_negativity" : 1.57,
-        "first_ionizing kJ/mol" : 898.8,
-        "oxidation_states" : 2,
-        "electronic_configuration" : "[He]2s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.290
-    },
-    "Boron": {
-        "symbol" : "B",
-        "atomic_number" : 5,
-        "atomic_weight" : 10.811,
-        "density g/cm" : 2.34,
-        "melting_point K" : 2573,
-        "boiling_point K" : 3931,
-        "atomic_radius pm" : 98,
-        "covalent_radius pm" : 82,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 4.6,
-        "specific_heat (@20°C J/g mol)" : 1.025,
-        "fusion_heat (kJ/mol)" : 23.60,
-        "evaporation_heat (kJ/mol)" : 504.5,
-        "thermal_conductivity" : 27.4,
-        "pauling_negativity" : 2.04,
-        "first_ionizing kJ/mol" : 800.2,
-        "oxidation_states" : 3,
-        "electronic_configuration" : "[He]2s²2p¹",
-        "lattice_structure" : "TET",
-        "lattice_constant ang" : 8.730
-    },
-    "Carbon": {
-        "symbol" : "C",
-        "atomic_number" : 6,
-        "atomic_weight" : 12.011,
-        "density g/cm" : "2.25 (graphite)",
-        "melting_point K" : 3820,
-        "boiling_point K" : 5100,
-        "atomic_radius pm" : 91,
-        "covalent_radius pm" : 77,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 5.3,
-        "specific_heat (@20°C J/g mol)" : 0.711,
-        "fusion_heat (kJ/mol)" : "-",
-        "evaporation_heat (kJ/mol)" : "-",
-        "thermal_conductivity" : 1.59,
-        "pauling_negativity" : 2.55,
-        "first_ionizing kJ/mol" : 1085.7,
-        "oxidation_states" : "4, 2, -4",
-        "electronic_configuration" : "[He]2s²2p²",
-        "lattice_structure" : "DIA",
-        "lattice_constant ang" : 3.570
-    },
-    "Nitrogen": {
-        "symbol" : "N",
-        "atomic_number" : 7,
-        "atomic_weight" : 14.00674,
-        "density g/cm" : "0.808 (@ -195.8°C)",
-        "melting_point K" : 63.29,
-        "boiling_point K" : 77.4,
-        "atomic_radius pm" : 92,
-        "covalent_radius pm" : 75,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 17.3,
-        "specific_heat (@20°C J/g mol)" : "1.042 (N-N)",
-        "fusion_heat (kJ/mol)" : "-",
-        "evaporation_heat (kJ/mol)" : "-",
-        "thermal_conductivity" : 0.026,
-        "pauling_negativity" : 3.04,
-        "first_ionizing kJ/mol" : 1401.5,
-        "oxidation_states" : "5, 4, 3, 2, -3",
-        "electronic_configuration" : "[He]2s²2p³",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 4.039
-    },
-    "Oxygen": {
-        "symbol" : "O",
-        "atomic_number" : 8,
-        "atomic_weight" : 15.9994,
-        "density g/cm" : "1.149 (@ -183°C)",
-        "melting_point K" : 54.8,
-        "boiling_point K" : 90.19,
-        "atomic_radius pm" : "-",
-        "covalent_radius pm" : 73,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 14.0,
-        "specific_heat (@20°C J/g mol)" : "0.916 (O-O)",
-        "fusion_heat (kJ/mol)" : "-",
-        "evaporation_heat (kJ/mol)" : "-",
-        "thermal_conductivity" : 0.027,
-        "pauling_negativity" : 3.44,
-        "first_ionizing kJ/mol" : 1313.1,
-        "oxidation_states" : "-2, -1",
-        "electronic_configuration" : "[He]2s²2p",
-        "lattice_structure" : "CUB",
-        "lattice_constant ang" : 6.830
-    },
-    "Fluorine": {
-        "symbol" : "F",
-        "atomic_number" : 9,
-        "atomic_weight" : 18.998403,
-        "density g/cm" : "1.108 (@ -189°C)",
-        "melting_point K" : 53.53,
-        "boiling_point K" : 85.01,
-        "atomic_radius pm" : "-",
-        "covalent_radius pm" : 72,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 17.1,
-        "specific_heat (@20°C J/g mol)" : "0.824 (F-F)",
-        "fusion_heat (kJ/mol)" : "0.51 (F-F)",
-        "evaporation_heat (kJ/mol)" : "6.54 (F-F)",
-        "thermal_conductivity" : 0.028,
-        "pauling_negativity" : 3.98,
-        "first_ionizing kJ/mol" : 1680.0,
-        "oxidation_states" : -1,
-        "electronic_configuration" : "[He]2s²2p",
-        "lattice_structure" : "MCL",
-        "lattice_constant ang" : "-"
-    },
-    "Neon": {
-        "symbol" : "Ne",
-        "atomic_number" : 10,
-        "atomic_weight" : 20.1797,
-        "density g/cm" : "1.204 (@ -246°C)",
-        "melting_point K" : 48,
-        "boiling_point K" : 27.1,
-        "atomic_radius pm" : "-",
-        "covalent_radius pm" : 71,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 16.8,
-        "specific_heat (@20°C J/g mol)" : 1.029,
-        "fusion_heat (kJ/mol)" : "-",
-        "evaporation_heat (kJ/mol)" : 1.74,
-        "thermal_conductivity" : "(0.0493)",
-        "pauling_negativity" : 0.0,
-        "first_ionizing kJ/mol" : 2079.4,
-        "oxidation_states" : "-",
-        "electronic_configuration" : "[He]2s²2p",
-        "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.430
-    },
-    "Sodium": {
-        "symbol" : "Na",
-        "atomic_number" : 11,
-        "atomic_weight" : 22.989768,
-        "density g/cm" : 0.971,
-        "melting_point K" : 370.96,
-        "boiling_point K" : 1156.1,
-        "atomic_radius pm" : 190,
-        "covalent_radius pm" : 154,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 23.7,
-        "specific_heat (@20°C J/g mol)" : 1.222,
-        "fusion_heat (kJ/mol)" : 2.64,
-        "evaporation_heat (kJ/mol)" : 97.9,
-        "thermal_conductivity" : 142.0,
-        "pauling_negativity" : 0.93,
-        "first_ionizing kJ/mol" : 495.6,
-        "oxidation_states" : 1,
-        "electronic_configuration" : "[Ne]3s¹",
-        "lattice_structure" : "BCC",
-        "lattice_constant ang" : 4.230
-    },
-    "Magnesium": {
-        "symbol" : "Mg",
-        "atomic_number" : 12,
-        "atomic_weight" : 24.305,
-        "density g/cm" : 1.738,
-        "melting_point K" : 922,
-        "boiling_point K" : 1363,
-        "atomic_radius pm" : 160,
-        "covalent_radius pm" : 136,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 14.0,
-        "specific_heat (@20°C J/g mol)" : 1.025,
-        "fusion_heat (kJ/mol)" : 9.20,
-        "evaporation_heat (kJ/mol)" : 131.8,
-        "thermal_conductivity" : 156,
-        "pauling_negativity" : 1.31,
-        "first_ionizing kJ/mol" : 737.3,
-        "oxidation_states" : 2,
-        "electronic_configuration" : "[Ne]3s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.210
-    },
-    "Aluminum": {
-        "symbol" : "Al",
-        "atomic_number" : 13,
-        "atomic_weight" : 26.981539,
-        "density g/cm" : 2.6989,
-        "melting_point K" : 933.5,
-        "boiling_point K" : 2740,
-        "atomic_radius pm" : 143,
-        "covalent_radius pm" : 118,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 10.0,
-        "specific_heat (@20°C J/g mol)" : 0.900,
-        "fusion_heat (kJ/mol)" : 10.75,
-        "evaporation_heat (kJ/mol)" : 284.1,
-        "thermal_conductivity" : 237,
-        "pauling_negativity" : 1.61,
-        "first_ionizing kJ/mol" : 577.2,
-        "oxidation_states" : 3,
-        "electronic_configuration" : "[Ne]3s²3p¹",
-        "lattice_structure" : "FCC",
-        "lattice_constant ang" : 4.050
-    },
-    "Silicon": {
-        "symbol" : "Si",
-        "atomic_number" : 14,
-        "atomic_weight" : 28.0855,
-        "density g/cm" : 2.33,
-        "melting_point K" : 1683,
-        "boiling_point K" : 2628,
-        "atomic_radius pm" : 132,
-        "covalent_radius pm" : 111,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 12.1,
-        "specific_heat (@20°C J/g mol)" : 0.703,
-        "fusion_heat (kJ/mol)" : 50.6,
-        "evaporation_heat (kJ/mol)" : 383,
-        "thermal_conductivity" : 149,
-        "pauling_negativity" : 1.90,
-        "first_ionizing kJ/mol" : 786.0,
-        "oxidation_states" : "4, -4",
-        "electronic_configuration" : "[Ne]3s²3p²",
-        "lattice_structure" : "DIA",
-        "lattice_constant ang" : 5.430
-    },
-    "Phosphorus": {
-        "symbol" : "P",
-        "atomic_number" : 15,
-        "atomic_weight" : 30.973762,
-        "density g/cm" : "1.82 (white phosphorus)",
-        "melting_point K" : 317.3,
-        "boiling_point K" : 553,
-        "atomic_radius pm" : 128,
-        "covalent_radius pm" : 106,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 17.0,
-        "specific_heat (@20°C J/g mol)" : 0.757,
-        "fusion_heat (kJ/mol)" : 2.51,
-        "evaporation_heat (kJ/mol)" : 49.8,
-        "thermal_conductivity" : "(0.236)",
-        "pauling_negativity" : 2.19,
-        "first_ionizing kJ/mol" : 1011.2,
-        "oxidation_states" : "5, 3, -3",
-        "electronic_configuration" : "[Ne]3s²3p³",
-        "lattice_structure" : "CUB",
-        "lattice_constant ang" : 7.170
-    },
-    "Sulfur": {
-        "symbol" : "S",
-        "atomic_number" : 16,
-        "atomic_weight" : 32.066,
-        "density g/cm" : 2.070,
-        "melting_point K" : 386,
-        "boiling_point K" : 717.824,
-        "atomic_radius pm" : 127,
-        "covalent_radius pm" : 102,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 15.5,
-        "specific_heat (@20°C J/g mol)" : 0.732,
-        "fusion_heat (kJ/mol)" : 1.23,
-        "evaporation_heat (kJ/mol)" : 10.5,
-        "thermal_conductivity" : 0.27,
-        "pauling_negativity" : 2.58,
-        "first_ionizing kJ/mol" : 999.0,
-        "oxidation_states" : "6, 4, 2, -2",
-        "electronic_configuration" : "[Ne]3s²3p",
-        "lattice_structure" : "ORC",
-        "lattice_constant ang" : 10.470
-    },
-    "Chlorine": {
-        "symbol" : "Cl",
-        "atomic_number" : 17,
-        "atomic_weight" : 35.4527,
-        "density g/cm" : "1.56 (@ -33.6°C)",
-        "melting_point K" : 172.2,
-        "boiling_point K" : 238.6,
-        "atomic_radius pm" : "-",
-        "covalent_radius pm" : 99,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 18.7,
-        "specific_heat (@20°C J/g mol)" : "0.477 (Cl-Cl)",
-        "fusion_heat (kJ/mol)" : "6.41 (Cl-Cl)",
-        "evaporation_heat (kJ/mol)" : "20.41 (Cl-Cl)",
-        "thermal_conductivity" : 0.009,
-        "pauling_negativity" : 3.16,
-        "first_ionizing kJ/mol" : 1254.9,
-        "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Ne]3s²3p",
-        "lattice_structure" : "ORC",
-        "lattice_constant ang" : 6.240
-    },
-    "Argon": {
-        "symbol" : "Ar",
-        "atomic_number" : 18,
-        "atomic_weight" : 39.948,
-        "density g/cm" : "1.40 (@ -186°C)",
-        "melting_point K" : 83.8,
-        "boiling_point K" : 87.3,
-        "atomic_radius pm" : "2-",
-        "covalent_radius pm" : 98,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 24.2,
-        "specific_heat (@20°C J/g mol)" : 0.138,
-        "fusion_heat (kJ/mol)" : "-",
-        "evaporation_heat (kJ/mol)" : 6.52,
-        "thermal_conductivity" : 0.0177,
-        "pauling_negativity" : 0.0,
-        "first_ionizing kJ/mol" : 1519.6,
-        "oxidation_states" : "-",
-        "electronic_configuration" : "[Ne]3s²3p",
-        "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.260
-    },
-    "Potassium": {
-        "symbol" : "K",
-        "atomic_number" : 19,
-        "atomic_weight" : 39.0983,
-        "density g/cm" : 0.856,
-        "melting_point K" : 336.8,
-        "boiling_point K" : 1047,
-        "atomic_radius pm" : 235,
-        "covalent_radius pm" : 203,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 45.3,
-        "specific_heat (@20°C J/g mol)" : 0.753,
-        "fusion_heat (kJ/mol)" : 102.5,
-        "evaporation_heat (kJ/mol)" : 2.33,
-        "thermal_conductivity" : 79.0,
-        "pauling_negativity" : 0.82,
-        "first_ionizing kJ/mol" : 418.5,
-        "oxidation_states" : 1,
-        "electronic_configuration" : "[Ar]4s¹",
-        "lattice_structure" : "BCC",
-        "lattice_constant ang" : 5.230
-    },
-    "Calcium": {
-        "symbol" : "Ca",
-        "atomic_number" : 20,
-        "atomic_weight" : 40.078,
-        "density g/cm" : 1.55,
-        "melting_point K" : 1112,
-        "boiling_point K" : 1757,
-        "atomic_radius pm" : 197,
-        "covalent_radius pm" : 174,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 29.9,
-        "specific_heat (@20°C J/g mol)" : 0.653,
-        "fusion_heat (kJ/mol)" : 9.20,
-        "evaporation_heat (kJ/mol)" : 153.6,
-        "thermal_conductivity" : "(201)",
-        "pauling_negativity" : 1.00,
-        "first_ionizing kJ/mol" : 589.4,
-        "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]4s²",
-        "lattice_structure" : "FCC",
-        "lattice_constant ang" : 5.580
-    },
-    "Scandium": {
-        "symbol" : "Sc",
-        "atomic_number" : 21,
-        "atomic_weight" : 44.95591,
-        "density g/cm" : 2.99,
-        "melting_point K" : 1814,
-        "boiling_point K" : 3104,
-        "atomic_radius pm" : 162,
-        "covalent_radius pm" : 144,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 15.0,
-        "specific_heat (@20°C J/g mol)" : 0.556,
-        "fusion_heat (kJ/mol)" : 15.8,
-        "evaporation_heat (kJ/mol)" : 332.7,
-        "thermal_conductivity" : 15.8,
-        "pauling_negativity" : 1.36,
-        "first_ionizing kJ/mol" : 630.8,
-        "oxidation_states" : 3,
-        "electronic_configuration" : "[Ar]3d¹4s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 3.310
-    },
-    "Titanium": {
-        "symbol" : "Ti",
-        "atomic_number" : 22,
-        "atomic_weight" : 47.88,
-        "density g/cm" : 4.54,
-        "melting_point K" : 1933,
-        "boiling_point K" : 3560,
-        "atomic_radius pm" : 147,
-        "covalent_radius pm" : 132,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 10.6,
-        "specific_heat (@20°C J/g mol)" : 0.523,
-        "fusion_heat (kJ/mol)" : 18.8,
-        "evaporation_heat (kJ/mol)" : 422.6,
-        "thermal_conductivity" : 21.9,
-        "pauling_negativity" : 1.54,
-        "first_ionizing kJ/mol" : 657.8,
-        "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Ar]3d²4s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.950
-    },
-    "Vanadium": {
-        "symbol" : "V",
-        "atomic_number" : 23,
-        "atomic_weight" : 50.9415,
-        "density g/cm" : 6.11,
-        "melting_point K" : 2160,
-        "boiling_point K" : 3650,
-        "atomic_radius pm" : 134,
-        "covalent_radius pm" : 122,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 8.35,
-        "specific_heat (@20°C J/g mol)" : 0.485,
-        "fusion_heat (kJ/mol)" : 17.5,
-        "evaporation_heat (kJ/mol)" : 460,
-        "thermal_conductivity" : 30.7,
-        "pauling_negativity" : 1.63,
-        "first_ionizing kJ/mol" : 650.1,
-        "oxidation_states" : "5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Ar]3d³4s²",
-        "lattice_structure" : "BCC",
-        "lattice_constant ang" : 3.020
-    },
-    "Chromium": {
-        "symbol" : "Cr",
-        "atomic_number" : 24,
-        "atomic_weight" : 51.9961,
-        "density g/cm" : 7.18,
-        "melting_point K" : 2130,
-        "boiling_point K" : 2945,
-        "atomic_radius pm" : 130,
-        "covalent_radius pm" : 118,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 7.23,
-        "specific_heat (@20°C J/g mol)" : 0.488,
-        "fusion_heat (kJ/mol)" : 21,
-        "evaporation_heat (kJ/mol)" : 342,
-        "thermal_conductivity" : 93.9,
-        "pauling_negativity" : 1.66,
-        "first_ionizing kJ/mol" : 652.4,
-        "oxidation_states" : "6, 3, 2, 0",
-        "electronic_configuration" : "[Ar]3d4s¹",
-        "lattice_structure" : "BCC",
-        "lattice_constant ang" : 2.880
-    },
-    "Manganese": {
-        "symbol" : "Mn",
-        "atomic_number" : 25,
-        "atomic_weight" : 54.93805,
-        "density g/cm" : 7.21,
-        "melting_point K" : 1517,
-        "boiling_point K" : 2235,
-        "atomic_radius pm" : 135,
-        "covalent_radius pm" : 117,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 7.39,
-        "specific_heat (@20°C J/g mol)" : 0.477,
-        "fusion_heat (kJ/mol)" : "(13.4)",
-        "evaporation_heat (kJ/mol)" : 221,
-        "thermal_conductivity" : "(7.8)",
-        "pauling_negativity" : 1.55,
-        "first_ionizing kJ/mol" : 716.8,
-        "oxidation_states" : "7, 6, 4, 3, 2, 0, -1",
-        "electronic_configuration" : "[Ar]3d4s²",
-        "lattice_structure" : "CUB",
-        "lattice_constant ang" : 8.890
-    },
-    "Iron": {
-        "symbol" : "Fe",
-        "atomic_number" : 26,
-        "atomic_weight" : 55.847,
-        "density g/cm" : 7.874,
-        "melting_point K" : 1808,
-        "boiling_point K" : 3023,
-        "atomic_radius pm" : 126,
-        "covalent_radius pm" : 117,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 7.1,
-        "specific_heat (@20°C J/g mol)" : 0.443,
-        "fusion_heat (kJ/mol)" : 13.8,
-        "evaporation_heat (kJ/mol)" : "~340",
-        "thermal_conductivity" : 80.4,
-        "pauling_negativity" : 1.83,
-        "first_ionizing kJ/mol" : 759.1,
-        "oxidation_states" : "6, 3, 2, 0, -2",
-        "electronic_configuration" : "[Ar]3d4s²",
-        "lattice_structure" : "BCC",
-        "lattice_constant ang" : 2.870
-    },
-    "Cobalt": {
-        "symbol" : "Co",
-        "atomic_number" : 27,
-        "atomic_weight" : 58.9332,
-        "density g/cm" : 8.9,
-        "melting_point K" : 1768,
-        "boiling_point K" : 3143,
-        "atomic_radius pm" : 125,
-        "covalent_radius pm" : 116,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 6.7,
-        "specific_heat (@20°C J/g mol)" : 0.456,
-        "fusion_heat (kJ/mol)" : 15.48,
-        "evaporation_heat (kJ/mol)" : 389.1,
-        "thermal_conductivity" : 100,
-        "pauling_negativity" : 1.88,
-        "first_ionizing kJ/mol" : 758.1,
-        "oxidation_states" : "3, 2, 0, -1",
-        "electronic_configuration" : "[Ar]3d4s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.510
-    },
-    "Nickel": {
+      "Nickel": {
         "symbol" : "Ni",
         "atomic_number" : 28,
         "atomic_weight" : 58.6934,
@@ -616,52 +44,377 @@ module.exports={
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.520
     },
-    "Copper": {
-        "symbol" : "Cu",
-        "atomic_number" : 29,
-        "atomic_weight" : 63.546,
-        "density g/cm" : 8.96,
-        "melting_point K" : 1356.6,
-        "boiling_point K" : 2840,
+      "Phosphorus": {
+        "symbol" : "P",
+        "atomic_number" : 15,
+        "atomic_weight" : 30.973762,
+        "density g/cm" : "1.82 (white phosphorus)",
+        "melting_point K" : 317.3,
+        "boiling_point K" : 553,
         "atomic_radius pm" : 128,
-        "covalent_radius pm" : 117,
+        "covalent_radius pm" : 106,
         "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 7.1,
-        "specific_heat (@20°C J/g mol)" : 0.385,
-        "fusion_heat (kJ/mol)" : 13.01,
-        "evaporation_heat (kJ/mol)" : 304.6,
-        "thermal_conductivity" : 401,
-        "pauling_negativity" : 1.90,
-        "first_ionizing kJ/mol" : 745.0,
-        "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Ar]3d¹4s¹",
-        "lattice_structure" : "FCC",
-        "lattice_constant ang" : 3.610
-    },
-    "Zinc": {
-        "symbol" : "Zn",
-        "atomic_number" : 30,
-        "atomic_weight" : 65.39,
-        "density g/cm" : 7.133,
-        "melting_point K" : 692.73,
-        "boiling_point K" : 1180,
-        "atomic_radius pm" : 138,
-        "covalent_radius pm" : 125,
-        "ionic_radius pm" : "",
-        "atomic_volume cm3/mol" : 9.2,
-        "specific_heat (@20°C J/g mol)" : 0.388,
-        "fusion_heat (kJ/mol)" : 7.28,
-        "evaporation_heat (kJ/mol)" : 114.8,
-        "thermal_conductivity" : 116,
-        "pauling_negativity" : 1.65,
-        "first_ionizing kJ/mol" : 905.8,
-        "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]3d¹4s²",
-        "lattice_structure" : "HEX",
-        "lattice_constant ang" : 2.660
+        "atomic_volume cm3/mol" : 17.0,
+        "specific_heat (@20°C J/g mol)" : 0.757,
+        "fusion_heat (kJ/mol)" : 2.51,
+        "evaporation_heat (kJ/mol)" : 49.8,
+        "thermal_conductivity" : "(0.236)",
+        "pauling_negativity" : 2.19,
+        "first_ionizing kJ/mol" : 1011.2,
+        "oxidation_states" : "5, 3, -3",
+        "electronic_configuration" : "[Ne]3s²3p³",
+        "lattice_structure" : "CUB",
+        "lattice_constant ang" : 7.170
     }
 }
 },{}],2:[function(require,module,exports){
+var events = require('events');
+
+exports.isArray = isArray;
+exports.isDate = function(obj){return Object.prototype.toString.call(obj) === '[object Date]'};
+exports.isRegExp = function(obj){return Object.prototype.toString.call(obj) === '[object RegExp]'};
+
+
+exports.print = function () {};
+exports.puts = function () {};
+exports.debug = function() {};
+
+exports.inspect = function(obj, showHidden, depth, colors) {
+  var seen = [];
+
+  var stylize = function(str, styleType) {
+    // http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
+    var styles =
+        { 'bold' : [1, 22],
+          'italic' : [3, 23],
+          'underline' : [4, 24],
+          'inverse' : [7, 27],
+          'white' : [37, 39],
+          'grey' : [90, 39],
+          'black' : [30, 39],
+          'blue' : [34, 39],
+          'cyan' : [36, 39],
+          'green' : [32, 39],
+          'magenta' : [35, 39],
+          'red' : [31, 39],
+          'yellow' : [33, 39] };
+
+    var style =
+        { 'special': 'cyan',
+          'number': 'blue',
+          'boolean': 'yellow',
+          'undefined': 'grey',
+          'null': 'bold',
+          'string': 'green',
+          'date': 'magenta',
+          // "name": intentionally not styling
+          'regexp': 'red' }[styleType];
+
+    if (style) {
+      return '\u001b[' + styles[style][0] + 'm' + str +
+             '\u001b[' + styles[style][1] + 'm';
+    } else {
+      return str;
+    }
+  };
+  if (! colors) {
+    stylize = function(str, styleType) { return str; };
+  }
+
+  function format(value, recurseTimes) {
+    // Provide a hook for user-specified inspect functions.
+    // Check that value is an object with an inspect function on it
+    if (value && typeof value.inspect === 'function' &&
+        // Filter out the util module, it's inspect function is special
+        value !== exports &&
+        // Also filter out any prototype objects using the circular check.
+        !(value.constructor && value.constructor.prototype === value)) {
+      return value.inspect(recurseTimes);
+    }
+
+    // Primitive types cannot have properties
+    switch (typeof value) {
+      case 'undefined':
+        return stylize('undefined', 'undefined');
+
+      case 'string':
+        var simple = '\'' + JSON.stringify(value).replace(/^"|"$/g, '')
+                                                 .replace(/'/g, "\\'")
+                                                 .replace(/\\"/g, '"') + '\'';
+        return stylize(simple, 'string');
+
+      case 'number':
+        return stylize('' + value, 'number');
+
+      case 'boolean':
+        return stylize('' + value, 'boolean');
+    }
+    // For some reason typeof null is "object", so special case here.
+    if (value === null) {
+      return stylize('null', 'null');
+    }
+
+    // Look up the keys of the object.
+    var visible_keys = Object_keys(value);
+    var keys = showHidden ? Object_getOwnPropertyNames(value) : visible_keys;
+
+    // Functions without properties can be shortcutted.
+    if (typeof value === 'function' && keys.length === 0) {
+      if (isRegExp(value)) {
+        return stylize('' + value, 'regexp');
+      } else {
+        var name = value.name ? ': ' + value.name : '';
+        return stylize('[Function' + name + ']', 'special');
+      }
+    }
+
+    // Dates without properties can be shortcutted
+    if (isDate(value) && keys.length === 0) {
+      return stylize(value.toUTCString(), 'date');
+    }
+
+    var base, type, braces;
+    // Determine the object type
+    if (isArray(value)) {
+      type = 'Array';
+      braces = ['[', ']'];
+    } else {
+      type = 'Object';
+      braces = ['{', '}'];
+    }
+
+    // Make functions say that they are functions
+    if (typeof value === 'function') {
+      var n = value.name ? ': ' + value.name : '';
+      base = (isRegExp(value)) ? ' ' + value : ' [Function' + n + ']';
+    } else {
+      base = '';
+    }
+
+    // Make dates with properties first say the date
+    if (isDate(value)) {
+      base = ' ' + value.toUTCString();
+    }
+
+    if (keys.length === 0) {
+      return braces[0] + base + braces[1];
+    }
+
+    if (recurseTimes < 0) {
+      if (isRegExp(value)) {
+        return stylize('' + value, 'regexp');
+      } else {
+        return stylize('[Object]', 'special');
+      }
+    }
+
+    seen.push(value);
+
+    var output = keys.map(function(key) {
+      var name, str;
+      if (value.__lookupGetter__) {
+        if (value.__lookupGetter__(key)) {
+          if (value.__lookupSetter__(key)) {
+            str = stylize('[Getter/Setter]', 'special');
+          } else {
+            str = stylize('[Getter]', 'special');
+          }
+        } else {
+          if (value.__lookupSetter__(key)) {
+            str = stylize('[Setter]', 'special');
+          }
+        }
+      }
+      if (visible_keys.indexOf(key) < 0) {
+        name = '[' + key + ']';
+      }
+      if (!str) {
+        if (seen.indexOf(value[key]) < 0) {
+          if (recurseTimes === null) {
+            str = format(value[key]);
+          } else {
+            str = format(value[key], recurseTimes - 1);
+          }
+          if (str.indexOf('\n') > -1) {
+            if (isArray(value)) {
+              str = str.split('\n').map(function(line) {
+                return '  ' + line;
+              }).join('\n').substr(2);
+            } else {
+              str = '\n' + str.split('\n').map(function(line) {
+                return '   ' + line;
+              }).join('\n');
+            }
+          }
+        } else {
+          str = stylize('[Circular]', 'special');
+        }
+      }
+      if (typeof name === 'undefined') {
+        if (type === 'Array' && key.match(/^\d+$/)) {
+          return str;
+        }
+        name = JSON.stringify('' + key);
+        if (name.match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)) {
+          name = name.substr(1, name.length - 2);
+          name = stylize(name, 'name');
+        } else {
+          name = name.replace(/'/g, "\\'")
+                     .replace(/\\"/g, '"')
+                     .replace(/(^"|"$)/g, "'");
+          name = stylize(name, 'string');
+        }
+      }
+
+      return name + ': ' + str;
+    });
+
+    seen.pop();
+
+    var numLinesEst = 0;
+    var length = output.reduce(function(prev, cur) {
+      numLinesEst++;
+      if (cur.indexOf('\n') >= 0) numLinesEst++;
+      return prev + cur.length + 1;
+    }, 0);
+
+    if (length > 50) {
+      output = braces[0] +
+               (base === '' ? '' : base + '\n ') +
+               ' ' +
+               output.join(',\n  ') +
+               ' ' +
+               braces[1];
+
+    } else {
+      output = braces[0] + base + ' ' + output.join(', ') + ' ' + braces[1];
+    }
+
+    return output;
+  }
+  return format(obj, (typeof depth === 'undefined' ? 2 : depth));
+};
+
+
+function isArray(ar) {
+  return Array.isArray(ar) ||
+         (typeof ar === 'object' && Object.prototype.toString.call(ar) === '[object Array]');
+}
+
+
+function isRegExp(re) {
+  typeof re === 'object' && Object.prototype.toString.call(re) === '[object RegExp]';
+}
+
+
+function isDate(d) {
+  return typeof d === 'object' && Object.prototype.toString.call(d) === '[object Date]';
+}
+
+function pad(n) {
+  return n < 10 ? '0' + n.toString(10) : n.toString(10);
+}
+
+var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
+              'Oct', 'Nov', 'Dec'];
+
+// 26 Feb 16:19:34
+function timestamp() {
+  var d = new Date();
+  var time = [pad(d.getHours()),
+              pad(d.getMinutes()),
+              pad(d.getSeconds())].join(':');
+  return [d.getDate(), months[d.getMonth()], time].join(' ');
+}
+
+exports.log = function (msg) {};
+
+exports.pump = null;
+
+var Object_keys = Object.keys || function (obj) {
+    var res = [];
+    for (var key in obj) res.push(key);
+    return res;
+};
+
+var Object_getOwnPropertyNames = Object.getOwnPropertyNames || function (obj) {
+    var res = [];
+    for (var key in obj) {
+        if (Object.hasOwnProperty.call(obj, key)) res.push(key);
+    }
+    return res;
+};
+
+var Object_create = Object.create || function (prototype, properties) {
+    // from es5-shim
+    var object;
+    if (prototype === null) {
+        object = { '__proto__' : null };
+    }
+    else {
+        if (typeof prototype !== 'object') {
+            throw new TypeError(
+                'typeof prototype[' + (typeof prototype) + '] != \'object\''
+            );
+        }
+        var Type = function () {};
+        Type.prototype = prototype;
+        object = new Type();
+        object.__proto__ = prototype;
+    }
+    if (typeof properties !== 'undefined' && Object.defineProperties) {
+        Object.defineProperties(object, properties);
+    }
+    return object;
+};
+
+exports.inherits = function(ctor, superCtor) {
+  ctor.super_ = superCtor;
+  ctor.prototype = Object_create(superCtor.prototype, {
+    constructor: {
+      value: ctor,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+};
+
+var formatRegExp = /%[sdj%]/g;
+exports.format = function(f) {
+  if (typeof f !== 'string') {
+    var objects = [];
+    for (var i = 0; i < arguments.length; i++) {
+      objects.push(exports.inspect(arguments[i]));
+    }
+    return objects.join(' ');
+  }
+
+  var i = 1;
+  var args = arguments;
+  var len = args.length;
+  var str = String(f).replace(formatRegExp, function(x) {
+    if (x === '%%') return '%';
+    if (i >= len) return x;
+    switch (x) {
+      case '%s': return String(args[i++]);
+      case '%d': return Number(args[i++]);
+      case '%j': return JSON.stringify(args[i++]);
+      default:
+        return x;
+    }
+  });
+  for(var x = args[i]; i < len; x = args[++i]){
+    if (x === null || typeof x !== 'object') {
+      str += ' ' + x;
+    } else {
+      str += ' ' + exports.inspect(x);
+    }
+  }
+  return str;
+};
+
+},{"events":3}],4:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -900,368 +653,26 @@ EventEmitter.prototype.listeners = function(type) {
   return this._events[type];
 };
 
+EventEmitter.listenerCount = function(emitter, type) {
+  var ret;
+  if (!emitter._events || !emitter._events[type])
+    ret = 0;
+  else if (typeof emitter._events[type] === 'function')
+    ret = 1;
+  else
+    ret = emitter._events[type].length;
+  return ret;
+};
+
 })(require("__browserify_process"))
-},{"__browserify_process":2}],4:[function(require,module,exports){
-var events = require('events');
-
-exports.isArray = isArray;
-exports.isDate = function(obj){return Object.prototype.toString.call(obj) === '[object Date]'};
-exports.isRegExp = function(obj){return Object.prototype.toString.call(obj) === '[object RegExp]'};
-
-
-exports.print = function () {};
-exports.puts = function () {};
-exports.debug = function() {};
-
-exports.inspect = function(obj, showHidden, depth, colors) {
-  var seen = [];
-
-  var stylize = function(str, styleType) {
-    // http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
-    var styles =
-        { 'bold' : [1, 22],
-          'italic' : [3, 23],
-          'underline' : [4, 24],
-          'inverse' : [7, 27],
-          'white' : [37, 39],
-          'grey' : [90, 39],
-          'black' : [30, 39],
-          'blue' : [34, 39],
-          'cyan' : [36, 39],
-          'green' : [32, 39],
-          'magenta' : [35, 39],
-          'red' : [31, 39],
-          'yellow' : [33, 39] };
-
-    var style =
-        { 'special': 'cyan',
-          'number': 'blue',
-          'boolean': 'yellow',
-          'undefined': 'grey',
-          'null': 'bold',
-          'string': 'green',
-          'date': 'magenta',
-          // "name": intentionally not styling
-          'regexp': 'red' }[styleType];
-
-    if (style) {
-      return '\033[' + styles[style][0] + 'm' + str +
-             '\033[' + styles[style][1] + 'm';
-    } else {
-      return str;
-    }
-  };
-  if (! colors) {
-    stylize = function(str, styleType) { return str; };
-  }
-
-  function format(value, recurseTimes) {
-    // Provide a hook for user-specified inspect functions.
-    // Check that value is an object with an inspect function on it
-    if (value && typeof value.inspect === 'function' &&
-        // Filter out the util module, it's inspect function is special
-        value !== exports &&
-        // Also filter out any prototype objects using the circular check.
-        !(value.constructor && value.constructor.prototype === value)) {
-      return value.inspect(recurseTimes);
-    }
-
-    // Primitive types cannot have properties
-    switch (typeof value) {
-      case 'undefined':
-        return stylize('undefined', 'undefined');
-
-      case 'string':
-        var simple = '\'' + JSON.stringify(value).replace(/^"|"$/g, '')
-                                                 .replace(/'/g, "\\'")
-                                                 .replace(/\\"/g, '"') + '\'';
-        return stylize(simple, 'string');
-
-      case 'number':
-        return stylize('' + value, 'number');
-
-      case 'boolean':
-        return stylize('' + value, 'boolean');
-    }
-    // For some reason typeof null is "object", so special case here.
-    if (value === null) {
-      return stylize('null', 'null');
-    }
-
-    // Look up the keys of the object.
-    var visible_keys = Object_keys(value);
-    var keys = showHidden ? Object_getOwnPropertyNames(value) : visible_keys;
-
-    // Functions without properties can be shortcutted.
-    if (typeof value === 'function' && keys.length === 0) {
-      if (isRegExp(value)) {
-        return stylize('' + value, 'regexp');
-      } else {
-        var name = value.name ? ': ' + value.name : '';
-        return stylize('[Function' + name + ']', 'special');
-      }
-    }
-
-    // Dates without properties can be shortcutted
-    if (isDate(value) && keys.length === 0) {
-      return stylize(value.toUTCString(), 'date');
-    }
-
-    var base, type, braces;
-    // Determine the object type
-    if (isArray(value)) {
-      type = 'Array';
-      braces = ['[', ']'];
-    } else {
-      type = 'Object';
-      braces = ['{', '}'];
-    }
-
-    // Make functions say that they are functions
-    if (typeof value === 'function') {
-      var n = value.name ? ': ' + value.name : '';
-      base = (isRegExp(value)) ? ' ' + value : ' [Function' + n + ']';
-    } else {
-      base = '';
-    }
-
-    // Make dates with properties first say the date
-    if (isDate(value)) {
-      base = ' ' + value.toUTCString();
-    }
-
-    if (keys.length === 0) {
-      return braces[0] + base + braces[1];
-    }
-
-    if (recurseTimes < 0) {
-      if (isRegExp(value)) {
-        return stylize('' + value, 'regexp');
-      } else {
-        return stylize('[Object]', 'special');
-      }
-    }
-
-    seen.push(value);
-
-    var output = keys.map(function(key) {
-      var name, str;
-      if (value.__lookupGetter__) {
-        if (value.__lookupGetter__(key)) {
-          if (value.__lookupSetter__(key)) {
-            str = stylize('[Getter/Setter]', 'special');
-          } else {
-            str = stylize('[Getter]', 'special');
-          }
-        } else {
-          if (value.__lookupSetter__(key)) {
-            str = stylize('[Setter]', 'special');
-          }
-        }
-      }
-      if (visible_keys.indexOf(key) < 0) {
-        name = '[' + key + ']';
-      }
-      if (!str) {
-        if (seen.indexOf(value[key]) < 0) {
-          if (recurseTimes === null) {
-            str = format(value[key]);
-          } else {
-            str = format(value[key], recurseTimes - 1);
-          }
-          if (str.indexOf('\n') > -1) {
-            if (isArray(value)) {
-              str = str.split('\n').map(function(line) {
-                return '  ' + line;
-              }).join('\n').substr(2);
-            } else {
-              str = '\n' + str.split('\n').map(function(line) {
-                return '   ' + line;
-              }).join('\n');
-            }
-          }
-        } else {
-          str = stylize('[Circular]', 'special');
-        }
-      }
-      if (typeof name === 'undefined') {
-        if (type === 'Array' && key.match(/^\d+$/)) {
-          return str;
-        }
-        name = JSON.stringify('' + key);
-        if (name.match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)) {
-          name = name.substr(1, name.length - 2);
-          name = stylize(name, 'name');
-        } else {
-          name = name.replace(/'/g, "\\'")
-                     .replace(/\\"/g, '"')
-                     .replace(/(^"|"$)/g, "'");
-          name = stylize(name, 'string');
-        }
-      }
-
-      return name + ': ' + str;
-    });
-
-    seen.pop();
-
-    var numLinesEst = 0;
-    var length = output.reduce(function(prev, cur) {
-      numLinesEst++;
-      if (cur.indexOf('\n') >= 0) numLinesEst++;
-      return prev + cur.length + 1;
-    }, 0);
-
-    if (length > 50) {
-      output = braces[0] +
-               (base === '' ? '' : base + '\n ') +
-               ' ' +
-               output.join(',\n  ') +
-               ' ' +
-               braces[1];
-
-    } else {
-      output = braces[0] + base + ' ' + output.join(', ') + ' ' + braces[1];
-    }
-
-    return output;
-  }
-  return format(obj, (typeof depth === 'undefined' ? 2 : depth));
-};
-
-
-function isArray(ar) {
-  return ar instanceof Array ||
-         Array.isArray(ar) ||
-         (ar && ar !== Object.prototype && isArray(ar.__proto__));
-}
-
-
-function isRegExp(re) {
-  return re instanceof RegExp ||
-    (typeof re === 'object' && Object.prototype.toString.call(re) === '[object RegExp]');
-}
-
-
-function isDate(d) {
-  if (d instanceof Date) return true;
-  if (typeof d !== 'object') return false;
-  var properties = Date.prototype && Object_getOwnPropertyNames(Date.prototype);
-  var proto = d.__proto__ && Object_getOwnPropertyNames(d.__proto__);
-  return JSON.stringify(proto) === JSON.stringify(properties);
-}
-
-function pad(n) {
-  return n < 10 ? '0' + n.toString(10) : n.toString(10);
-}
-
-var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
-              'Oct', 'Nov', 'Dec'];
-
-// 26 Feb 16:19:34
-function timestamp() {
-  var d = new Date();
-  var time = [pad(d.getHours()),
-              pad(d.getMinutes()),
-              pad(d.getSeconds())].join(':');
-  return [d.getDate(), months[d.getMonth()], time].join(' ');
-}
-
-exports.log = function (msg) {};
-
-exports.pump = null;
-
-var Object_keys = Object.keys || function (obj) {
-    var res = [];
-    for (var key in obj) res.push(key);
-    return res;
-};
-
-var Object_getOwnPropertyNames = Object.getOwnPropertyNames || function (obj) {
-    var res = [];
-    for (var key in obj) {
-        if (Object.hasOwnProperty.call(obj, key)) res.push(key);
-    }
-    return res;
-};
-
-var Object_create = Object.create || function (prototype, properties) {
-    // from es5-shim
-    var object;
-    if (prototype === null) {
-        object = { '__proto__' : null };
-    }
-    else {
-        if (typeof prototype !== 'object') {
-            throw new TypeError(
-                'typeof prototype[' + (typeof prototype) + '] != \'object\''
-            );
-        }
-        var Type = function () {};
-        Type.prototype = prototype;
-        object = new Type();
-        object.__proto__ = prototype;
-    }
-    if (typeof properties !== 'undefined' && Object.defineProperties) {
-        Object.defineProperties(object, properties);
-    }
-    return object;
-};
-
-exports.inherits = function(ctor, superCtor) {
-  ctor.super_ = superCtor;
-  ctor.prototype = Object_create(superCtor.prototype, {
-    constructor: {
-      value: ctor,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-};
-
-var formatRegExp = /%[sdj%]/g;
-exports.format = function(f) {
-  if (typeof f !== 'string') {
-    var objects = [];
-    for (var i = 0; i < arguments.length; i++) {
-      objects.push(exports.inspect(arguments[i]));
-    }
-    return objects.join(' ');
-  }
-
-  var i = 1;
-  var args = arguments;
-  var len = args.length;
-  var str = String(f).replace(formatRegExp, function(x) {
-    if (x === '%%') return '%';
-    if (i >= len) return x;
-    switch (x) {
-      case '%s': return String(args[i++]);
-      case '%d': return Number(args[i++]);
-      case '%j': return JSON.stringify(args[i++]);
-      default:
-        return x;
-    }
-  });
-  for(var x = args[i]; i < len; x = args[++i]){
-    if (x === null || typeof x !== 'object') {
-      str += ' ' + x;
-    } else {
-      str += ' ' + exports.inspect(x);
-    }
-  }
-  return str;
-};
-
-},{"events":3}],5:[function(require,module,exports){
+},{"__browserify_process":4}],5:[function(require,module,exports){
 (function(){// __dirname is the current working directory, we pass it in to
 // the textures module and receive back the path from here to where
 // the textures are located
 
 
 
-var periodictabledata   = require('./data/mediumtable.json') //require('./data/default-periodic-table.json')
+var periodictabledata   = require('./data/smalltable.json') //require('./data/default-periodic-table.json')
 //require('./data/smalltable.json') 
 var textures            = "http://commondatastorage.googleapis.com/voxeltextures/"
 var texturePath         = './node_modules/painterly-textures/textures/';//require('painterly-textures')("./")
@@ -1439,7 +850,54 @@ if(simengine){
 }
 
 })()
-},{"./lib/hsbutil.js":6,"./data/mediumtable.json":1,"./lib/modules/UserInputModule.js":7,"./lib/modules/VoxelAvatarModule.js":8,"./lib/commands/AtomSprayCommand.js":9,"./lib/commands/SpeedToggleCommand.js":10,"./lib/commands/CreateTestAtomCommand.js":11,"./lib/commands/TempToggleCommand":12,"./lib/commands/ToggleAtomFilterCommand":13,"./lib/SimEngine.js":14,"voxel":15,"extend":16,"voxel-engine":17}],9:[function(require,module,exports){
+},{"./data/smalltable.json":1,"./lib/SimEngine.js":12,"./lib/commands/AtomSprayCommand.js":10,"./lib/commands/CreateTestAtomCommand.js":7,"./lib/commands/SpeedToggleCommand.js":11,"./lib/commands/TempToggleCommand":13,"./lib/commands/ToggleAtomFilterCommand":14,"./lib/hsbutil.js":9,"./lib/modules/UserInputModule.js":6,"./lib/modules/VoxelAvatarModule.js":8,"extend":16,"voxel":15,"voxel-engine":17}],7:[function(require,module,exports){
+
+
+util 		= require('util')
+Command 	= require('./Command.js')
+//MoveAtom 	= require('./../MoveAtom.js')
+function CreateTestAtomCommand() 
+{
+  if (!(this instanceof CreateTestAtomCommand)) return new CreateTestAtomCommand()
+  console.log("new CreateTestAtomCommand()") 
+}
+
+util.inherits(CreateTestAtomCommand,Command)
+
+CreateTestAtomCommand.prototype.execute = function(engine,data){
+  console.log("CreateTestAtomCommand.execute()",engine,data) 
+  /*var numAtoms=!isNaN(data) ? parseInt(data) : 10
+  var p0=engine.game.controls.target().avatar.position
+  var p1,val
+  var m=engine.model
+  
+  var a=new MoveAtom()
+  engine.addAtom(a)	  
+*/
+	//this.engine.xoff+=3
+	engine.drawmode=!engine.drawmode
+}
+
+module.exports  = CreateTestAtomCommand
+},{"./Command.js":18,"util":2}],11:[function(require,module,exports){
+util 		= require('util')
+Command 	= require('./Command.js')
+
+function SpeedToggleCommand() 
+{
+  if (!(this instanceof SpeedToggleCommand)) return new SpeedToggleCommand()
+  console.log("new SpeedToggleCommand()") 
+}
+
+util.inherits(SpeedToggleCommand,Command)
+
+SpeedToggleCommand.prototype.execute = function(engine,data){
+  
+	engine.ticks_per_update += engine.ticks_per_update < 10000 ? 1000 : -engine.ticks_per_update 
+}
+
+module.exports  = SpeedToggleCommand
+},{"./Command.js":18,"util":2}],10:[function(require,module,exports){
 util 		= require('util')
 Command 	= require('./Command.js')
 
@@ -1482,54 +940,28 @@ AtomSprayCommand.prototype.execute = function(engine,data){
 }
 
 module.exports  = AtomSprayCommand
-},{"util":4,"./Command.js":18}],11:[function(require,module,exports){
-
-
-util 		= require('util')
-Command 	= require('./Command.js')
-//MoveAtom 	= require('./../MoveAtom.js')
-function CreateTestAtomCommand() 
-{
-  if (!(this instanceof CreateTestAtomCommand)) return new CreateTestAtomCommand()
-  console.log("new CreateTestAtomCommand()") 
-}
-
-util.inherits(CreateTestAtomCommand,Command)
-
-CreateTestAtomCommand.prototype.execute = function(engine,data){
-  console.log("CreateTestAtomCommand.execute()",engine,data) 
-  /*var numAtoms=!isNaN(data) ? parseInt(data) : 10
-  var p0=engine.game.controls.target().avatar.position
-  var p1,val
-  var m=engine.model
-  
-  var a=new MoveAtom()
-  engine.addAtom(a)	  
-*/
-	//this.engine.xoff+=3
-	engine.drawmode=!engine.drawmode
-}
-
-module.exports  = CreateTestAtomCommand
-},{"util":4,"./Command.js":18}],10:[function(require,module,exports){
+},{"./Command.js":18,"util":2}],13:[function(require,module,exports){
 util 		= require('util')
 Command 	= require('./Command.js')
 
-function SpeedToggleCommand() 
+function TempToggleCommand() 
 {
-  if (!(this instanceof SpeedToggleCommand)) return new SpeedToggleCommand()
-  console.log("new SpeedToggleCommand()") 
+  if (!(this instanceof TempToggleCommand)) return new TempToggleCommand()
+  console.log("new TempToggleCommand()") 
 }
 
-util.inherits(SpeedToggleCommand,Command)
+util.inherits(TempToggleCommand,Command)
 
-SpeedToggleCommand.prototype.execute = function(engine,data){
-  
-	engine.ticks_per_update += engine.ticks_per_update < 10000 ? 1000 : -engine.ticks_per_update 
+TempToggleCommand.prototype.execute = function(engine,data){
+  if(engine.floor_heat==0)
+  	engine.floor_heat=100
+  else engine.floor_heat *= 1.2
+	if(engine.floor_heat>3000)
+		engine.floor_heat=0
 }
 
-module.exports  = SpeedToggleCommand
-},{"util":4,"./Command.js":18}],16:[function(require,module,exports){
+module.exports  = TempToggleCommand
+},{"./Command.js":18,"util":2}],16:[function(require,module,exports){
 var hasOwn = Object.prototype.hasOwnProperty;
 
 function isPlainObject(obj) {
@@ -1608,7 +1040,7 @@ module.exports = function extend() {
 	return target;
 };
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 util 		= require('util')
 Command 	= require('./Command.js')
 
@@ -1628,91 +1060,7 @@ ToggleAtomFilterCommand.prototype.execute = function(engine,data){
 }
 
 module.exports  = ToggleAtomFilterCommand
-},{"util":4,"./Command.js":18}],12:[function(require,module,exports){
-util 		= require('util')
-Command 	= require('./Command.js')
-
-function TempToggleCommand() 
-{
-  if (!(this instanceof TempToggleCommand)) return new TempToggleCommand()
-  console.log("new TempToggleCommand()") 
-}
-
-util.inherits(TempToggleCommand,Command)
-
-TempToggleCommand.prototype.execute = function(engine,data){
-  if(engine.floor_heat==0)
-  	engine.floor_heat=100
-  else engine.floor_heat *= 1.2
-	if(engine.floor_heat>3000)
-		engine.floor_heat=0
-}
-
-module.exports  = TempToggleCommand
-},{"util":4,"./Command.js":18}],19:[function(require,module,exports){
-EventEmitter    = require('events').EventEmitter = require('events').EventEmitter
-
-util.inherits(SimModule,EventEmitter)
-
-function SimModule() 
-{
-
-  if (!(this instanceof SimModule)) return new SimModule()
-  console.log("new SimModule()") 
-
-  var engine
-  var view  
-  
-  this.engine = engine
-  this.view   = view
-
-
-
-}
-
-  SimModule.prototype.attach = function(simengine,game,opts){
-    this.engine=simengine
-    this.game=game
-    this.onAttach(opts)
-  }
-
-  SimModule.prototype.dispose = function(){
-    
-    this.onDispose()
-
-    this.engine = null
-    this.view   = null
-  }
-  SimModule.prototype.onAttach= function(opts){
-    //override this to startup your SimModule  
-    
-  }
-  SimModule.prototype.onDispose = function(){
-    //override this to dispose your SimModule  
-    
-  }
-  SimModule.prototype.handleNotification = function(type,body){    
-    console.log("handleNotification - ",type,body," ",this)
-  }
-  SimModule.prototype.sendNotification = function(type,body){        
-    this.engine.sendNotification(type,body)
-  }
-
-module.exports  = SimModule
-},{"events":3}],18:[function(require,module,exports){
-function Command() 
-{
-
-  if (!(this instanceof Command)) return new Command()
-  console.log("new Command()") 
-}
-
-Command.prototype.execute = function(engine,data){
-  
-}
-
-module.exports  = Command
-},{}],20:[function(require,module,exports){
+},{"./Command.js":18,"util":2}],19:[function(require,module,exports){
 module.exports = function(arr,ticks_per_step) {
   return new TickStack(arr,ticks_per_step)}
 
@@ -1751,6 +1099,11 @@ function TickStack(arr,ticks_per_step) {
 	this.a=arr
 	this.ticks_per_step=ticks_per_step
 }	
+},{}],20:[function(require,module,exports){
+module.exports = function() {}
+module.exports.SOLID	=0;
+module.exports.LIQUID	=1;
+module.exports.GAS		=2;
 },{}],21:[function(require,module,exports){
 (function(){module.exports = function(arr,ticks_per_step,processerLogic) {
   return new LogicStack(arr,ticks_per_step,processerLogic)}
@@ -1807,11 +1160,6 @@ LogicStack.prototype.tick = function(tps)
 
 })()
 },{}],22:[function(require,module,exports){
-module.exports = function() {}
-module.exports.SOLID	=0;
-module.exports.LIQUID	=1;
-module.exports.GAS		=2;
-},{}],23:[function(require,module,exports){
 function AtomVO(element_index,position,temp,phase_state) 
 {	
 	if (!(this instanceof AtomVO)) return new AtomVO()
@@ -1832,7 +1180,139 @@ function AtomVO(element_index,position,temp,phase_state)
 }
 */	
 module.exports 	= AtomVO
+},{}],23:[function(require,module,exports){
+var T  =	[ 0 , 1 , 0]
+var TN  =	[ 1 , 1 , 0]
+var TNW  =	[ 1 , 1 , 1] 
+var TNE   =	[ 1 , 1 ,-1]
+var TS  =	[-1 , 1 , 0] 
+var TSW  =	[-1 , 1 , 1] 
+var TSE  =	[-1 , 1 ,-1]
+var TW  =	[ 0 , 1 , 1]
+var TE  =	[ 0 , 1 ,-1]
+
+var B   =	[ 0 ,-1 , 0]
+var BN  =	[ 1 ,-1 , 0] 
+var BNW  =	[ 1 ,-1 , 1] 
+var BNE   =	[ 1 ,-1 ,-1]
+var BS  =	[-1 ,-1 , 0] 
+var BSW  =	[-1 ,-1 , 1] 
+var BSE   =	[-1 ,-1 ,-1]
+var BW  =	[ 0 ,-1 , 1]
+var BE  =	[ 0 ,-1 ,-1]
+
+var N  	=	[ 1 , 0 , 0]
+var NW  =	[ 1 , 0 , 1]
+var NE  =	[ 1 , 0 , -1]
+var S  	=	[-1 , 0 , 0]
+var SW 	=	[-1 , 0 , 1]
+var SE 	=	[-1 , 0 , -1]
+var W  	=	[ 0 , 0 , 1]
+var E  	=	[ 0 , 0 ,-1]
+
+module.exports = function() {}
+
+module.exports.consts= {
+  	TOP:0,
+  	BOTTOM:1,
+  	NORTH:2,
+  	SOUTH:3,
+  	WEST:4,
+  	EAST:5
+  };
+
+module.exports.diroffsets= {
+	TOP     :T,
+	BOTTOM  :B,
+	NORTH   :N,
+	SOUTH   :S,
+	WEST    :W,
+	EAST    :E
+};
+
+module.exports.neigbourOffsets	= [T,B,N,S,W,E];
+//len 3 array of increasingly distant neighbour offsets
+module.exports.diffuseNeigbourOffsets	= [
+											[TNW,TNE,TSW,TSE,BNW,BNE,BSW,BSE],
+											[TN,TS,TW,TE,BN,BS,BW,BE],										    
+											[T,B,N,S,W,E]
+											]
+module.exports.diffuseNeigbourOffsetsFlat	= [
+											TNW,TNE,TSW,TSE,	BNW,BNE,BSW,BSE,
+											TN,TS,TW,TE,		BN,BS,BW,BE,										    
+											T,B,N,S,W,E
+											]											
+module.exports.localDiffuseNeigbourOffsets	= [
+											[NW,NE,SW,SE],//,TNW,TNE,TSW,TSE,BNW,BNE,BSW,BSE											
+											[T,B,N,S,W,E]											
+									    ]
+module.exports.horizConstsArr	= [module.exports.consts.NORTH,module.exports.consts.SOUTH,module.exports.consts.WEST,module.exports.consts.EAST];
+module.exports.directionsArr	= [
+									module.exports.consts.NORTH,
+									module.exports.consts.SOUTH,
+									module.exports.consts.WEST,
+									module.exports.consts.EAST,
+									module.exports.consts.TOP,
+									module.exports.consts.BOTTOM
+									];
+module.exports.move				= function(dir,position)
+{
+	var d=neigbourOffsets[dir]
+	return [position[0]+d[0],position[1]+d[1],position[2]+d[2]]	
+}
+
+
 },{}],24:[function(require,module,exports){
+EventEmitter    = require('events').EventEmitter = require('events').EventEmitter
+
+util.inherits(SimModule,EventEmitter)
+
+function SimModule() 
+{
+
+  if (!(this instanceof SimModule)) return new SimModule()
+  console.log("new SimModule()") 
+
+  var engine
+  var view  
+  
+  this.engine = engine
+  this.view   = view
+
+
+
+}
+
+  SimModule.prototype.attach = function(simengine,game,opts){
+    this.engine=simengine
+    this.game=game
+    this.onAttach(opts)
+  }
+
+  SimModule.prototype.dispose = function(){
+    
+    this.onDispose()
+
+    this.engine = null
+    this.view   = null
+  }
+  SimModule.prototype.onAttach= function(opts){
+    //override this to startup your SimModule  
+    
+  }
+  SimModule.prototype.onDispose = function(){
+    //override this to dispose your SimModule  
+    
+  }
+  SimModule.prototype.handleNotification = function(type,body){    
+    console.log("handleNotification - ",type,body," ",this)
+  }
+  SimModule.prototype.sendNotification = function(type,body){        
+    this.engine.sendNotification(type,body)
+  }
+
+module.exports  = SimModule
+},{"events":3}],25:[function(require,module,exports){
 module.exports = function(opts) {
   return new PeriodicTable(opts)}
 
@@ -1962,88 +1442,6 @@ PeriodicTable.prototype.getElementAt = function(indx){
 }
 
 
-},{}],25:[function(require,module,exports){
-var T  =	[ 0 , 1 , 0]
-var TN  =	[ 1 , 1 , 0]
-var TNW  =	[ 1 , 1 , 1] 
-var TNE   =	[ 1 , 1 ,-1]
-var TS  =	[-1 , 1 , 0] 
-var TSW  =	[-1 , 1 , 1] 
-var TSE  =	[-1 , 1 ,-1]
-var TW  =	[ 0 , 1 , 1]
-var TE  =	[ 0 , 1 ,-1]
-
-var B   =	[ 0 ,-1 , 0]
-var BN  =	[ 1 ,-1 , 0] 
-var BNW  =	[ 1 ,-1 , 1] 
-var BNE   =	[ 1 ,-1 ,-1]
-var BS  =	[-1 ,-1 , 0] 
-var BSW  =	[-1 ,-1 , 1] 
-var BSE   =	[-1 ,-1 ,-1]
-var BW  =	[ 0 ,-1 , 1]
-var BE  =	[ 0 ,-1 ,-1]
-
-var N  	=	[ 1 , 0 , 0]
-var NW  =	[ 1 , 0 , 1]
-var NE  =	[ 1 , 0 , -1]
-var S  	=	[-1 , 0 , 0]
-var SW 	=	[-1 , 0 , 1]
-var SE 	=	[-1 , 0 , -1]
-var W  	=	[ 0 , 0 , 1]
-var E  	=	[ 0 , 0 ,-1]
-
-module.exports = function() {}
-
-module.exports.consts= {
-  	TOP:0,
-  	BOTTOM:1,
-  	NORTH:2,
-  	SOUTH:3,
-  	WEST:4,
-  	EAST:5
-  };
-
-module.exports.diroffsets= {
-	TOP     :T,
-	BOTTOM  :B,
-	NORTH   :N,
-	SOUTH   :S,
-	WEST    :W,
-	EAST    :E
-};
-
-module.exports.neigbourOffsets	= [T,B,N,S,W,E];
-//len 3 array of increasingly distant neighbour offsets
-module.exports.diffuseNeigbourOffsets	= [
-											[TNW,TNE,TSW,TSE,BNW,BNE,BSW,BSE],
-											[TN,TS,TW,TE,BN,BS,BW,BE],										    
-											[T,B,N,S,W,E]
-											]
-module.exports.diffuseNeigbourOffsetsFlat	= [
-											TNW,TNE,TSW,TSE,	BNW,BNE,BSW,BSE,
-											TN,TS,TW,TE,		BN,BS,BW,BE,										    
-											T,B,N,S,W,E
-											]											
-module.exports.localDiffuseNeigbourOffsets	= [
-											[NW,NE,SW,SE],//,TNW,TNE,TSW,TSE,BNW,BNE,BSW,BSE											
-											[T,B,N,S,W,E]											
-									    ]
-module.exports.horizConstsArr	= [module.exports.consts.NORTH,module.exports.consts.SOUTH,module.exports.consts.WEST,module.exports.consts.EAST];
-module.exports.directionsArr	= [
-									module.exports.consts.NORTH,
-									module.exports.consts.SOUTH,
-									module.exports.consts.WEST,
-									module.exports.consts.EAST,
-									module.exports.consts.TOP,
-									module.exports.consts.BOTTOM
-									];
-module.exports.move				= function(dir,position)
-{
-	var d=neigbourOffsets[dir]
-	return [position[0]+d[0],position[1]+d[1],position[2]+d[2]]	
-}
-
-
 },{}],26:[function(require,module,exports){
 util            = require("util")
 EventEmitter    = require('events').EventEmitter
@@ -2158,7 +1556,20 @@ EventEmitter    = require('events').EventEmitter
   }
 
   module.exports  = AppFacade
-},{"util":4,"events":3}],27:[function(require,module,exports){
+},{"events":3,"util":2}],18:[function(require,module,exports){
+function Command() 
+{
+
+  if (!(this instanceof Command)) return new Command()
+  console.log("new Command()") 
+}
+
+Command.prototype.execute = function(engine,data){
+  
+}
+
+module.exports  = Command
+},{}],27:[function(require,module,exports){
 (function(process){function filter (xs, fn) {
     var res = [];
     for (var i = 0; i < xs.length; i++) {
@@ -2335,8 +1746,10 @@ exports.relative = function(from, to) {
   return outputParts.join('/');
 };
 
+exports.sep = '/';
+
 })(require("__browserify_process"))
-},{"__browserify_process":2}],15:[function(require,module,exports){
+},{"__browserify_process":4}],15:[function(require,module,exports){
 var chunker = require('./chunker')
 
 module.exports = function(opts) {
@@ -2432,465 +1845,7 @@ module.exports.generateExamples = function() {
 }
 
 
-},{"./chunker":28,"./meshers/culled":29,"./meshers/greedy":30,"./meshers/monotone":31,"./meshers/stupid":32}],29:[function(require,module,exports){
-//Naive meshing (with face culling)
-function CulledMesh(volume, dims) {
-  //Precalculate direction vectors for convenience
-  var dir = new Array(3);
-  for(var i=0; i<3; ++i) {
-    dir[i] = [[0,0,0], [0,0,0]];
-    dir[i][0][(i+1)%3] = 1;
-    dir[i][1][(i+2)%3] = 1;
-  }
-  //March over the volume
-  var vertices = []
-    , faces = []
-    , x = [0,0,0]
-    , B = [[false,true]    //Incrementally update bounds (this is a bit ugly)
-          ,[false,true]
-          ,[false,true]]
-    , n = -dims[0]*dims[1];
-  for(           B[2]=[false,true],x[2]=-1; x[2]<dims[2]; B[2]=[true,(++x[2]<dims[2]-1)])
-  for(n-=dims[0],B[1]=[false,true],x[1]=-1; x[1]<dims[1]; B[1]=[true,(++x[1]<dims[1]-1)])
-  for(n-=1,      B[0]=[false,true],x[0]=-1; x[0]<dims[0]; B[0]=[true,(++x[0]<dims[0]-1)], ++n) {
-    //Read current voxel and 3 neighboring voxels using bounds check results
-    var p =   (B[0][0] && B[1][0] && B[2][0]) ? volume[n]                 : 0
-      , b = [ (B[0][1] && B[1][0] && B[2][0]) ? volume[n+1]               : 0
-            , (B[0][0] && B[1][1] && B[2][0]) ? volume[n+dims[0]]         : 0
-            , (B[0][0] && B[1][0] && B[2][1]) ? volume[n+dims[0]*dims[1]] : 0
-          ];
-    //Generate faces
-    for(var d=0; d<3; ++d)
-    if((!!p) !== (!!b[d])) {
-      var s = !p ? 1 : 0;
-      var t = [x[0],x[1],x[2]]
-        , u = dir[d][s]
-        , v = dir[d][s^1];
-      ++t[d];
-      
-      var vertex_count = vertices.length;
-      vertices.push([t[0],           t[1],           t[2]          ]);
-      vertices.push([t[0]+u[0],      t[1]+u[1],      t[2]+u[2]     ]);
-      vertices.push([t[0]+u[0]+v[0], t[1]+u[1]+v[1], t[2]+u[2]+v[2]]);
-      vertices.push([t[0]     +v[0], t[1]     +v[1], t[2]     +v[2]]);
-      faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, s ? b[d] : p]);
-    }
-  }
-  return { vertices:vertices, faces:faces };
-}
-
-
-if(exports) {
-  exports.mesher = CulledMesh;
-}
-
-},{}],30:[function(require,module,exports){
-var GreedyMesh = (function() {
-//Cache buffer internally
-var mask = new Int32Array(4096);
-
-return function(volume, dims) {
-  var vertices = [], faces = []
-    , dimsX = dims[0]
-    , dimsY = dims[1]
-    , dimsXY = dimsX * dimsY;
-
-  //Sweep over 3-axes
-  for(var d=0; d<3; ++d) {
-    var i, j, k, l, w, W, h, n, c
-      , u = (d+1)%3
-      , v = (d+2)%3
-      , x = [0,0,0]
-      , q = [0,0,0]
-      , du = [0,0,0]
-      , dv = [0,0,0]
-      , dimsD = dims[d]
-      , dimsU = dims[u]
-      , dimsV = dims[v]
-      , qdimsX, qdimsXY
-      , xd
-
-    if (mask.length < dimsU * dimsV) {
-      mask = new Int32Array(dimsU * dimsV);
-    }
-
-    q[d] =  1;
-    x[d] = -1;
-
-    qdimsX  = dimsX  * q[1]
-    qdimsXY = dimsXY * q[2]
-
-    // Compute mask
-    while (x[d] < dimsD) {
-      xd = x[d]
-      n = 0;
-
-      for(x[v] = 0; x[v] < dimsV; ++x[v]) {
-        for(x[u] = 0; x[u] < dimsU; ++x[u], ++n) {
-          var a = xd >= 0      && volume[x[0]      + dimsX * x[1]          + dimsXY * x[2]          ]
-            , b = xd < dimsD-1 && volume[x[0]+q[0] + dimsX * x[1] + qdimsX + dimsXY * x[2] + qdimsXY]
-          if (a ? b : !b) {
-            mask[n] = 0; continue;
-          }
-          mask[n] = a ? a : -b;
-        }
-      }
-
-      ++x[d];
-
-      // Generate mesh for mask using lexicographic ordering
-      n = 0;
-      for (j=0; j < dimsV; ++j) {
-        for (i=0; i < dimsU; ) {
-          c = mask[n];
-          if (!c) {
-            i++;  n++; continue;
-          }
-
-          //Compute width
-          w = 1;
-          while (c === mask[n+w] && i+w < dimsU) w++;
-
-          //Compute height (this is slightly awkward)
-          for (h=1; j+h < dimsV; ++h) {
-            k = 0;
-            while (k < w && c === mask[n+k+h*dimsU]) k++
-            if (k < w) break;
-          }
-
-          // Add quad
-          // The du/dv arrays are reused/reset
-          // for each iteration.
-          du[d] = 0; dv[d] = 0;
-          x[u]  = i;  x[v] = j;
-
-          if (c > 0) {
-            dv[v] = h; dv[u] = 0;
-            du[u] = w; du[v] = 0;
-          } else {
-            c = -c;
-            du[v] = h; du[u] = 0;
-            dv[u] = w; dv[v] = 0;
-          }
-          var vertex_count = vertices.length;
-          vertices.push([x[0],             x[1],             x[2]            ]);
-          vertices.push([x[0]+du[0],       x[1]+du[1],       x[2]+du[2]      ]);
-          vertices.push([x[0]+du[0]+dv[0], x[1]+du[1]+dv[1], x[2]+du[2]+dv[2]]);
-          vertices.push([x[0]      +dv[0], x[1]      +dv[1], x[2]      +dv[2]]);
-          faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, c]);
-
-          //Zero-out mask
-          W = n + w;
-          for(l=0; l<h; ++l) {
-            for(k=n; k<W; ++k) {
-              mask[k+l*dimsU] = 0;
-            }
-          }
-
-          //Increment counters and continue
-          i += w; n += w;
-        }
-      }
-    }
-  }
-  return { vertices:vertices, faces:faces };
-}
-})();
-
-if(exports) {
-  exports.mesher = GreedyMesh;
-}
-
-},{}],31:[function(require,module,exports){
-"use strict";
-
-var MonotoneMesh = (function(){
-
-function MonotonePolygon(c, v, ul, ur) {
-  this.color  = c;
-  this.left   = [[ul, v]];
-  this.right  = [[ur, v]];
-};
-
-MonotonePolygon.prototype.close_off = function(v) {
-  this.left.push([ this.left[this.left.length-1][0], v ]);
-  this.right.push([ this.right[this.right.length-1][0], v ]);
-};
-
-MonotonePolygon.prototype.merge_run = function(v, u_l, u_r) {
-  var l = this.left[this.left.length-1][0]
-    , r = this.right[this.right.length-1][0]; 
-  if(l !== u_l) {
-    this.left.push([ l, v ]);
-    this.left.push([ u_l, v ]);
-  }
-  if(r !== u_r) {
-    this.right.push([ r, v ]);
-    this.right.push([ u_r, v ]);
-  }
-};
-
-
-return function(volume, dims) {
-  function f(i,j,k) {
-    return volume[i + dims[0] * (j + dims[1] * k)];
-  }
-  //Sweep over 3-axes
-  var vertices = [], faces = [];
-  for(var d=0; d<3; ++d) {
-    var i, j, k
-      , u = (d+1)%3   //u and v are orthogonal directions to d
-      , v = (d+2)%3
-      , x = new Int32Array(3)
-      , q = new Int32Array(3)
-      , runs = new Int32Array(2 * (dims[u]+1))
-      , frontier = new Int32Array(dims[u])  //Frontier is list of pointers to polygons
-      , next_frontier = new Int32Array(dims[u])
-      , left_index = new Int32Array(2 * dims[v])
-      , right_index = new Int32Array(2 * dims[v])
-      , stack = new Int32Array(24 * dims[v])
-      , delta = [[0,0], [0,0]];
-    //q points along d-direction
-    q[d] = 1;
-    //Initialize sentinel
-    for(x[d]=-1; x[d]<dims[d]; ) {
-      // --- Perform monotone polygon subdivision ---
-      var n = 0
-        , polygons = []
-        , nf = 0;
-      for(x[v]=0; x[v]<dims[v]; ++x[v]) {
-        //Make one pass over the u-scan line of the volume to run-length encode polygon
-        var nr = 0, p = 0, c = 0;
-        for(x[u]=0; x[u]<dims[u]; ++x[u], p = c) {
-          //Compute the type for this face
-          var a = (0    <= x[d]      ? f(x[0],      x[1],      x[2])      : 0)
-            , b = (x[d] <  dims[d]-1 ? f(x[0]+q[0], x[1]+q[1], x[2]+q[2]) : 0);
-          c = a;
-          if((!a) === (!b)) {
-            c = 0;
-          } else if(!a) {
-            c = -b;
-          }
-          //If cell type doesn't match, start a new run
-          if(p !== c) {
-            runs[nr++] = x[u];
-            runs[nr++] = c;
-          }
-        }
-        //Add sentinel run
-        runs[nr++] = dims[u];
-        runs[nr++] = 0;
-        //Update frontier by merging runs
-        var fp = 0;
-        for(var i=0, j=0; i<nf && j<nr-2; ) {
-          var p    = polygons[frontier[i]]
-            , p_l  = p.left[p.left.length-1][0]
-            , p_r  = p.right[p.right.length-1][0]
-            , p_c  = p.color
-            , r_l  = runs[j]    //Start of run
-            , r_r  = runs[j+2]  //End of run
-            , r_c  = runs[j+1]; //Color of run
-          //Check if we can merge run with polygon
-          if(r_r > p_l && p_r > r_l && r_c === p_c) {
-            //Merge run
-            p.merge_run(x[v], r_l, r_r);
-            //Insert polygon into frontier
-            next_frontier[fp++] = frontier[i];
-            ++i;
-            j += 2;
-          } else {
-            //Check if we need to advance the run pointer
-            if(r_r <= p_r) {
-              if(!!r_c) {
-                var n_poly = new MonotonePolygon(r_c, x[v], r_l, r_r);
-                next_frontier[fp++] = polygons.length;
-                polygons.push(n_poly);
-              }
-              j += 2;
-            }
-            //Check if we need to advance the frontier pointer
-            if(p_r <= r_r) {
-              p.close_off(x[v]);
-              ++i;
-            }
-          }
-        }
-        //Close off any residual polygons
-        for(; i<nf; ++i) {
-          polygons[frontier[i]].close_off(x[v]);
-        }
-        //Add any extra runs to frontier
-        for(; j<nr-2; j+=2) {
-          var r_l  = runs[j]
-            , r_r  = runs[j+2]
-            , r_c  = runs[j+1];
-          if(!!r_c) {
-            var n_poly = new MonotonePolygon(r_c, x[v], r_l, r_r);
-            next_frontier[fp++] = polygons.length;
-            polygons.push(n_poly);
-          }
-        }
-        //Swap frontiers
-        var tmp = next_frontier;
-        next_frontier = frontier;
-        frontier = tmp;
-        nf = fp;
-      }
-      //Close off frontier
-      for(var i=0; i<nf; ++i) {
-        var p = polygons[frontier[i]];
-        p.close_off(dims[v]);
-      }
-      // --- Monotone subdivision of polygon is complete at this point ---
-      
-      x[d]++;
-      
-      //Now we just need to triangulate each monotone polygon
-      for(var i=0; i<polygons.length; ++i) {
-        var p = polygons[i]
-          , c = p.color
-          , flipped = false;
-        if(c < 0) {
-          flipped = true;
-          c = -c;
-        }
-        for(var j=0; j<p.left.length; ++j) {
-          left_index[j] = vertices.length;
-          var y = [0.0,0.0,0.0]
-            , z = p.left[j];
-          y[d] = x[d];
-          y[u] = z[0];
-          y[v] = z[1];
-          vertices.push(y);
-        }
-        for(var j=0; j<p.right.length; ++j) {
-          right_index[j] = vertices.length;
-          var y = [0.0,0.0,0.0]
-            , z = p.right[j];
-          y[d] = x[d];
-          y[u] = z[0];
-          y[v] = z[1];
-          vertices.push(y);
-        }
-        //Triangulate the monotone polygon
-        var bottom = 0
-          , top = 0
-          , l_i = 1
-          , r_i = 1
-          , side = true;  //true = right, false = left
-        
-        stack[top++] = left_index[0];
-        stack[top++] = p.left[0][0];
-        stack[top++] = p.left[0][1];
-        
-        stack[top++] = right_index[0];
-        stack[top++] = p.right[0][0];
-        stack[top++] = p.right[0][1];
-        
-        while(l_i < p.left.length || r_i < p.right.length) {
-          //Compute next side
-          var n_side = false;
-          if(l_i === p.left.length) {
-            n_side = true;
-          } else if(r_i !== p.right.length) {
-            var l = p.left[l_i]
-              , r = p.right[r_i];
-            n_side = l[1] > r[1];
-          }
-          var idx = n_side ? right_index[r_i] : left_index[l_i]
-            , vert = n_side ? p.right[r_i] : p.left[l_i];
-          if(n_side !== side) {
-            //Opposite side
-            while(bottom+3 < top) {
-              if(flipped === n_side) {
-                faces.push([ stack[bottom], stack[bottom+3], idx, c]);
-              } else {
-                faces.push([ stack[bottom+3], stack[bottom], idx, c]);              
-              }
-              bottom += 3;
-            }
-          } else {
-            //Same side
-            while(bottom+3 < top) {
-              //Compute convexity
-              for(var j=0; j<2; ++j)
-              for(var k=0; k<2; ++k) {
-                delta[j][k] = stack[top-3*(j+1)+k+1] - vert[k];
-              }
-              var det = delta[0][0] * delta[1][1] - delta[1][0] * delta[0][1];
-              if(n_side === (det > 0)) {
-                break;
-              }
-              if(det !== 0) {
-                if(flipped === n_side) {
-                  faces.push([ stack[top-3], stack[top-6], idx, c ]);
-                } else {
-                  faces.push([ stack[top-6], stack[top-3], idx, c ]);
-                }
-              }
-              top -= 3;
-            }
-          }
-          //Push vertex
-          stack[top++] = idx;
-          stack[top++] = vert[0];
-          stack[top++] = vert[1];
-          //Update loop index
-          if(n_side) {
-            ++r_i;
-          } else {
-            ++l_i;
-          }
-          side = n_side;
-        }
-      }
-    }
-  }
-  return { vertices:vertices, faces:faces };
-}
-})();
-
-if(exports) {
-  exports.mesher = MonotoneMesh;
-}
-
-},{}],32:[function(require,module,exports){
-//The stupidest possible way to generate a Minecraft mesh (I think)
-function StupidMesh(volume, dims) {
-  var vertices = [], faces = [], x = [0,0,0], n = 0;
-  for(x[2]=0; x[2]<dims[2]; ++x[2])
-  for(x[1]=0; x[1]<dims[1]; ++x[1])
-  for(x[0]=0; x[0]<dims[0]; ++x[0], ++n)
-  if(!!volume[n]) {
-    for(var d=0; d<3; ++d) {
-      var t = [x[0], x[1], x[2]]
-        , u = [0,0,0]
-        , v = [0,0,0];
-      u[(d+1)%3] = 1;
-      v[(d+2)%3] = 1;
-      for(var s=0; s<2; ++s) {
-        t[d] = x[d] + s;
-        var tmp = u;
-        u = v;
-        v = tmp;
-        var vertex_count = vertices.length;
-        vertices.push([t[0],           t[1],           t[2]          ]);
-        vertices.push([t[0]+u[0],      t[1]+u[1],      t[2]+u[2]     ]);
-        vertices.push([t[0]+u[0]+v[0], t[1]+u[1]+v[1], t[2]+u[2]+v[2]]);
-        vertices.push([t[0]     +v[0], t[1]     +v[1], t[2]     +v[2]]);
-        faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, volume[n]]);
-      }
-    }
-  }
-  return { vertices:vertices, faces:faces };
-}
-
-
-if(exports) {
-  exports.mesher = StupidMesh;
-}
-
-},{}],33:[function(require,module,exports){
+},{"./chunker":29,"./meshers/culled":28,"./meshers/greedy":31,"./meshers/monotone":30,"./meshers/stupid":32}],33:[function(require,module,exports){
 util            = require('util')
 EventEmitter    = require('events').EventEmitter
 DIRECTIONS      = require("./Directions.js")
@@ -3067,361 +2022,59 @@ module.exports = function(xdim,ydim,zdim) {
   return new ModelMatrix(xdim,ydim,zdim)
 }
 
-},{"util":4,"events":3,"./Directions.js":25}],6:[function(require,module,exports){
-var tinycolor=require("tinycolor2")
-
-module.exports = function() {}
-
-module.exports.tweenVals=function(a,b,pct){ 
-  return a+((b-a)*pct)
-}
- 
-module.exports.colorRange=function(hsvA,hsvB,steps){
-  var r=[]
-  var pct
-  for (var i = 0; i<steps; i++) {
-    pct=i/steps
-    console.log("push",i,"of",steps)
-    r.push(
-      tinycolor({
-        h:module.exports.tweenVals(hsvA.h,hsvB.h,pct),
-        s:module.exports.tweenVals(hsvA.s,hsvB.s,pct),
-        v:module.exports.tweenVals(hsvA.v,hsvB.v,pct)
-      }).toHexString()    
-      )
+},{"./Directions.js":23,"events":3,"util":2}],28:[function(require,module,exports){
+//Naive meshing (with face culling)
+function CulledMesh(volume, dims) {
+  //Precalculate direction vectors for convenience
+  var dir = new Array(3);
+  for(var i=0; i<3; ++i) {
+    dir[i] = [[0,0,0], [0,0,0]];
+    dir[i][0][(i+1)%3] = 1;
+    dir[i][1][(i+2)%3] = 1;
   }
-  return r
- }
-
-
-
-},{"tinycolor2":34}],35:[function(require,module,exports){
-hsbutil                 = require('./../../lib/hsbutil.js')
-
-module.exports = function(engine) {return new UserInputView(engine)}
-
-function UserInputView(engine) {
-  // protect against people who forget 'new'
-  if (!(this instanceof UserInputView)) return new UserInputView(engine)
-    console.log("new UserInputView()") 
-  // we need to store the passed in variables on 'this'
-  // so that they are ava
-
-  //this.engine.on("ticked",function(){this.tick()})
-  this.htmlElement  = document.querySelector("#info");
-  this.engine       = engine
-  var pointer       = this;
-  this.tickInterval = this.engine.game.setInterval( function(){pointer.tick()}, 2000)
-  this.colors=hsbutil.colorRange(
-      {h:131,s:78,v:34},
-      {h:43,s:40,v:25},    
-    100
-      )
-
-  this.createControlPanel()
-  
-}
-
-UserInputView.prototype.tick = function(){
-  this.htmlElement.innerHTML="#a:"
-    +this.engine.atoms_stack.a.length
-    +" spd:"+this.engine.ticks_per_update
-    +"floortemp:"+this.engine.floor_heat
-}
-
-
-UserInputView.prototype.createControlPanel = function()
-{
-  var div=document.createElement('div')
-
-
-
-  div.appendChild(  this.createKnob('tempKnob') )
-
-  div.appendChild(  this.createKnob('speedKnob') )
-
-  div.appendChild(this.createKnob('viewKnob') )
-
-this.tempKnob=$("#tempKnob")
-this.speedKnob=$("#speedKnob")
-this.viewKnob=$("#viewKnob")
-
-  var ptr=this
-  $("#uihost").append(div)
-  $('#speedKnob').knob({
-    min:0,
-    max:20000,
-    change:function(val){
-    
-      ptr.updateKnob(ptr.speedKnob,val,0,20000)
-
-    }
-  })
-
-  $('#tempKnob').knob( {
-      change:function(val){
+  //March over the volume
+  var vertices = []
+    , faces = []
+    , x = [0,0,0]
+    , B = [[false,true]    //Incrementally update bounds (this is a bit ugly)
+          ,[false,true]
+          ,[false,true]]
+    , n = -dims[0]*dims[1];
+  for(           B[2]=[false,true],x[2]=-1; x[2]<dims[2]; B[2]=[true,(++x[2]<dims[2]-1)])
+  for(n-=dims[0],B[1]=[false,true],x[1]=-1; x[1]<dims[1]; B[1]=[true,(++x[1]<dims[1]-1)])
+  for(n-=1,      B[0]=[false,true],x[0]=-1; x[0]<dims[0]; B[0]=[true,(++x[0]<dims[0]-1)], ++n) {
+    //Read current voxel and 3 neighboring voxels using bounds check results
+    var p =   (B[0][0] && B[1][0] && B[2][0]) ? volume[n]                 : 0
+      , b = [ (B[0][1] && B[1][0] && B[2][0]) ? volume[n+1]               : 0
+            , (B[0][0] && B[1][1] && B[2][0]) ? volume[n+dims[0]]         : 0
+            , (B[0][0] && B[1][0] && B[2][1]) ? volume[n+dims[0]*dims[1]] : 0
+          ];
+    //Generate faces
+    for(var d=0; d<3; ++d)
+    if((!!p) !== (!!b[d])) {
+      var s = !p ? 1 : 0;
+      var t = [x[0],x[1],x[2]]
+        , u = dir[d][s]
+        , v = dir[d][s^1];
+      ++t[d];
       
-      ptr.updateKnob(ptr.tempKnob,val,0,100)
+      var vertex_count = vertices.length;
+      vertices.push([t[0],           t[1],           t[2]          ]);
+      vertices.push([t[0]+u[0],      t[1]+u[1],      t[2]+u[2]     ]);
+      vertices.push([t[0]+u[0]+v[0], t[1]+u[1]+v[1], t[2]+u[2]+v[2]]);
+      vertices.push([t[0]     +v[0], t[1]     +v[1], t[2]     +v[2]]);
+      faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, s ? b[d] : p]);
     }
-  })
-  $('#viewKnob').knob({
-    change:function(val){
-     
-      ptr.updateKnob(ptr.viewKnob,val,0,100)
-    }
-  })
-
-}
-UserInputView.prototype.updateKnob = function(k,val,min,max)
-{
-  var c=this.colors[Math.floor(100*((val-min)/(max-min)))]
-  k.data('fgcolor',c )
-}
-UserInputView.prototype.defaultKnobAttrs={
-  'data-fgColor':'#66CC66'
-  ,'data-angleOffset':'-125'
-  ,'data-angleArc':'250'
-  ,'data-width':'120'
-}
-UserInputView.prototype.createKnob = function(id,changeHandler,attrs)
-{
-
-    var knb
-
-  knb=document.createElement('input')
-  
-  $(knb).attr(this.defaultKnobAttrs)
-  if(attrs)
-    $(knb).attr(attrs)
-  if(changeHandler)
-    $(knb).bind('change',changeHandler)
-
-  knb.setAttribute('id',id)
-  return knb
+  }
+  return { vertices:vertices, faces:faces };
 }
 
-UserInputView.prototype.createKnobUI = function(id,changeHandler,attrs)
-{
 
-    var ele
-
-  ele=document.createElement('div')
-  
-  if(attrs)
-    $(ele).attr(attrs)
-  if(changeHandler)
-    $(knb).on('change',changeHandler)
-  return knb
+if(exports) {
+  exports.mesher = CulledMesh;
 }
 
-},{"./../../lib/hsbutil.js":6}],36:[function(require,module,exports){
-/**
- * @author alteredq / http://alteredqualia.com/
- * @author mr.doob / http://mrdoob.com/
- */
-
-module.exports = function() {
-  return {
-  	canvas : !! window.CanvasRenderingContext2D,
-  	webgl : ( function () { try { return !! window.WebGLRenderingContext && !! document.createElement( 'canvas' ).getContext( 'experimental-webgl' ); } catch( e ) { return false; } } )(),
-  	workers : !! window.Worker,
-  	fileapi : window.File && window.FileReader && window.FileList && window.Blob,
-
-  	getWebGLErrorMessage : function () {
-
-  		var domElement = document.createElement( 'div' );
-
-  		domElement.style.fontFamily = 'monospace';
-  		domElement.style.fontSize = '13px';
-  		domElement.style.textAlign = 'center';
-  		domElement.style.background = '#eee';
-  		domElement.style.color = '#000';
-  		domElement.style.padding = '1em';
-  		domElement.style.width = '475px';
-  		domElement.style.margin = '5em auto 0';
-
-  		if ( ! this.webgl ) {
-
-  			domElement.innerHTML = window.WebGLRenderingContext ? [
-  				'Your graphics card does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation">WebGL</a>.<br />',
-  				'Find out how to get it <a href="http://get.webgl.org/">here</a>.'
-  			].join( '\n' ) : [
-  				'Your browser does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation">WebGL</a>.<br/>',
-  				'Find out how to get it <a href="http://get.webgl.org/">here</a>.'
-  			].join( '\n' );
-
-  		}
-
-  		return domElement;
-
-  	},
-
-  	addGetWebGLMessage : function ( parameters ) {
-
-  		var parent, id, domElement;
-
-  		parameters = parameters || {};
-
-  		parent = parameters.parent !== undefined ? parameters.parent : document.body;
-  		id = parameters.id !== undefined ? parameters.id : 'oldie';
-
-  		domElement = Detector.getWebGLErrorMessage();
-  		domElement.id = id;
-
-  		parent.appendChild( domElement );
-
-  	}
-
-  };
-}
-
-},{}],37:[function(require,module,exports){
-/**
- * @author mrdoob / http://mrdoob.com/
- */
-
-var Stats = function () {
-
-	var startTime = Date.now(), prevTime = startTime;
-	var ms = 0, msMin = Infinity, msMax = 0;
-	var fps = 0, fpsMin = Infinity, fpsMax = 0;
-	var frames = 0, mode = 0;
-
-	var container = document.createElement( 'div' );
-	container.id = 'stats';
-	container.addEventListener( 'mousedown', function ( event ) { event.preventDefault(); setMode( ++ mode % 2 ) }, false );
-	container.style.cssText = 'width:80px;opacity:0.9;cursor:pointer';
-
-	var fpsDiv = document.createElement( 'div' );
-	fpsDiv.id = 'fps';
-	fpsDiv.style.cssText = 'padding:0 0 3px 3px;text-align:left;background-color:#002';
-	container.appendChild( fpsDiv );
-
-	var fpsText = document.createElement( 'div' );
-	fpsText.id = 'fpsText';
-	fpsText.style.cssText = 'color:#0ff;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
-	fpsText.innerHTML = 'FPS';
-	fpsDiv.appendChild( fpsText );
-
-	var fpsGraph = document.createElement( 'div' );
-	fpsGraph.id = 'fpsGraph';
-	fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
-	fpsDiv.appendChild( fpsGraph );
-
-	while ( fpsGraph.children.length < 74 ) {
-
-		var bar = document.createElement( 'span' );
-		bar.style.cssText = 'width:1px;height:30px;float:left;background-color:#113';
-		fpsGraph.appendChild( bar );
-
-	}
-
-	var msDiv = document.createElement( 'div' );
-	msDiv.id = 'ms';
-	msDiv.style.cssText = 'padding:0 0 3px 3px;text-align:left;background-color:#020;display:none';
-	container.appendChild( msDiv );
-
-	var msText = document.createElement( 'div' );
-	msText.id = 'msText';
-	msText.style.cssText = 'color:#0f0;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
-	msText.innerHTML = 'MS';
-	msDiv.appendChild( msText );
-
-	var msGraph = document.createElement( 'div' );
-	msGraph.id = 'msGraph';
-	msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
-	msDiv.appendChild( msGraph );
-
-	while ( msGraph.children.length < 74 ) {
-
-		var bar = document.createElement( 'span' );
-		bar.style.cssText = 'width:1px;height:30px;float:left;background-color:#131';
-		msGraph.appendChild( bar );
-
-	}
-
-	var setMode = function ( value ) {
-
-		mode = value;
-
-		switch ( mode ) {
-
-			case 0:
-				fpsDiv.style.display = 'block';
-				msDiv.style.display = 'none';
-				break;
-			case 1:
-				fpsDiv.style.display = 'none';
-				msDiv.style.display = 'block';
-				break;
-		}
-
-	}
-
-	var updateGraph = function ( dom, value ) {
-
-		var child = dom.appendChild( dom.firstChild );
-		child.style.height = value + 'px';
-
-	}
-
-	return {
-
-		REVISION: 11,
-
-		domElement: container,
-
-		setMode: setMode,
-
-		begin: function () {
-
-			startTime = Date.now();
-
-		},
-
-		end: function () {
-
-			var time = Date.now();
-
-			ms = time - startTime;
-			msMin = Math.min( msMin, ms );
-			msMax = Math.max( msMax, ms );
-
-			msText.textContent = ms + ' MS (' + msMin + '-' + msMax + ')';
-			updateGraph( msGraph, Math.min( 30, 30 - ( ms / 200 ) * 30 ) );
-
-			frames ++;
-
-			if ( time > prevTime + 1000 ) {
-
-				fps = Math.round( ( frames * 1000 ) / ( time - prevTime ) );
-				fpsMin = Math.min( fpsMin, fps );
-				fpsMax = Math.max( fpsMax, fps );
-
-				fpsText.textContent = fps + ' FPS (' + fpsMin + '-' + fpsMax + ')';
-				updateGraph( fpsGraph, Math.min( 30, 30 - ( fps / 100 ) * 30 ) );
-
-				prevTime = time;
-				frames = 0;
-
-			}
-
-			return time;
-
-		},
-
-		update: function () {
-
-			startTime = this.end();
-
-		}
-
-	}
-
-};
-
-module.exports = Stats
-},{}],38:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 (function(){util            = require('util')
 ThreeDCellLogic   = require('./ThreeDCellLogic.js')
 states          = require("./../PhaseStates.js")
@@ -3706,7 +2359,560 @@ AtomLogic.prototype.getRndFrom   =function(a)
   return a[Math.floor(Math.random()*a.length)]
 }
 })()
-},{"util":4,"./ThreeDCellLogic.js":39,"./../PhaseStates.js":22,"./../Directions.js":25}],14:[function(require,module,exports){
+},{"./../Directions.js":23,"./../PhaseStates.js":20,"./ThreeDCellLogic.js":35,"util":2}],36:[function(require,module,exports){
+hsbutil                 = require('./../../lib/hsbutil.js')
+
+module.exports = function(engine) {return new UserInputView(engine)}
+
+function UserInputView(engine) {
+  // protect against people who forget 'new'
+  if (!(this instanceof UserInputView)) return new UserInputView(engine)
+    console.log("new UserInputView()") 
+  // we need to store the passed in variables on 'this'
+  // so that they are ava
+
+  //this.engine.on("ticked",function(){this.tick()})
+  this.htmlElement  = document.querySelector("#info");
+  this.engine       = engine
+  var pointer       = this;
+  this.tickInterval = this.engine.game.setInterval( function(){pointer.tick()}, 2000)
+  this.colors=hsbutil.colorRange(
+      {h:131,s:78,v:34},
+      {h:43,s:40,v:25},    
+    100
+      )
+
+  this.createControlPanel()
+  
+}
+
+UserInputView.prototype.tick = function(){
+  this.htmlElement.innerHTML="#a:"
+    +this.engine.atoms_stack.a.length
+    +" spd:"+this.engine.ticks_per_update
+    +"floortemp:"+this.engine.floor_heat
+}
+
+
+UserInputView.prototype.createControlPanel = function()
+{
+  var div=document.createElement('div')
+
+
+
+  div.appendChild(  this.createKnob('tempKnob') )
+
+  div.appendChild(  this.createKnob('speedKnob') )
+
+  div.appendChild(this.createKnob('viewKnob') )
+
+this.tempKnob=$("#tempKnob")
+this.speedKnob=$("#speedKnob")
+this.viewKnob=$("#viewKnob")
+
+  var ptr=this
+  $("#uihost").append(div)
+  $('#speedKnob').knob({
+    min:0,
+    max:20000,
+    change:function(val){
+    
+      ptr.updateKnob(ptr.speedKnob,val,0,20000)
+
+    }
+  })
+
+  $('#tempKnob').knob( {
+      change:function(val){
+      
+      ptr.updateKnob(ptr.tempKnob,val,0,100)
+    }
+  })
+  $('#viewKnob').knob({
+    change:function(val){
+     
+      ptr.updateKnob(ptr.viewKnob,val,0,100)
+    }
+  })
+
+}
+UserInputView.prototype.updateKnob = function(k,val,min,max)
+{
+  var c=this.colors[Math.floor(100*((val-min)/(max-min)))]
+  k.data('fgcolor',c )
+}
+UserInputView.prototype.defaultKnobAttrs={
+  'data-fgColor':'#66CC66'
+  ,'data-angleOffset':'-125'
+  ,'data-angleArc':'250'
+  ,'data-width':'120'
+}
+UserInputView.prototype.createKnob = function(id,changeHandler,attrs)
+{
+
+    var knb
+
+  knb=document.createElement('input')
+  
+  $(knb).attr(this.defaultKnobAttrs)
+  if(attrs)
+    $(knb).attr(attrs)
+  if(changeHandler)
+    $(knb).bind('change',changeHandler)
+
+  knb.setAttribute('id',id)
+  return knb
+}
+
+UserInputView.prototype.createKnobUI = function(id,changeHandler,attrs)
+{
+
+    var ele
+
+  ele=document.createElement('div')
+  
+  if(attrs)
+    $(ele).attr(attrs)
+  if(changeHandler)
+    $(knb).on('change',changeHandler)
+  return knb
+}
+
+},{"./../../lib/hsbutil.js":9}],30:[function(require,module,exports){
+"use strict";
+
+var MonotoneMesh = (function(){
+
+function MonotonePolygon(c, v, ul, ur) {
+  this.color  = c;
+  this.left   = [[ul, v]];
+  this.right  = [[ur, v]];
+};
+
+MonotonePolygon.prototype.close_off = function(v) {
+  this.left.push([ this.left[this.left.length-1][0], v ]);
+  this.right.push([ this.right[this.right.length-1][0], v ]);
+};
+
+MonotonePolygon.prototype.merge_run = function(v, u_l, u_r) {
+  var l = this.left[this.left.length-1][0]
+    , r = this.right[this.right.length-1][0]; 
+  if(l !== u_l) {
+    this.left.push([ l, v ]);
+    this.left.push([ u_l, v ]);
+  }
+  if(r !== u_r) {
+    this.right.push([ r, v ]);
+    this.right.push([ u_r, v ]);
+  }
+};
+
+
+return function(volume, dims) {
+  function f(i,j,k) {
+    return volume[i + dims[0] * (j + dims[1] * k)];
+  }
+  //Sweep over 3-axes
+  var vertices = [], faces = [];
+  for(var d=0; d<3; ++d) {
+    var i, j, k
+      , u = (d+1)%3   //u and v are orthogonal directions to d
+      , v = (d+2)%3
+      , x = new Int32Array(3)
+      , q = new Int32Array(3)
+      , runs = new Int32Array(2 * (dims[u]+1))
+      , frontier = new Int32Array(dims[u])  //Frontier is list of pointers to polygons
+      , next_frontier = new Int32Array(dims[u])
+      , left_index = new Int32Array(2 * dims[v])
+      , right_index = new Int32Array(2 * dims[v])
+      , stack = new Int32Array(24 * dims[v])
+      , delta = [[0,0], [0,0]];
+    //q points along d-direction
+    q[d] = 1;
+    //Initialize sentinel
+    for(x[d]=-1; x[d]<dims[d]; ) {
+      // --- Perform monotone polygon subdivision ---
+      var n = 0
+        , polygons = []
+        , nf = 0;
+      for(x[v]=0; x[v]<dims[v]; ++x[v]) {
+        //Make one pass over the u-scan line of the volume to run-length encode polygon
+        var nr = 0, p = 0, c = 0;
+        for(x[u]=0; x[u]<dims[u]; ++x[u], p = c) {
+          //Compute the type for this face
+          var a = (0    <= x[d]      ? f(x[0],      x[1],      x[2])      : 0)
+            , b = (x[d] <  dims[d]-1 ? f(x[0]+q[0], x[1]+q[1], x[2]+q[2]) : 0);
+          c = a;
+          if((!a) === (!b)) {
+            c = 0;
+          } else if(!a) {
+            c = -b;
+          }
+          //If cell type doesn't match, start a new run
+          if(p !== c) {
+            runs[nr++] = x[u];
+            runs[nr++] = c;
+          }
+        }
+        //Add sentinel run
+        runs[nr++] = dims[u];
+        runs[nr++] = 0;
+        //Update frontier by merging runs
+        var fp = 0;
+        for(var i=0, j=0; i<nf && j<nr-2; ) {
+          var p    = polygons[frontier[i]]
+            , p_l  = p.left[p.left.length-1][0]
+            , p_r  = p.right[p.right.length-1][0]
+            , p_c  = p.color
+            , r_l  = runs[j]    //Start of run
+            , r_r  = runs[j+2]  //End of run
+            , r_c  = runs[j+1]; //Color of run
+          //Check if we can merge run with polygon
+          if(r_r > p_l && p_r > r_l && r_c === p_c) {
+            //Merge run
+            p.merge_run(x[v], r_l, r_r);
+            //Insert polygon into frontier
+            next_frontier[fp++] = frontier[i];
+            ++i;
+            j += 2;
+          } else {
+            //Check if we need to advance the run pointer
+            if(r_r <= p_r) {
+              if(!!r_c) {
+                var n_poly = new MonotonePolygon(r_c, x[v], r_l, r_r);
+                next_frontier[fp++] = polygons.length;
+                polygons.push(n_poly);
+              }
+              j += 2;
+            }
+            //Check if we need to advance the frontier pointer
+            if(p_r <= r_r) {
+              p.close_off(x[v]);
+              ++i;
+            }
+          }
+        }
+        //Close off any residual polygons
+        for(; i<nf; ++i) {
+          polygons[frontier[i]].close_off(x[v]);
+        }
+        //Add any extra runs to frontier
+        for(; j<nr-2; j+=2) {
+          var r_l  = runs[j]
+            , r_r  = runs[j+2]
+            , r_c  = runs[j+1];
+          if(!!r_c) {
+            var n_poly = new MonotonePolygon(r_c, x[v], r_l, r_r);
+            next_frontier[fp++] = polygons.length;
+            polygons.push(n_poly);
+          }
+        }
+        //Swap frontiers
+        var tmp = next_frontier;
+        next_frontier = frontier;
+        frontier = tmp;
+        nf = fp;
+      }
+      //Close off frontier
+      for(var i=0; i<nf; ++i) {
+        var p = polygons[frontier[i]];
+        p.close_off(dims[v]);
+      }
+      // --- Monotone subdivision of polygon is complete at this point ---
+      
+      x[d]++;
+      
+      //Now we just need to triangulate each monotone polygon
+      for(var i=0; i<polygons.length; ++i) {
+        var p = polygons[i]
+          , c = p.color
+          , flipped = false;
+        if(c < 0) {
+          flipped = true;
+          c = -c;
+        }
+        for(var j=0; j<p.left.length; ++j) {
+          left_index[j] = vertices.length;
+          var y = [0.0,0.0,0.0]
+            , z = p.left[j];
+          y[d] = x[d];
+          y[u] = z[0];
+          y[v] = z[1];
+          vertices.push(y);
+        }
+        for(var j=0; j<p.right.length; ++j) {
+          right_index[j] = vertices.length;
+          var y = [0.0,0.0,0.0]
+            , z = p.right[j];
+          y[d] = x[d];
+          y[u] = z[0];
+          y[v] = z[1];
+          vertices.push(y);
+        }
+        //Triangulate the monotone polygon
+        var bottom = 0
+          , top = 0
+          , l_i = 1
+          , r_i = 1
+          , side = true;  //true = right, false = left
+        
+        stack[top++] = left_index[0];
+        stack[top++] = p.left[0][0];
+        stack[top++] = p.left[0][1];
+        
+        stack[top++] = right_index[0];
+        stack[top++] = p.right[0][0];
+        stack[top++] = p.right[0][1];
+        
+        while(l_i < p.left.length || r_i < p.right.length) {
+          //Compute next side
+          var n_side = false;
+          if(l_i === p.left.length) {
+            n_side = true;
+          } else if(r_i !== p.right.length) {
+            var l = p.left[l_i]
+              , r = p.right[r_i];
+            n_side = l[1] > r[1];
+          }
+          var idx = n_side ? right_index[r_i] : left_index[l_i]
+            , vert = n_side ? p.right[r_i] : p.left[l_i];
+          if(n_side !== side) {
+            //Opposite side
+            while(bottom+3 < top) {
+              if(flipped === n_side) {
+                faces.push([ stack[bottom], stack[bottom+3], idx, c]);
+              } else {
+                faces.push([ stack[bottom+3], stack[bottom], idx, c]);              
+              }
+              bottom += 3;
+            }
+          } else {
+            //Same side
+            while(bottom+3 < top) {
+              //Compute convexity
+              for(var j=0; j<2; ++j)
+              for(var k=0; k<2; ++k) {
+                delta[j][k] = stack[top-3*(j+1)+k+1] - vert[k];
+              }
+              var det = delta[0][0] * delta[1][1] - delta[1][0] * delta[0][1];
+              if(n_side === (det > 0)) {
+                break;
+              }
+              if(det !== 0) {
+                if(flipped === n_side) {
+                  faces.push([ stack[top-3], stack[top-6], idx, c ]);
+                } else {
+                  faces.push([ stack[top-6], stack[top-3], idx, c ]);
+                }
+              }
+              top -= 3;
+            }
+          }
+          //Push vertex
+          stack[top++] = idx;
+          stack[top++] = vert[0];
+          stack[top++] = vert[1];
+          //Update loop index
+          if(n_side) {
+            ++r_i;
+          } else {
+            ++l_i;
+          }
+          side = n_side;
+        }
+      }
+    }
+  }
+  return { vertices:vertices, faces:faces };
+}
+})();
+
+if(exports) {
+  exports.mesher = MonotoneMesh;
+}
+
+},{}],31:[function(require,module,exports){
+var GreedyMesh = (function() {
+//Cache buffer internally
+var mask = new Int32Array(4096);
+
+return function(volume, dims) {
+  var vertices = [], faces = []
+    , dimsX = dims[0]
+    , dimsY = dims[1]
+    , dimsXY = dimsX * dimsY;
+
+  //Sweep over 3-axes
+  for(var d=0; d<3; ++d) {
+    var i, j, k, l, w, W, h, n, c
+      , u = (d+1)%3
+      , v = (d+2)%3
+      , x = [0,0,0]
+      , q = [0,0,0]
+      , du = [0,0,0]
+      , dv = [0,0,0]
+      , dimsD = dims[d]
+      , dimsU = dims[u]
+      , dimsV = dims[v]
+      , qdimsX, qdimsXY
+      , xd
+
+    if (mask.length < dimsU * dimsV) {
+      mask = new Int32Array(dimsU * dimsV);
+    }
+
+    q[d] =  1;
+    x[d] = -1;
+
+    qdimsX  = dimsX  * q[1]
+    qdimsXY = dimsXY * q[2]
+
+    // Compute mask
+    while (x[d] < dimsD) {
+      xd = x[d]
+      n = 0;
+
+      for(x[v] = 0; x[v] < dimsV; ++x[v]) {
+        for(x[u] = 0; x[u] < dimsU; ++x[u], ++n) {
+          var a = xd >= 0      && volume[x[0]      + dimsX * x[1]          + dimsXY * x[2]          ]
+            , b = xd < dimsD-1 && volume[x[0]+q[0] + dimsX * x[1] + qdimsX + dimsXY * x[2] + qdimsXY]
+          if (a ? b : !b) {
+            mask[n] = 0; continue;
+          }
+          mask[n] = a ? a : -b;
+        }
+      }
+
+      ++x[d];
+
+      // Generate mesh for mask using lexicographic ordering
+      n = 0;
+      for (j=0; j < dimsV; ++j) {
+        for (i=0; i < dimsU; ) {
+          c = mask[n];
+          if (!c) {
+            i++;  n++; continue;
+          }
+
+          //Compute width
+          w = 1;
+          while (c === mask[n+w] && i+w < dimsU) w++;
+
+          //Compute height (this is slightly awkward)
+          for (h=1; j+h < dimsV; ++h) {
+            k = 0;
+            while (k < w && c === mask[n+k+h*dimsU]) k++
+            if (k < w) break;
+          }
+
+          // Add quad
+          // The du/dv arrays are reused/reset
+          // for each iteration.
+          du[d] = 0; dv[d] = 0;
+          x[u]  = i;  x[v] = j;
+
+          if (c > 0) {
+            dv[v] = h; dv[u] = 0;
+            du[u] = w; du[v] = 0;
+          } else {
+            c = -c;
+            du[v] = h; du[u] = 0;
+            dv[u] = w; dv[v] = 0;
+          }
+          var vertex_count = vertices.length;
+          vertices.push([x[0],             x[1],             x[2]            ]);
+          vertices.push([x[0]+du[0],       x[1]+du[1],       x[2]+du[2]      ]);
+          vertices.push([x[0]+du[0]+dv[0], x[1]+du[1]+dv[1], x[2]+du[2]+dv[2]]);
+          vertices.push([x[0]      +dv[0], x[1]      +dv[1], x[2]      +dv[2]]);
+          faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, c]);
+
+          //Zero-out mask
+          W = n + w;
+          for(l=0; l<h; ++l) {
+            for(k=n; k<W; ++k) {
+              mask[k+l*dimsU] = 0;
+            }
+          }
+
+          //Increment counters and continue
+          i += w; n += w;
+        }
+      }
+    }
+  }
+  return { vertices:vertices, faces:faces };
+}
+})();
+
+if(exports) {
+  exports.mesher = GreedyMesh;
+}
+
+},{}],9:[function(require,module,exports){
+var tinycolor=require("tinycolor2")
+
+module.exports = function() {}
+
+module.exports.tweenVals=function(a,b,pct){ 
+  return a+((b-a)*pct)
+}
+ 
+module.exports.colorRange=function(hsvA,hsvB,steps){
+  var r=[]
+  var pct
+  for (var i = 0; i<steps; i++) {
+    pct=i/steps
+    console.log("push",i,"of",steps)
+    r.push(
+      tinycolor({
+        h:module.exports.tweenVals(hsvA.h,hsvB.h,pct),
+        s:module.exports.tweenVals(hsvA.s,hsvB.s,pct),
+        v:module.exports.tweenVals(hsvA.v,hsvB.v,pct)
+      }).toHexString()    
+      )
+  }
+  return r
+ }
+
+
+
+},{"tinycolor2":37}],32:[function(require,module,exports){
+//The stupidest possible way to generate a Minecraft mesh (I think)
+function StupidMesh(volume, dims) {
+  var vertices = [], faces = [], x = [0,0,0], n = 0;
+  for(x[2]=0; x[2]<dims[2]; ++x[2])
+  for(x[1]=0; x[1]<dims[1]; ++x[1])
+  for(x[0]=0; x[0]<dims[0]; ++x[0], ++n)
+  if(!!volume[n]) {
+    for(var d=0; d<3; ++d) {
+      var t = [x[0], x[1], x[2]]
+        , u = [0,0,0]
+        , v = [0,0,0];
+      u[(d+1)%3] = 1;
+      v[(d+2)%3] = 1;
+      for(var s=0; s<2; ++s) {
+        t[d] = x[d] + s;
+        var tmp = u;
+        u = v;
+        v = tmp;
+        var vertex_count = vertices.length;
+        vertices.push([t[0],           t[1],           t[2]          ]);
+        vertices.push([t[0]+u[0],      t[1]+u[1],      t[2]+u[2]     ]);
+        vertices.push([t[0]+u[0]+v[0], t[1]+u[1]+v[1], t[2]+u[2]+v[2]]);
+        vertices.push([t[0]     +v[0], t[1]     +v[1], t[2]     +v[2]]);
+        faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, volume[n]]);
+      }
+    }
+  }
+  return { vertices:vertices, faces:faces };
+}
+
+
+if(exports) {
+  exports.mesher = StupidMesh;
+}
+
+},{}],12:[function(require,module,exports){
 // a convenience function, usage:
 // var SimEngine = require('voxel-SimEngine')(game)
 // if we did module.exports = SimEngine then the usage would
@@ -3971,719 +3177,214 @@ SimEngine.prototype.handleModelSetEvent = function(data,obj){
 
 
 
-},{"util":4,"events":3,"./queuetypes/TickStack.js":20,"./queuetypes/LogicStack.js":21,"./PhaseStates.js":22,"./ModelMatrix.js":33,"./atoms/AtomVO.js":23,"./PeriodicTable.js":24,"./Directions.js":25,"./AppFacade.js":26,"./atoms/AtomLogic.js":38,"three":40}],17:[function(require,module,exports){
-(function(process){var voxel = require('voxel')
-var voxelMesh = require('voxel-mesh')
-var ray = require('voxel-raycast')
-var texture = require('voxel-texture')
-var control = require('voxel-control')
-var voxelView = require('voxel-view')
-var THREE = require('three')
-var Stats = require('./lib/stats')
-var Detector = require('./lib/detector')
-var inherits = require('inherits')
-var path = require('path')
-var EventEmitter = require('events').EventEmitter
-if (process.browser) var interact = require('interact')
-var requestAnimationFrame = require('raf')
-var collisions = require('collide-3d-tilemap')
-var aabb = require('aabb-3d')
-var glMatrix = require('gl-matrix')
-var vector = glMatrix.vec3
-var SpatialEventEmitter = require('spatial-events')
-var regionChange = require('voxel-region-change')
-var kb = require('kb-controls')
-var physical = require('voxel-physical')
-var pin = require('pin-it')
-var tic = require('tic')()
-
-module.exports = Game
-
-function Game(opts) {
-  if (!(this instanceof Game)) return new Game(opts)
-  var self = this
-  if (!opts) opts = {}
-  if (process.browser && this.notCapable(opts)) return
-  
-  if (!('generateChunks' in opts)) opts.generateChunks = true
-  this.generateChunks = opts.generateChunks
-  this.setConfigurablePositions(opts)
-  this.configureChunkLoading(opts)
-  this.setDimensions(opts)
-  this.THREE = THREE
-  this.vector = vector
-  this.glMatrix = glMatrix
-  this.arrayType = opts.arrayType || Uint8Array
-  this.cubeSize = 1 // backwards compat
-  this.chunkSize = opts.chunkSize || 32
-  
-  // chunkDistance and removeDistance should not be set to the same thing
-  // as it causes lag when you go back and forth on a chunk boundary
-  this.chunkDistance = opts.chunkDistance || 2
-  this.removeDistance = opts.removeDistance || this.chunkDistance + 1
-  
-  this.playerHeight = opts.playerHeight || 1.62
-  this.meshType = opts.meshType || 'surfaceMesh'
-  this.mesher = opts.mesher || voxel.meshers.culled
-  this.materialType = opts.materialType || THREE.MeshLambertMaterial
-  this.materialParams = opts.materialParams || {}
-  this.items = []
-  this.voxels = voxel(this)
-  this.scene = new THREE.Scene()
-  this.view = opts.view || new voxelView(THREE, { width: this.width, height: this.height })
-  this.view.bindToScene(this.scene)
-  this.camera = this.view.getCamera()
-  if (!opts.lightsDisabled) this.addLights(this.scene)
-  
-  this.skyColor = opts.skyColor || 0xBFD1E5
-  this.fogScale = opts.fogScale || 32
-  if (!opts.fogDisabled) this.scene.fog = new THREE.Fog( this.skyColor, 0.00025, this.worldWidth() * this.fogScale )
-  
-  this.collideVoxels = collisions(
-    this.getBlock.bind(this),
-    1,
-    [Infinity, Infinity, Infinity],
-    [-Infinity, -Infinity, -Infinity]
-  )
-  
-  this.timer = this.initializeTimer((opts.tickFPS || 16))
-  this.paused = false
-
-  this.spatial = new SpatialEventEmitter
-  this.region = regionChange(this.spatial, aabb([0, 0, 0], [1, 1, 1]), this.chunkSize)
-  this.voxelRegion = regionChange(this.spatial, 1)
-  this.chunkRegion = regionChange(this.spatial, this.chunkSize)
-  this.asyncChunkGeneration = false
-
-  // contains chunks that has had an update this tick. Will be generated right before redrawing the frame
-  this.chunksNeedsUpdate = {}
-  // contains new chunks yet to be generated. Handled by game.loadPendingChunks
-  this.pendingChunks = []
-
-  this.materials = texture({
-    game: this,
-    texturePath: opts.texturePath || './textures/',
-    materialType: opts.materialType || THREE.MeshLambertMaterial,
-    materialParams: opts.materialParams || {},
-    materialFlatColor: opts.materialFlatColor === true
-  })
-
-  this.materialNames = opts.materials || [['grass', 'dirt', 'grass_dirt'], 'brick', 'dirt']
-  
-  self.chunkRegion.on('change', function(newChunk) {
-    self.removeFarChunks()
-  })
-
-  if (process.browser) this.materials.load(this.materialNames)
-
-  if (this.generateChunks) this.handleChunkGeneration()
-
-  // client side only after this point
-  if (!process.browser) return
-  
-  this.paused = true
-  this.initializeRendering(opts)
-  
-  for (var chunkIndex in this.voxels.chunks) this.showChunk(this.voxels.chunks[chunkIndex])
-
-  setTimeout(function() {
-    self.asyncChunkGeneration = 'asyncChunkGeneration' in opts ? opts.asyncChunkGeneration : true
-  }, 2000)
-
-  this.initializeControls(opts)
-}
-
-inherits(Game, EventEmitter)
-
-// # External API
-
-Game.prototype.voxelPosition = function(gamePosition) {
-  var _ = Math.floor
-  var p = gamePosition
-  var v = []
-  v[0] = _(p[0])
-  v[1] = _(p[1])
-  v[2] = _(p[2])
-  return v
-}
-
-Game.prototype.cameraPosition = function() {
-  return this.view.cameraPosition()
-}
-
-Game.prototype.cameraVector = function() {
-  return this.view.cameraVector()
-}
-
-Game.prototype.makePhysical = function(target, envelope, blocksCreation) {
-  var vel = this.terminalVelocity
-  var obj = physical(target, this.potentialCollisionSet(), envelope || [1/2, 1.5, 1/2], {x: vel[0], y: vel[1], z: vel[2]})
-  obj.blocksCreation = !!blocksCreation
-  return obj
-}
-
-Game.prototype.addItem = function(item) {
-  if (!item.tick) {
-    var newItem = physical(
-      item.mesh,
-      this.potentialCollisionSet(),
-      [item.size, item.size, item.size]
-    )
-    
-    if (item.velocity) {
-      newItem.velocity.copy(item.velocity)
-      newItem.subjectTo(this.gravity)
-    }
-    
-    newItem.repr = function() { return 'debris' }
-    newItem.mesh = item.mesh
-    newItem.blocksCreation = item.blocksCreation
-    
-    item = newItem
-  }
-  
-  this.items.push(item)
-  if (item.mesh) this.scene.add(item.mesh)
-  return this.items[this.items.length - 1]
-}
-
-Game.prototype.removeItem = function(item) {
-  var ix = this.items.indexOf(item)
-  if (ix < 0) return
-  this.items.splice(ix, 1)
-  if (item.mesh) this.scene.remove(item.mesh)
-}
-
-// only intersects voxels, not items (for now)
-Game.prototype.raycast = // backwards compat
-Game.prototype.raycastVoxels = function(start, direction, maxDistance, epilson) {
-  if (!start) return this.raycastVoxels(this.cameraPosition(), this.cameraVector(), 10)
-  
-  var hitNormal = [0, 0, 0]
-  var hitPosition = [0, 0, 0]
-  var cp = start || this.cameraPosition()
-  var cv = direction || this.cameraVector()
-  var hitBlock = ray(this, cp, cv, maxDistance || 10.0, hitPosition, hitNormal, epilson || this.epilson)
-  if (hitBlock <= 0) return false
-  var adjacentPosition = [0, 0, 0]
-  var voxelPosition = this.voxelPosition(hitPosition)
-  vector.add(adjacentPosition, voxelPosition, hitNormal)
-  
-  return {
-    position: hitPosition,
-    voxel: voxelPosition,
-    direction: direction,
-    value: hitBlock,
-    normal: hitNormal,
-    adjacent: adjacentPosition
-  }
-}
-
-Game.prototype.canCreateBlock = function(pos) {
-  pos = this.parseVectorArguments(arguments)
-  var floored = pos.map(function(i) { return Math.floor(i) })
-  var bbox = aabb(floored, [1, 1, 1])
-  
-  for (var i = 0, len = this.items.length; i < len; ++i) {
-    var item = this.items[i]
-    var itemInTheWay = item.blocksCreation && item.aabb && bbox.intersects(item.aabb())
-    if (itemInTheWay) return false
-  }
-
-  return true
-}
-
-Game.prototype.createBlock = function(pos, val) {
-  if (typeof val === 'string') val = this.materials.find(val)
-  if (!this.canCreateBlock(pos)) return false
-  this.setBlock(pos, val)
-  return true
-}
-
-Game.prototype.setBlock = function(pos, val) {
-  if (typeof val === 'string') val = this.materials.find(val)
-  var old = this.voxels.voxelAtPosition(pos, val)
-  var c = this.voxels.chunkAtPosition(pos)
-  var chunk = this.voxels.chunks[c.join('|')]
-  if (!chunk) return// todo - does self.emit('missingChunk', c.join('|')) make sense here?
-  this.addChunkToNextUpdate(chunk)
-  this.spatial.emit('change-block', pos, old, val)
-  this.emit('setBlock', pos, val, old)
-}
-
-Game.prototype.getBlock = function(pos) {
-  pos = this.parseVectorArguments(arguments)
-  return this.voxels.voxelAtPosition(pos)
-}
-
-Game.prototype.blockPosition = function(pos) {
-  pos = this.parseVectorArguments(arguments)
-  var ox = Math.floor(pos[0])
-  var oy = Math.floor(pos[1])
-  var oz = Math.floor(pos[2])
-  return [ox, oy, oz]
-}
-
-Game.prototype.blocks = function(low, high, iterator) {
-  var l = low, h = high
-  var d = [ h[0]-l[0], h[1]-l[1], h[2]-l[2] ]
-  if (!iterator) var voxels = new this.arrayType(d[0]*d[1]*d[2])
-  var i = 0
-  for(var z=l[2]; z<h[2]; ++z)
-  for(var y=l[1]; y<h[1]; ++y)
-  for(var x=l[0]; x<h[0]; ++x, ++i) {
-    if (iterator) iterator(x, y, z, i)
-    else voxels[i] = this.voxels.voxelAtPosition([x, y, z])
-  }
-  if (!iterator) return {voxels: voxels, dims: d}
-}
-
-// backwards compat
-Game.prototype.createAdjacent = function(hit, val) {
-  this.createBlock(hit.adjacent, val)
-}
-
-Game.prototype.appendTo = function (element) {
-  this.view.appendTo(element)
-}
-
-// # Defaults/options parsing
-
-Game.prototype.gravity = [0, -0.0000036, 0]
-Game.prototype.friction = 0.3
-Game.prototype.epilson = 1e-8
-Game.prototype.terminalVelocity = [0.9, 0.1, 0.9]
-
-Game.prototype.defaultButtons = {
-  'W': 'forward'
-, 'A': 'left'
-, 'S': 'backward'
-, 'D': 'right'
-, '<mouse 1>': 'fire'
-, '<mouse 3>': 'firealt'
-, '<space>': 'jump'
-, '<shift>': 'crouch'
-, '<control>': 'alt'
-}
-
-// used in methods that have identity function(pos) {}
-Game.prototype.parseVectorArguments = function(args) {
-  if (!args) return false
-  if (args[0] instanceof Array) return args[0]
-  return [args[0], args[1], args[2]]
-}
-
-Game.prototype.setConfigurablePositions = function(opts) {
-  var sp = opts.startingPosition
-  this.startingPosition = sp || [35, 1024, 35]
-  var wo = opts.worldOrigin
-  this.worldOrigin = wo || [0, 0, 0]
-}
-
-Game.prototype.setDimensions = function(opts) {
-  if (opts.container) this.container = opts.container
-  if (opts.container && opts.container.clientHeight) {
-    this.height = opts.container.clientHeight
-  } else {
-    this.height = typeof window === "undefined" ? 1 : window.innerHeight
-  }
-  if (opts.container && opts.container.clientWidth) {
-    this.width = opts.container.clientWidth
-  } else {
-    this.width = typeof window === "undefined" ? 1 : window.innerWidth
-  }
-}
-
-Game.prototype.notCapable = function(opts) {
-  var self = this
-  if( !Detector().webgl ) {
-    this.view = {
-      appendTo: function(el) {
-        el.appendChild(self.notCapableMessage())
-      }
-    }
-    return true
-  }
-  return false
-}
-
-Game.prototype.notCapableMessage = function() {
-  var wrapper = document.createElement('div')
-  wrapper.className = "errorMessage"
-  var a = document.createElement('a')
-  a.title = "You need WebGL and Pointer Lock (Chrome 23/Firefox 14) to play this game. Click here for more information."
-  a.innerHTML = a.title
-  a.href = "http://get.webgl.org"
-  wrapper.appendChild(a)
-  return wrapper
-}
-
-Game.prototype.onWindowResize = function() {
-  var width = window.innerWidth
-  var height = window.innerHeight
-  if (this.container) {
-    width = this.container.clientWidth
-    height = this.container.clientHeight
-  }
-  this.view.resizeWindow(width, height)
-}
-
-// # Physics/collision related methods
-
-Game.prototype.control = function(target) {
-  this.controlling = target
-  return this.controls.target(target)
-}
-
-Game.prototype.potentialCollisionSet = function() {
-  return [{ collide: this.collideTerrain.bind(this) }]
-}
-
+},{"./AppFacade.js":26,"./Directions.js":23,"./ModelMatrix.js":33,"./PeriodicTable.js":25,"./PhaseStates.js":20,"./atoms/AtomLogic.js":34,"./atoms/AtomVO.js":22,"./queuetypes/LogicStack.js":21,"./queuetypes/TickStack.js":19,"events":3,"three":38,"util":2}],39:[function(require,module,exports){
 /**
- * Get the position of the player under control.
- * If there is no player under control, return
- * current position of the game's camera.
- *
- * @return {Array} an [x, y, z] tuple
+ * @author mrdoob / http://mrdoob.com/
  */
 
-Game.prototype.playerPosition = function() {
-  var target = this.controls.target()
-  var position = target
-    ? target.avatar.position
-    : this.camera.localToWorld(this.camera.position.clone())
-  return [position.x, position.y, position.z]
+var Stats = function () {
+
+	var startTime = Date.now(), prevTime = startTime;
+	var ms = 0, msMin = Infinity, msMax = 0;
+	var fps = 0, fpsMin = Infinity, fpsMax = 0;
+	var frames = 0, mode = 0;
+
+	var container = document.createElement( 'div' );
+	container.id = 'stats';
+	container.addEventListener( 'mousedown', function ( event ) { event.preventDefault(); setMode( ++ mode % 2 ) }, false );
+	container.style.cssText = 'width:80px;opacity:0.9;cursor:pointer';
+
+	var fpsDiv = document.createElement( 'div' );
+	fpsDiv.id = 'fps';
+	fpsDiv.style.cssText = 'padding:0 0 3px 3px;text-align:left;background-color:#002';
+	container.appendChild( fpsDiv );
+
+	var fpsText = document.createElement( 'div' );
+	fpsText.id = 'fpsText';
+	fpsText.style.cssText = 'color:#0ff;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
+	fpsText.innerHTML = 'FPS';
+	fpsDiv.appendChild( fpsText );
+
+	var fpsGraph = document.createElement( 'div' );
+	fpsGraph.id = 'fpsGraph';
+	fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
+	fpsDiv.appendChild( fpsGraph );
+
+	while ( fpsGraph.children.length < 74 ) {
+
+		var bar = document.createElement( 'span' );
+		bar.style.cssText = 'width:1px;height:30px;float:left;background-color:#113';
+		fpsGraph.appendChild( bar );
+
+	}
+
+	var msDiv = document.createElement( 'div' );
+	msDiv.id = 'ms';
+	msDiv.style.cssText = 'padding:0 0 3px 3px;text-align:left;background-color:#020;display:none';
+	container.appendChild( msDiv );
+
+	var msText = document.createElement( 'div' );
+	msText.id = 'msText';
+	msText.style.cssText = 'color:#0f0;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
+	msText.innerHTML = 'MS';
+	msDiv.appendChild( msText );
+
+	var msGraph = document.createElement( 'div' );
+	msGraph.id = 'msGraph';
+	msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
+	msDiv.appendChild( msGraph );
+
+	while ( msGraph.children.length < 74 ) {
+
+		var bar = document.createElement( 'span' );
+		bar.style.cssText = 'width:1px;height:30px;float:left;background-color:#131';
+		msGraph.appendChild( bar );
+
+	}
+
+	var setMode = function ( value ) {
+
+		mode = value;
+
+		switch ( mode ) {
+
+			case 0:
+				fpsDiv.style.display = 'block';
+				msDiv.style.display = 'none';
+				break;
+			case 1:
+				fpsDiv.style.display = 'none';
+				msDiv.style.display = 'block';
+				break;
+		}
+
+	}
+
+	var updateGraph = function ( dom, value ) {
+
+		var child = dom.appendChild( dom.firstChild );
+		child.style.height = value + 'px';
+
+	}
+
+	return {
+
+		REVISION: 11,
+
+		domElement: container,
+
+		setMode: setMode,
+
+		begin: function () {
+
+			startTime = Date.now();
+
+		},
+
+		end: function () {
+
+			var time = Date.now();
+
+			ms = time - startTime;
+			msMin = Math.min( msMin, ms );
+			msMax = Math.max( msMax, ms );
+
+			msText.textContent = ms + ' MS (' + msMin + '-' + msMax + ')';
+			updateGraph( msGraph, Math.min( 30, 30 - ( ms / 200 ) * 30 ) );
+
+			frames ++;
+
+			if ( time > prevTime + 1000 ) {
+
+				fps = Math.round( ( frames * 1000 ) / ( time - prevTime ) );
+				fpsMin = Math.min( fpsMin, fps );
+				fpsMax = Math.max( fpsMax, fps );
+
+				fpsText.textContent = fps + ' FPS (' + fpsMin + '-' + fpsMax + ')';
+				updateGraph( fpsGraph, Math.min( 30, 30 - ( fps / 100 ) * 30 ) );
+
+				prevTime = time;
+				frames = 0;
+
+			}
+
+			return time;
+
+		},
+
+		update: function () {
+
+			startTime = this.end();
+
+		}
+
+	}
+
+};
+
+module.exports = Stats
+},{}],40:[function(require,module,exports){
+/**
+ * @author alteredq / http://alteredqualia.com/
+ * @author mr.doob / http://mrdoob.com/
+ */
+
+module.exports = function() {
+  return {
+  	canvas : !! window.CanvasRenderingContext2D,
+  	webgl : ( function () { try { return !! window.WebGLRenderingContext && !! document.createElement( 'canvas' ).getContext( 'experimental-webgl' ); } catch( e ) { return false; } } )(),
+  	workers : !! window.Worker,
+  	fileapi : window.File && window.FileReader && window.FileList && window.Blob,
+
+  	getWebGLErrorMessage : function () {
+
+  		var domElement = document.createElement( 'div' );
+
+  		domElement.style.fontFamily = 'monospace';
+  		domElement.style.fontSize = '13px';
+  		domElement.style.textAlign = 'center';
+  		domElement.style.background = '#eee';
+  		domElement.style.color = '#000';
+  		domElement.style.padding = '1em';
+  		domElement.style.width = '475px';
+  		domElement.style.margin = '5em auto 0';
+
+  		if ( ! this.webgl ) {
+
+  			domElement.innerHTML = window.WebGLRenderingContext ? [
+  				'Your graphics card does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation">WebGL</a>.<br />',
+  				'Find out how to get it <a href="http://get.webgl.org/">here</a>.'
+  			].join( '\n' ) : [
+  				'Your browser does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation">WebGL</a>.<br/>',
+  				'Find out how to get it <a href="http://get.webgl.org/">here</a>.'
+  			].join( '\n' );
+
+  		}
+
+  		return domElement;
+
+  	},
+
+  	addGetWebGLMessage : function ( parameters ) {
+
+  		var parent, id, domElement;
+
+  		parameters = parameters || {};
+
+  		parent = parameters.parent !== undefined ? parameters.parent : document.body;
+  		id = parameters.id !== undefined ? parameters.id : 'oldie';
+
+  		domElement = Detector.getWebGLErrorMessage();
+  		domElement.id = id;
+
+  		parent.appendChild( domElement );
+
+  	}
+
+  };
 }
 
-Game.prototype.playerAABB = function(position) {
-  var pos = position || this.playerPosition()
-  var lower = []
-  var upper = [1/2, this.playerHeight, 1/2]
-  var playerBottom = [1/4, this.playerHeight, 1/4]
-  vector.subtract(lower, pos, playerBottom)
-  var bbox = aabb(lower, upper)
-  return bbox
-}
-
-Game.prototype.collideTerrain = function(other, bbox, vec, resting) {
-  var self = this
-  var axes = ['x', 'y', 'z']
-  var vec3 = [vec.x, vec.y, vec.z]
-  this.collideVoxels(bbox, vec3, function hit(axis, tile, coords, dir, edge) {
-    if (!tile) return
-    if (Math.abs(vec3[axis]) < Math.abs(edge)) return
-    vec3[axis] = vec[axes[axis]] = edge
-    other.acceleration[axes[axis]] = 0
-    resting[axes[axis]] = dir
-    other.friction[axes[(axis + 1) % 3]] = other.friction[axes[(axis + 2) % 3]] = axis === 1 ? self.friction  : 1
-    return true
-  })
-}
-
-// # Three.js specific methods
-
-Game.prototype.addStats = function() {
-  stats = new Stats()
-  stats.domElement.style.position  = 'absolute'
-  stats.domElement.style.bottom  = '0px'
-  document.body.appendChild( stats.domElement )
-}
-
-Game.prototype.addLights = function(scene) {
-  var ambientLight, directionalLight
-  ambientLight = new THREE.AmbientLight(0xcccccc)
-  scene.add(ambientLight)
-  var light	= new THREE.DirectionalLight( 0xffffff , 1)
-  light.position.set( 1, 1, 0.5 ).normalize()
-  scene.add( light )
-}
-
-// # Chunk related methods
-
-Game.prototype.configureChunkLoading = function(opts) {
-  var self = this
-  if (!opts.generateChunks) return
-  if (!opts.generate) {
-    this.generate = function(x,y,z) {
-      return x*x+y*y+z*z <= 15*15 ? 1 : 0 // sphere world
-    }
-  } else {
-    this.generate = opts.generate
-  }
-  if (opts.generateVoxelChunk) {
-    this.generateVoxelChunk = opts.generateVoxelChunk
-  } else {
-    this.generateVoxelChunk = function(low, high) {
-      return voxel.generate(low, high, self.generate, self)
-    }
-  }
-}
-
-Game.prototype.worldWidth = function() {
-  return this.chunkSize * 2 * this.chunkDistance
-}
-
-Game.prototype.chunkToWorld = function(pos) {
-  return [
-    pos[0] * this.chunkSize,
-    pos[1] * this.chunkSize,
-    pos[2] * this.chunkSize
-  ]
-}
-
-Game.prototype.removeFarChunks = function(playerPosition) {
-  var self = this
-  playerPosition = playerPosition || this.playerPosition()
-  var nearbyChunks = this.voxels.nearbyChunks(playerPosition, this.removeDistance).map(function(chunkPos) {
-    return chunkPos.join('|')
-  })
-  Object.keys(self.voxels.chunks).map(function(chunkIndex) {
-    if (nearbyChunks.indexOf(chunkIndex) > -1) return
-    var chunk = self.voxels.chunks[chunkIndex]
-    var mesh = self.voxels.meshes[chunkIndex]
-    var pendingIndex = self.pendingChunks.indexOf(chunkIndex)
-    if (pendingIndex !== -1) self.pendingChunks.splice(pendingIndex, 1)
-    if (!chunk) return
-    var chunkPosition = chunk.position
-    if (mesh) {
-      self.scene.remove(mesh[self.meshType])
-      mesh[self.meshType].geometry.dispose()
-      delete mesh.data
-      delete mesh.geometry
-      delete mesh.meshed
-      delete mesh.surfaceMesh
-    }
-    delete self.voxels.chunks[chunkIndex]
-    self.emit('removeChunk', chunkPosition)
-  })
-  self.voxels.requestMissingChunks(playerPosition)
-}
-
-Game.prototype.addChunkToNextUpdate = function(chunk) {
-  this.chunksNeedsUpdate[chunk.position.join('|')] = chunk
-}
-
-Game.prototype.updateDirtyChunks = function() {
-  var self = this
-  Object.keys(this.chunksNeedsUpdate).forEach(function showChunkAtIndex(chunkIndex) {
-    var chunk = self.chunksNeedsUpdate[chunkIndex]
-    self.emit('dirtyChunkUpdate', chunk)
-    self.showChunk(chunk)
-  })
-  this.chunksNeedsUpdate = {}
-}
-
-Game.prototype.loadPendingChunks = function(count) {
-  var pendingChunks = this.pendingChunks
-
-  if (!this.asyncChunkGeneration) {
-    count = pendingChunks.length
-  } else {
-    count = count || (pendingChunks.length * 0.1)
-    count = Math.max(1, Math.min(count, pendingChunks.length))
-  }
-
-  for (var i = 0; i < count; i += 1) {
-    var chunkPos = pendingChunks[i].split('|')
-    var chunk = this.voxels.generateChunk(chunkPos[0]|0, chunkPos[1]|0, chunkPos[2]|0)
-
-    if (process.browser) this.showChunk(chunk)
-  }
-
-  if (count) pendingChunks.splice(0, count)
-}
-
-Game.prototype.getChunkAtPosition = function(pos) {
-  var chunkID = this.voxels.chunkAtPosition(pos).join('|')
-  var chunk = this.voxels.chunks[chunkID]
-  return chunk
-}
-
-Game.prototype.showChunk = function(chunk) {
-  var chunkIndex = chunk.position.join('|')
-  var bounds = this.voxels.getBounds.apply(this.voxels, chunk.position)
-  var scale = new THREE.Vector3(1, 1, 1)
-  var mesh = voxelMesh(chunk, this.mesher, scale, this.THREE)
-  this.voxels.chunks[chunkIndex] = chunk
-  if (this.voxels.meshes[chunkIndex]) this.scene.remove(this.voxels.meshes[chunkIndex][this.meshType])
-  this.voxels.meshes[chunkIndex] = mesh
-  if (process.browser) {
-    if (this.meshType === 'wireMesh') mesh.createWireMesh()
-    else mesh.createSurfaceMesh(this.materials.material)
-    this.materials.paint(mesh)
-  }
-  mesh.setPosition(bounds[0][0], bounds[0][1], bounds[0][2])
-  mesh.addToScene(this.scene)
-  this.emit('renderChunk', chunk)
-  return mesh
-}
-
-// # Debugging methods
-
-Game.prototype.addMarker = function(position) {
-  var geometry = new THREE.SphereGeometry( 0.5, 10, 10 )
-  var material = new THREE.MeshPhongMaterial( { color: 0xffffff, shading: THREE.FlatShading } )
-  var mesh = new THREE.Mesh( geometry, material )
-  mesh.position.copy(position)
-  this.scene.add(mesh)
-}
-
-Game.prototype.addAABBMarker = function(aabb, color) {
-  var geometry = new THREE.CubeGeometry(aabb.width(), aabb.height(), aabb.depth())
-  var material = new THREE.MeshBasicMaterial({ color: color || 0xffffff, wireframe: true, transparent: true, opacity: 0.5, side: THREE.DoubleSide })
-  var mesh = new THREE.Mesh(geometry, material)
-  mesh.position.set(aabb.x0() + aabb.width() / 2, aabb.y0() + aabb.height() / 2, aabb.z0() + aabb.depth() / 2)
-  this.scene.add(mesh)
-  return mesh
-}
-
-Game.prototype.addVoxelMarker = function(x, y, z, color) {
-  var bbox = aabb([x, y, z], [1, 1, 1])
-  return this.addAABBMarker(bbox, color)
-}
-
-Game.prototype.pin = pin
-
-// # Misc internal methods
-
-Game.prototype.onControlChange = function(gained, stream) {
-  this.paused = false
-
-  if (!gained && !this.optout) {
-    this.buttons.disable()
-    return
-  }
-
-  this.buttons.enable()
-  stream.pipe(this.controls.createWriteRotationStream())
-}
-
-Game.prototype.onControlOptOut = function() {
-  this.optout = true
-}
-
-Game.prototype.onFire = function(state) {
-  this.emit('fire', this.controlling, state)
-}
-
-Game.prototype.setInterval = tic.interval.bind(tic)
-Game.prototype.setTimeout = tic.timeout.bind(tic)
-
-Game.prototype.tick = function(delta) {
-  for(var i = 0, len = this.items.length; i < len; ++i) {
-    this.items[i].tick(delta)
-  }
-  
-  if (this.materials) this.materials.tick(delta)
-
-  if (this.pendingChunks.length) this.loadPendingChunks()
-  if (Object.keys(this.chunksNeedsUpdate).length > 0) this.updateDirtyChunks()
-  
-  tic.tick(delta)
-
-  this.emit('tick', delta)
-  
-  if (!this.controls) return
-  var playerPos = this.playerPosition()
-  this.spatial.emit('position', playerPos, playerPos)
-}
-
-Game.prototype.render = function(delta) {
-  this.view.render(this.scene)
-}
-
-Game.prototype.initializeTimer = function(rate) {
-  var self = this
-  var accum = 0
-  var now = 0
-  var last = null
-  var dt = 0
-  var wholeTick
-  
-  self.frameUpdated = true
-  self.interval = setInterval(timer, 0)
-  return self.interval
-  
-  function timer() {
-    if (self.paused) {
-      last = Date.now()
-      accum = 0
-      return
-    }
-    now = Date.now()
-    dt = now - (last || now)
-    last = now
-    accum += dt
-    if (accum < rate) return
-    wholeTick = ((accum / rate)|0)
-    if (wholeTick <= 0) return
-    wholeTick *= rate
-    
-    self.tick(wholeTick)
-    accum -= wholeTick
-    
-    self.frameUpdated = true
-  }
-}
-
-Game.prototype.initializeRendering = function(opts) {
-  var self = this
-
-  if (!opts.statsDisabled) self.addStats()
-
-  window.addEventListener('resize', self.onWindowResize.bind(self), false)
-
-  requestAnimationFrame(window).on('data', function(dt) {
-    self.emit('prerender', dt)
-    self.render(dt)
-    self.emit('postrender', dt)
-  })
-  if (typeof stats !== 'undefined') {
-    self.on('postrender', function() {
-      stats.update()
-    })
-  }
-}
-
-Game.prototype.initializeControls = function(opts) {
-  // player control
-  this.keybindings = opts.keybindings || this.defaultButtons
-  this.buttons = kb(document.body, this.keybindings)
-  this.buttons.disable()
-  this.optout = false
-  this.interact = interact(opts.interactElement || this.view.element)
-  this.interact
-      .on('attain', this.onControlChange.bind(this, true))
-      .on('release', this.onControlChange.bind(this, false))
-      .on('opt-out', this.onControlOptOut.bind(this))
-  this.hookupControls(this.buttons, opts)
-}
-
-Game.prototype.hookupControls = function(buttons, opts) {
-  opts = opts || {}
-  opts.controls = opts.controls || {}
-  opts.controls.onfire = this.onFire.bind(this)
-  this.controls = control(buttons, opts.controls)
-  this.items.push(this.controls)
-  this.controlling = null
-}
-
-Game.prototype.handleChunkGeneration = function() {
-  var self = this
-  this.voxels.on('missingChunk', function(chunkPos) {
-    self.pendingChunks.push(chunkPos.join('|'))
-  })
-  this.voxels.requestMissingChunks(this.worldOrigin)
-  this.loadPendingChunks(this.pendingChunks.length)
-}
-
-// teardown methods
-Game.prototype.destroy = function() {
-  clearInterval(this.timer)
-}
-
-})(require("__browserify_process"))
-},{"path":27,"events":3,"./lib/detector":36,"./lib/stats":37,"voxel-mesh":41,"voxel-raycast":42,"voxel":43,"voxel-control":44,"voxel-view":45,"raf":46,"inherits":47,"interact":48,"collide-3d-tilemap":49,"three":50,"aabb-3d":51,"spatial-events":52,"gl-matrix":53,"kb-controls":54,"pin-it":55,"voxel-physical":56,"voxel-texture":57,"voxel-region-change":58,"tic":59,"__browserify_process":2}],34:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 // TinyColor.js - <https://github.com/bgrins/TinyColor> - 2011 Brian Grinstead - v0.5
 
 (function(root) {
@@ -5475,229 +4176,7 @@ else {
 }
 
 })(this);
-},{}],42:[function(require,module,exports){
-"use strict"
-
-function traceRay_impl(
-  voxels,
-  px, py, pz,
-  dx, dy, dz,
-  max_d,
-  hit_pos,
-  hit_norm,
-  EPSILON) {
-  var t = 0.0
-    , nx=0, ny=0, nz=0
-    , ix, iy, iz
-    , fx, fy, fz
-    , ox, oy, oz
-    , ex, ey, ez
-    , b, step, min_step
-    , floor = Math.floor
-  //Step block-by-block along ray
-  while(t <= max_d) {
-    ox = px + t * dx
-    oy = py + t * dy
-    oz = pz + t * dz
-    ix = floor(ox)|0
-    iy = floor(oy)|0
-    iz = floor(oz)|0
-    fx = ox - ix
-    fy = oy - iy
-    fz = oz - iz
-    b = voxels.getBlock(ix, iy, iz)
-    if(b) {
-      if(hit_pos) {
-        //Clamp to face on hit
-        hit_pos[0] = fx < EPSILON ? +ix : (fx > 1.0-EPSILON ? ix+1.0-EPSILON : ox)
-        hit_pos[1] = fy < EPSILON ? +iy : (fy > 1.0-EPSILON ? iy+1.0-EPSILON : oy)
-        hit_pos[2] = fz < EPSILON ? +iz : (fz > 1.0-EPSILON ? iz+1.0-EPSILON : oz)
-      }
-      if(hit_norm) {
-        hit_norm[0] = nx
-        hit_norm[1] = ny
-        hit_norm[2] = nz
-      }
-      return b
-    }
-    //Check edge cases
-    min_step = +(EPSILON * (1.0 + t))
-    if(t > min_step) {
-      ex = nx < 0 ? fx <= min_step : fx >= 1.0 - min_step
-      ey = ny < 0 ? fy <= min_step : fy >= 1.0 - min_step
-      ez = nz < 0 ? fz <= min_step : fz >= 1.0 - min_step
-      if(ex && ey && ez) {
-        b = voxels.getBlock(ix+nx, iy+ny, iz) ||
-            voxels.getBlock(ix, iy+ny, iz+nz) ||
-            voxels.getBlock(ix+nx, iy, iz+nz)
-        if(b) {
-          if(hit_pos) {
-            hit_pos[0] = nx < 0 ? ix-EPSILON : ix + 1.0-EPSILON
-            hit_pos[1] = ny < 0 ? iy-EPSILON : iy + 1.0-EPSILON
-            hit_pos[2] = nz < 0 ? iz-EPSILON : iz + 1.0-EPSILON
-          }
-          if(hit_norm) {
-            hit_norm[0] = nx
-            hit_norm[1] = ny
-            hit_norm[2] = nz
-          }
-          return b
-        }
-      }
-      if(ex && (ey || ez)) {
-        b = voxels.getBlock(ix+nx, iy, iz)
-        if(b) {
-          if(hit_pos) {
-            hit_pos[0] = nx < 0 ? ix-EPSILON : ix + 1.0-EPSILON
-            hit_pos[1] = fy < EPSILON ? +iy : oy
-            hit_pos[2] = fz < EPSILON ? +iz : oz
-          }
-          if(hit_norm) {
-            hit_norm[0] = nx
-            hit_norm[1] = ny
-            hit_norm[2] = nz
-          }
-          return b
-        }
-      }
-      if(ey && (ex || ez)) {
-        b = voxels.getBlock(ix, iy+ny, iz)
-        if(b) {
-          if(hit_pos) {
-            hit_pos[0] = fx < EPSILON ? +ix : ox
-            hit_pos[1] = ny < 0 ? iy-EPSILON : iy + 1.0-EPSILON
-            hit_pos[2] = fz < EPSILON ? +iz : oz
-          }
-          if(hit_norm) {
-            hit_norm[0] = nx
-            hit_norm[1] = ny
-            hit_norm[2] = nz
-          }
-          return b
-        }
-      }
-      if(ez && (ex || ey)) {
-        b = voxels.getBlock(ix, iy, iz+nz)
-        if(b) {
-          if(hit_pos) {
-            hit_pos[0] = fx < EPSILON ? +ix : ox
-            hit_pos[1] = fy < EPSILON ? +iy : oy
-            hit_pos[2] = nz < 0 ? iz-EPSILON : iz + 1.0-EPSILON
-          }
-          if(hit_norm) {
-            hit_norm[0] = nx
-            hit_norm[1] = ny
-            hit_norm[2] = nz
-          }
-          return b
-        }
-      }
-    }
-    //Walk to next face of cube along ray
-    nx = ny = nz = 0
-    step = 2.0
-    if(dx < -EPSILON) {
-      var s = -fx/dx
-      nx = 1
-      step = s
-    }
-    if(dx > EPSILON) {
-      var s = (1.0-fx)/dx
-      nx = -1
-      step = s
-    }
-    if(dy < -EPSILON) {
-      var s = -fy/dy
-      if(s < step-min_step) {
-        nx = 0
-        ny = 1
-        step = s
-      } else if(s < step+min_step) {
-        ny = 1
-      }
-    }
-    if(dy > EPSILON) {
-      var s = (1.0-fy)/dy
-      if(s < step-min_step) {
-        nx = 0
-        ny = -1
-        step = s
-      } else if(s < step+min_step) {
-        ny = -1
-      }
-    }
-    if(dz < -EPSILON) {
-      var s = -fz/dz
-      if(s < step-min_step) {
-        nx = ny = 0
-        nz = 1
-        step = s
-      } else if(s < step+min_step) {
-        nz = 1
-      }
-    }
-    if(dz > EPSILON) {
-      var s = (1.0-fz)/dz
-      if(s < step-min_step) {
-        nx = ny = 0
-        nz = -1
-        step = s
-      } else if(s < step+min_step) {
-        nz = -1
-      }
-    }
-    if(step > max_d - t) {
-      step = max_d - t - min_step
-    }
-    if(step < min_step) {
-      step = min_step
-    }
-    t += step
-  }
-  if(hit_pos) {
-    hit_pos[0] = ox;
-    hit_pos[1] = oy;
-    hit_pos[2] = oz;
-  }
-  if(hit_norm) {
-    hit_norm[0] = hit_norm[1] = hit_norm[2] = 0;
-  }
-  return 0
-}
-
-function traceRay(voxels, origin, direction, max_d, hit_pos, hit_norm, EPSILON) {
-  var px = +origin[0]
-    , py = +origin[1]
-    , pz = +origin[2]
-    , dx = +direction[0]
-    , dy = +direction[1]
-    , dz = +direction[2]
-    , ds = Math.sqrt(dx*dx + dy*dy + dz*dz)
-  if(typeof(EPSILON) === "undefined") {
-    EPSILON = 1e-8
-  }
-  if(ds < EPSILON) {
-    if(hit_pos) {
-      hit_pos[0] = hit_pos[1] = hit_pos[2]
-    }
-    if(hit_norm) {
-      hit_norm[0] = hit_norm[1] = hit_norm[2]
-    }
-    return 0;
-  }
-  dx /= ds
-  dy /= ds
-  dz /= ds
-  if(typeof(max_d) === "undefined") {
-    max_d = 64.0
-  } else {
-    max_d = +max_d
-  }
-  return traceRay_impl(voxels, px, py, pz, dx, dy, dz, max_d, hit_pos, hit_norm, EPSILON)
-}
-
-module.exports = traceRay
-},{}],40:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 (function(){var self = self || {};/**
  * @author mrdoob / http://mrdoob.com/
  * @author Larry Battle / http://bateru.com/news
@@ -42270,7 +40749,7 @@ if (typeof exports !== 'undefined') {
 }
 
 })()
-},{}],44:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 module.exports = control
 
 var Stream = require('stream').Stream
@@ -42553,7 +41032,229 @@ function clamp(value, to) {
   return isFinite(to) ? max(min(value, to), -to) : value
 }
 
-},{"stream":60}],45:[function(require,module,exports){
+},{"stream":42}],43:[function(require,module,exports){
+"use strict"
+
+function traceRay_impl(
+  voxels,
+  px, py, pz,
+  dx, dy, dz,
+  max_d,
+  hit_pos,
+  hit_norm,
+  EPSILON) {
+  var t = 0.0
+    , nx=0, ny=0, nz=0
+    , ix, iy, iz
+    , fx, fy, fz
+    , ox, oy, oz
+    , ex, ey, ez
+    , b, step, min_step
+    , floor = Math.floor
+  //Step block-by-block along ray
+  while(t <= max_d) {
+    ox = px + t * dx
+    oy = py + t * dy
+    oz = pz + t * dz
+    ix = floor(ox)|0
+    iy = floor(oy)|0
+    iz = floor(oz)|0
+    fx = ox - ix
+    fy = oy - iy
+    fz = oz - iz
+    b = voxels.getBlock(ix, iy, iz)
+    if(b) {
+      if(hit_pos) {
+        //Clamp to face on hit
+        hit_pos[0] = fx < EPSILON ? +ix : (fx > 1.0-EPSILON ? ix+1.0-EPSILON : ox)
+        hit_pos[1] = fy < EPSILON ? +iy : (fy > 1.0-EPSILON ? iy+1.0-EPSILON : oy)
+        hit_pos[2] = fz < EPSILON ? +iz : (fz > 1.0-EPSILON ? iz+1.0-EPSILON : oz)
+      }
+      if(hit_norm) {
+        hit_norm[0] = nx
+        hit_norm[1] = ny
+        hit_norm[2] = nz
+      }
+      return b
+    }
+    //Check edge cases
+    min_step = +(EPSILON * (1.0 + t))
+    if(t > min_step) {
+      ex = nx < 0 ? fx <= min_step : fx >= 1.0 - min_step
+      ey = ny < 0 ? fy <= min_step : fy >= 1.0 - min_step
+      ez = nz < 0 ? fz <= min_step : fz >= 1.0 - min_step
+      if(ex && ey && ez) {
+        b = voxels.getBlock(ix+nx, iy+ny, iz) ||
+            voxels.getBlock(ix, iy+ny, iz+nz) ||
+            voxels.getBlock(ix+nx, iy, iz+nz)
+        if(b) {
+          if(hit_pos) {
+            hit_pos[0] = nx < 0 ? ix-EPSILON : ix + 1.0-EPSILON
+            hit_pos[1] = ny < 0 ? iy-EPSILON : iy + 1.0-EPSILON
+            hit_pos[2] = nz < 0 ? iz-EPSILON : iz + 1.0-EPSILON
+          }
+          if(hit_norm) {
+            hit_norm[0] = nx
+            hit_norm[1] = ny
+            hit_norm[2] = nz
+          }
+          return b
+        }
+      }
+      if(ex && (ey || ez)) {
+        b = voxels.getBlock(ix+nx, iy, iz)
+        if(b) {
+          if(hit_pos) {
+            hit_pos[0] = nx < 0 ? ix-EPSILON : ix + 1.0-EPSILON
+            hit_pos[1] = fy < EPSILON ? +iy : oy
+            hit_pos[2] = fz < EPSILON ? +iz : oz
+          }
+          if(hit_norm) {
+            hit_norm[0] = nx
+            hit_norm[1] = ny
+            hit_norm[2] = nz
+          }
+          return b
+        }
+      }
+      if(ey && (ex || ez)) {
+        b = voxels.getBlock(ix, iy+ny, iz)
+        if(b) {
+          if(hit_pos) {
+            hit_pos[0] = fx < EPSILON ? +ix : ox
+            hit_pos[1] = ny < 0 ? iy-EPSILON : iy + 1.0-EPSILON
+            hit_pos[2] = fz < EPSILON ? +iz : oz
+          }
+          if(hit_norm) {
+            hit_norm[0] = nx
+            hit_norm[1] = ny
+            hit_norm[2] = nz
+          }
+          return b
+        }
+      }
+      if(ez && (ex || ey)) {
+        b = voxels.getBlock(ix, iy, iz+nz)
+        if(b) {
+          if(hit_pos) {
+            hit_pos[0] = fx < EPSILON ? +ix : ox
+            hit_pos[1] = fy < EPSILON ? +iy : oy
+            hit_pos[2] = nz < 0 ? iz-EPSILON : iz + 1.0-EPSILON
+          }
+          if(hit_norm) {
+            hit_norm[0] = nx
+            hit_norm[1] = ny
+            hit_norm[2] = nz
+          }
+          return b
+        }
+      }
+    }
+    //Walk to next face of cube along ray
+    nx = ny = nz = 0
+    step = 2.0
+    if(dx < -EPSILON) {
+      var s = -fx/dx
+      nx = 1
+      step = s
+    }
+    if(dx > EPSILON) {
+      var s = (1.0-fx)/dx
+      nx = -1
+      step = s
+    }
+    if(dy < -EPSILON) {
+      var s = -fy/dy
+      if(s < step-min_step) {
+        nx = 0
+        ny = 1
+        step = s
+      } else if(s < step+min_step) {
+        ny = 1
+      }
+    }
+    if(dy > EPSILON) {
+      var s = (1.0-fy)/dy
+      if(s < step-min_step) {
+        nx = 0
+        ny = -1
+        step = s
+      } else if(s < step+min_step) {
+        ny = -1
+      }
+    }
+    if(dz < -EPSILON) {
+      var s = -fz/dz
+      if(s < step-min_step) {
+        nx = ny = 0
+        nz = 1
+        step = s
+      } else if(s < step+min_step) {
+        nz = 1
+      }
+    }
+    if(dz > EPSILON) {
+      var s = (1.0-fz)/dz
+      if(s < step-min_step) {
+        nx = ny = 0
+        nz = -1
+        step = s
+      } else if(s < step+min_step) {
+        nz = -1
+      }
+    }
+    if(step > max_d - t) {
+      step = max_d - t - min_step
+    }
+    if(step < min_step) {
+      step = min_step
+    }
+    t += step
+  }
+  if(hit_pos) {
+    hit_pos[0] = ox;
+    hit_pos[1] = oy;
+    hit_pos[2] = oz;
+  }
+  if(hit_norm) {
+    hit_norm[0] = hit_norm[1] = hit_norm[2] = 0;
+  }
+  return 0
+}
+
+function traceRay(voxels, origin, direction, max_d, hit_pos, hit_norm, EPSILON) {
+  var px = +origin[0]
+    , py = +origin[1]
+    , pz = +origin[2]
+    , dx = +direction[0]
+    , dy = +direction[1]
+    , dz = +direction[2]
+    , ds = Math.sqrt(dx*dx + dy*dy + dz*dz)
+  if(typeof(EPSILON) === "undefined") {
+    EPSILON = 1e-8
+  }
+  if(ds < EPSILON) {
+    if(hit_pos) {
+      hit_pos[0] = hit_pos[1] = hit_pos[2]
+    }
+    if(hit_norm) {
+      hit_norm[0] = hit_norm[1] = hit_norm[2]
+    }
+    return 0;
+  }
+  dx /= ds
+  dy /= ds
+  dz /= ds
+  if(typeof(max_d) === "undefined") {
+    max_d = 64.0
+  } else {
+    max_d = +max_d
+  }
+  return traceRay_impl(voxels, px, py, pz, dx, dy, dz, max_d, hit_pos, hit_norm, EPSILON)
+}
+
+module.exports = traceRay
+},{}],44:[function(require,module,exports){
 (function(process){var THREE, temporaryPosition, temporaryVector
 
 module.exports = function(three, opts) {
@@ -42642,38 +41343,7 @@ View.prototype.appendTo = function(element) {
   this.resizeWindow(this.width,this.height)
 }
 })(require("__browserify_process"))
-},{"__browserify_process":2}],47:[function(require,module,exports){
-module.exports = inherits
-
-function inherits (c, p, proto) {
-  proto = proto || {}
-  var e = {}
-  ;[c.prototype, proto].forEach(function (s) {
-    Object.getOwnPropertyNames(s).forEach(function (k) {
-      e[k] = Object.getOwnPropertyDescriptor(s, k)
-    })
-  })
-  c.prototype = Object.create(p.prototype, e)
-  c.super = p
-}
-
-//function Child () {
-//  Child.super.call(this)
-//  console.error([this
-//                ,this.constructor
-//                ,this.constructor === Child
-//                ,this.constructor.super === Parent
-//                ,Object.getPrototypeOf(this) === Child.prototype
-//                ,Object.getPrototypeOf(Object.getPrototypeOf(this))
-//                 === Parent.prototype
-//                ,this instanceof Child
-//                ,this instanceof Parent])
-//}
-//function Parent () {}
-//inherits(Child, Parent)
-//new Child
-
-},{}],46:[function(require,module,exports){
+},{"__browserify_process":4}],45:[function(require,module,exports){
 (function(){module.exports = raf
 
 var EE = require('events').EventEmitter
@@ -42721,7 +41391,38 @@ raf.polyfill = _raf
 raf.now = function() { return Date.now() }
 
 })()
-},{"events":3}],49:[function(require,module,exports){
+},{"events":3}],46:[function(require,module,exports){
+module.exports = inherits
+
+function inherits (c, p, proto) {
+  proto = proto || {}
+  var e = {}
+  ;[c.prototype, proto].forEach(function (s) {
+    Object.getOwnPropertyNames(s).forEach(function (k) {
+      e[k] = Object.getOwnPropertyDescriptor(s, k)
+    })
+  })
+  c.prototype = Object.create(p.prototype, e)
+  c.super = p
+}
+
+//function Child () {
+//  Child.super.call(this)
+//  console.error([this
+//                ,this.constructor
+//                ,this.constructor === Child
+//                ,this.constructor.super === Parent
+//                ,Object.getPrototypeOf(this) === Child.prototype
+//                ,Object.getPrototypeOf(Object.getPrototypeOf(this))
+//                 === Parent.prototype
+//                ,this instanceof Child
+//                ,this instanceof Parent])
+//}
+//function Parent () {}
+//inherits(Child, Parent)
+//new Child
+
+},{}],47:[function(require,module,exports){
 module.exports = function(field, tilesize, dimensions, offset) {
   dimensions = dimensions || [ 
     Math.sqrt(field.length) >> 0
@@ -42810,7 +41511,7 @@ module.exports = function(field, tilesize, dimensions, offset) {
   }  
 }
 
-},{}],53:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 (function(){/**
  * @fileoverview gl-matrix - High performance matrix and vector operations
  * @author Brandon Jones
@@ -45884,89 +44585,7 @@ if(typeof(exports) !== 'undefined') {
 })();
 
 })()
-},{}],55:[function(require,module,exports){
-module.exports = pin
-
-var pins = {}
-  , stack_holder = {}
-  , pin_holder
-
-function make_pin_for(name, obj) {
-  var container = document.createElement('div')
-    , header = document.createElement('h4')
-    , body = document.createElement('pre')
-
-  container.style.background = 'white'
-  container.style.marginBottom = '4px'
-  container.appendChild(header)
-  container.appendChild(body)
-  header.textContents = header.innerText = obj && obj.repr ? obj.repr() : name
-  body.style.padding = '8px'
-
-
-  if(!pin_holder) {
-    pin_holder = document.createElement('div')
-    pin_holder.style.position = 'absolute'
-    pin_holder.style.top =
-    pin_holder.style.right = '4px'
-
-    document.body.appendChild(pin_holder)
-  }
-
-  pin_holder.appendChild(container)
-
-  return (pins[name] = pins[name] || []).push({body: body, last: -Infinity, for_object: obj}), pins[name]
-}
-
-function update_pin(item, into, retain, depth) {
-  if(!retain) into.innerHTML = ''
-  if(depth > 1) return
-  depth = depth || 0
-
-  switch(typeof item) {
-    case 'number': into.innerText += item.toFixed(3); break
-    case 'string': into.innerText += '"'+item+'"'; break
-    case 'undefined':
-    case 'object':
-      if(item) {
-        for(var key in item) if(item.hasOwnProperty(key)) {
-          into.innerText += key +':'
-          update_pin(item[key], into, true, depth+1)
-          into.innerText += '\n'
-        } 
-        break
-      }
-    case 'boolean': into.innerText += ''+item; break
-  }  
-}
-
-function pin(item, every, obj, name) {
-  if(!name) Error.captureStackTrace(stack_holder)
-  var location = name || stack_holder.stack.split('\n').slice(2)[0].replace(/^\s+at /g, '')
-    , target = pins[location] || make_pin_for(location, obj)
-    , now = Date.now()
-    , every = every || 0
-
-  if(arguments.length < 3) target = target[0]
-  else {
-    for(var i = 0, len = target.length; i < len; ++i) {
-    if(target[i].for_object === obj) {
-      target = target[i]
-      break   
-    }
-  }
-    if(i === len) {
-      pins[location].push(target = make_pin_for(location, obj))
-    }
-  }
-
-  if(now - target.last > every) {
-    update_pin(item, target.body)
-    target.last = now 
-  }
-}
-
-},{}],50:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 (function(process){
 var window = window || {};
 var self = self || {};
@@ -81999,42 +80618,89 @@ if (typeof exports !== 'undefined') {
 }
 
 })(require("__browserify_process"))
-},{"__browserify_process":2}],8:[function(require,module,exports){
-SimModule     = require('./SimModule.js')
-var player    = require('voxel-player')
-var fly     = require('voxel-fly')
-var walk    = require('voxel-walk')
-var highlight   = require('voxel-highlight')
+},{"__browserify_process":4}],50:[function(require,module,exports){
+module.exports = pin
 
-function VoxelAvatarModule() {
+var pins = {}
+  , stack_holder = {}
+  , pin_holder
 
- if (!(this instanceof VoxelAvatarModule)) return new VoxelAvatarModule()
-    console.log("new VoxelAvatarModule()") 
+function make_pin_for(name, obj) {
+  var container = document.createElement('div')
+    , header = document.createElement('h4')
+    , body = document.createElement('pre')
+
+  container.style.background = 'white'
+  container.style.marginBottom = '4px'
+  container.appendChild(header)
+  container.appendChild(body)
+  header.textContents = header.innerText = obj && obj.repr ? obj.repr() : name
+  body.style.padding = '8px'
 
 
+  if(!pin_holder) {
+    pin_holder = document.createElement('div')
+    pin_holder.style.position = 'absolute'
+    pin_holder.style.top =
+    pin_holder.style.right = '4px'
+
+    document.body.appendChild(pin_holder)
+  }
+
+  pin_holder.appendChild(container)
+
+  return (pins[name] = pins[name] || []).push({body: body, last: -Infinity, for_object: obj}), pins[name]
 }
 
-util.inherits(VoxelAvatarModule,SimModule)
+function update_pin(item, into, retain, depth) {
+  if(!retain) into.innerHTML = ''
+  if(depth > 1) return
+  depth = depth || 0
 
-VoxelAvatarModule.prototype.onAttach = function(opts){
-
-
-  var createPlayer = player(this.engine.game)
-
-  // create the player from a minecraft skin file and tell the
-  // game to use it as the main player
-  var avatar = createPlayer(opts.playerSkin || 'player.png')
-  avatar.possess()
-  avatar.yaw.position.set(-10, 14, -10)
-
-  var makeFly = fly(this.engine.game)
-  var target  = this.engine.game.controls.target()
-  this.engine.game.flyer  = makeFly(target)
-
+  switch(typeof item) {
+    case 'number': into.innerText += item.toFixed(3); break
+    case 'string': into.innerText += '"'+item+'"'; break
+    case 'undefined':
+    case 'object':
+      if(item) {
+        for(var key in item) if(item.hasOwnProperty(key)) {
+          into.innerText += key +':'
+          update_pin(item[key], into, true, depth+1)
+          into.innerText += '\n'
+        } 
+        break
+      }
+    case 'boolean': into.innerText += ''+item; break
+  }  
 }
 
-module.exports = VoxelAvatarModule
-},{"./SimModule.js":19,"voxel-player":61,"voxel-fly":62,"voxel-walk":63,"voxel-highlight":64}],7:[function(require,module,exports){
+function pin(item, every, obj, name) {
+  if(!name) Error.captureStackTrace(stack_holder)
+  var location = name || stack_holder.stack.split('\n').slice(2)[0].replace(/^\s+at /g, '')
+    , target = pins[location] || make_pin_for(location, obj)
+    , now = Date.now()
+    , every = every || 0
+
+  if(arguments.length < 3) target = target[0]
+  else {
+    for(var i = 0, len = target.length; i < len; ++i) {
+    if(target[i].for_object === obj) {
+      target = target[i]
+      break   
+    }
+  }
+    if(i === len) {
+      pins[location].push(target = make_pin_for(location, obj))
+    }
+  }
+
+  if(now - target.last > every) {
+    update_pin(item, target.body)
+    target.last = now 
+  }
+}
+
+},{}],6:[function(require,module,exports){
 util      		= require('util')
 toolbar    		= require('toolbar')
 EventEmitter  = require('events').EventEmitter
@@ -82121,7 +80787,759 @@ UserInputModule.prototype.spray = function(n)
 
 
 module.exports 	= UserInputModule
-},{"util":4,"events":3,"./SimModule.js":19,"./UserInputView.js":35,"toolbar":65}],59:[function(require,module,exports){
+},{"./SimModule.js":24,"./UserInputView.js":36,"events":3,"toolbar":51,"util":2}],8:[function(require,module,exports){
+SimModule     = require('./SimModule.js')
+var player    = require('voxel-player')
+var fly     = require('voxel-fly')
+var walk    = require('voxel-walk')
+var highlight   = require('voxel-highlight')
+
+function VoxelAvatarModule() {
+
+ if (!(this instanceof VoxelAvatarModule)) return new VoxelAvatarModule()
+    console.log("new VoxelAvatarModule()") 
+
+
+}
+
+util.inherits(VoxelAvatarModule,SimModule)
+
+VoxelAvatarModule.prototype.onAttach = function(opts){
+
+
+  var createPlayer = player(this.engine.game)
+
+  // create the player from a minecraft skin file and tell the
+  // game to use it as the main player
+  var avatar = createPlayer(opts.playerSkin || 'player.png')
+  avatar.possess()
+  avatar.yaw.position.set(-10, 14, -10)
+
+  var makeFly = fly(this.engine.game)
+  var target  = this.engine.game.controls.target()
+  this.engine.game.flyer  = makeFly(target)
+
+}
+
+module.exports = VoxelAvatarModule
+},{"./SimModule.js":24,"voxel-fly":54,"voxel-highlight":53,"voxel-player":52,"voxel-walk":55}],17:[function(require,module,exports){
+(function(process){var voxel = require('voxel')
+var voxelMesh = require('voxel-mesh')
+var ray = require('voxel-raycast')
+var texture = require('voxel-texture')
+var control = require('voxel-control')
+var voxelView = require('voxel-view')
+var THREE = require('three')
+var Stats = require('./lib/stats')
+var Detector = require('./lib/detector')
+var inherits = require('inherits')
+var path = require('path')
+var EventEmitter = require('events').EventEmitter
+if (process.browser) var interact = require('interact')
+var requestAnimationFrame = require('raf')
+var collisions = require('collide-3d-tilemap')
+var aabb = require('aabb-3d')
+var glMatrix = require('gl-matrix')
+var vector = glMatrix.vec3
+var SpatialEventEmitter = require('spatial-events')
+var regionChange = require('voxel-region-change')
+var kb = require('kb-controls')
+var physical = require('voxel-physical')
+var pin = require('pin-it')
+var tic = require('tic')()
+
+module.exports = Game
+
+function Game(opts) {
+  if (!(this instanceof Game)) return new Game(opts)
+  var self = this
+  if (!opts) opts = {}
+  if (process.browser && this.notCapable(opts)) return
+  
+  if (!('generateChunks' in opts)) opts.generateChunks = true
+  this.generateChunks = opts.generateChunks
+  this.setConfigurablePositions(opts)
+  this.configureChunkLoading(opts)
+  this.setDimensions(opts)
+  this.THREE = THREE
+  this.vector = vector
+  this.glMatrix = glMatrix
+  this.arrayType = opts.arrayType || Uint8Array
+  this.cubeSize = 1 // backwards compat
+  this.chunkSize = opts.chunkSize || 32
+  
+  // chunkDistance and removeDistance should not be set to the same thing
+  // as it causes lag when you go back and forth on a chunk boundary
+  this.chunkDistance = opts.chunkDistance || 2
+  this.removeDistance = opts.removeDistance || this.chunkDistance + 1
+  
+  this.playerHeight = opts.playerHeight || 1.62
+  this.meshType = opts.meshType || 'surfaceMesh'
+  this.mesher = opts.mesher || voxel.meshers.culled
+  this.materialType = opts.materialType || THREE.MeshLambertMaterial
+  this.materialParams = opts.materialParams || {}
+  this.items = []
+  this.voxels = voxel(this)
+  this.scene = new THREE.Scene()
+  this.view = opts.view || new voxelView(THREE, { width: this.width, height: this.height })
+  this.view.bindToScene(this.scene)
+  this.camera = this.view.getCamera()
+  if (!opts.lightsDisabled) this.addLights(this.scene)
+  
+  this.skyColor = opts.skyColor || 0xBFD1E5
+  this.fogScale = opts.fogScale || 32
+  if (!opts.fogDisabled) this.scene.fog = new THREE.Fog( this.skyColor, 0.00025, this.worldWidth() * this.fogScale )
+  
+  this.collideVoxels = collisions(
+    this.getBlock.bind(this),
+    1,
+    [Infinity, Infinity, Infinity],
+    [-Infinity, -Infinity, -Infinity]
+  )
+  
+  this.timer = this.initializeTimer((opts.tickFPS || 16))
+  this.paused = false
+
+  this.spatial = new SpatialEventEmitter
+  this.region = regionChange(this.spatial, aabb([0, 0, 0], [1, 1, 1]), this.chunkSize)
+  this.voxelRegion = regionChange(this.spatial, 1)
+  this.chunkRegion = regionChange(this.spatial, this.chunkSize)
+  this.asyncChunkGeneration = false
+
+  // contains chunks that has had an update this tick. Will be generated right before redrawing the frame
+  this.chunksNeedsUpdate = {}
+  // contains new chunks yet to be generated. Handled by game.loadPendingChunks
+  this.pendingChunks = []
+
+  this.materials = texture({
+    game: this,
+    texturePath: opts.texturePath || './textures/',
+    materialType: opts.materialType || THREE.MeshLambertMaterial,
+    materialParams: opts.materialParams || {},
+    materialFlatColor: opts.materialFlatColor === true
+  })
+
+  this.materialNames = opts.materials || [['grass', 'dirt', 'grass_dirt'], 'brick', 'dirt']
+  
+  self.chunkRegion.on('change', function(newChunk) {
+    self.removeFarChunks()
+  })
+
+  if (process.browser) this.materials.load(this.materialNames)
+
+  if (this.generateChunks) this.handleChunkGeneration()
+
+  // client side only after this point
+  if (!process.browser) return
+  
+  this.paused = true
+  this.initializeRendering(opts)
+  
+  for (var chunkIndex in this.voxels.chunks) this.showChunk(this.voxels.chunks[chunkIndex])
+
+  setTimeout(function() {
+    self.asyncChunkGeneration = 'asyncChunkGeneration' in opts ? opts.asyncChunkGeneration : true
+  }, 2000)
+
+  this.initializeControls(opts)
+}
+
+inherits(Game, EventEmitter)
+
+// # External API
+
+Game.prototype.voxelPosition = function(gamePosition) {
+  var _ = Math.floor
+  var p = gamePosition
+  var v = []
+  v[0] = _(p[0])
+  v[1] = _(p[1])
+  v[2] = _(p[2])
+  return v
+}
+
+Game.prototype.cameraPosition = function() {
+  return this.view.cameraPosition()
+}
+
+Game.prototype.cameraVector = function() {
+  return this.view.cameraVector()
+}
+
+Game.prototype.makePhysical = function(target, envelope, blocksCreation) {
+  var vel = this.terminalVelocity
+  envelope = envelope || [2/3, 1.5, 2/3]
+  var obj = physical(target, this.potentialCollisionSet(), envelope, {x: vel[0], y: vel[1], z: vel[2]})
+  obj.blocksCreation = !!blocksCreation
+  return obj
+}
+
+Game.prototype.addItem = function(item) {
+  if (!item.tick) {
+    var newItem = physical(
+      item.mesh,
+      this.potentialCollisionSet(),
+      [item.size, item.size, item.size]
+    )
+    
+    if (item.velocity) {
+      newItem.velocity.copy(item.velocity)
+      newItem.subjectTo(this.gravity)
+    }
+    
+    newItem.repr = function() { return 'debris' }
+    newItem.mesh = item.mesh
+    newItem.blocksCreation = item.blocksCreation
+    
+    item = newItem
+  }
+  
+  this.items.push(item)
+  if (item.mesh) this.scene.add(item.mesh)
+  return this.items[this.items.length - 1]
+}
+
+Game.prototype.removeItem = function(item) {
+  var ix = this.items.indexOf(item)
+  if (ix < 0) return
+  this.items.splice(ix, 1)
+  if (item.mesh) this.scene.remove(item.mesh)
+}
+
+// only intersects voxels, not items (for now)
+Game.prototype.raycast = // backwards compat
+Game.prototype.raycastVoxels = function(start, direction, maxDistance, epilson) {
+  if (!start) return this.raycastVoxels(this.cameraPosition(), this.cameraVector(), 10)
+  
+  var hitNormal = [0, 0, 0]
+  var hitPosition = [0, 0, 0]
+  var cp = start || this.cameraPosition()
+  var cv = direction || this.cameraVector()
+  var hitBlock = ray(this, cp, cv, maxDistance || 10.0, hitPosition, hitNormal, epilson || this.epilson)
+  if (hitBlock <= 0) return false
+  var adjacentPosition = [0, 0, 0]
+  var voxelPosition = this.voxelPosition(hitPosition)
+  vector.add(adjacentPosition, voxelPosition, hitNormal)
+  
+  return {
+    position: hitPosition,
+    voxel: voxelPosition,
+    direction: direction,
+    value: hitBlock,
+    normal: hitNormal,
+    adjacent: adjacentPosition
+  }
+}
+
+Game.prototype.canCreateBlock = function(pos) {
+  pos = this.parseVectorArguments(arguments)
+  var floored = pos.map(function(i) { return Math.floor(i) })
+  var bbox = aabb(floored, [1, 1, 1])
+  
+  for (var i = 0, len = this.items.length; i < len; ++i) {
+    var item = this.items[i]
+    var itemInTheWay = item.blocksCreation && item.aabb && bbox.intersects(item.aabb())
+    if (itemInTheWay) return false
+  }
+
+  return true
+}
+
+Game.prototype.createBlock = function(pos, val) {
+  if (typeof val === 'string') val = this.materials.find(val)
+  if (!this.canCreateBlock(pos)) return false
+  this.setBlock(pos, val)
+  return true
+}
+
+Game.prototype.setBlock = function(pos, val) {
+  if (typeof val === 'string') val = this.materials.find(val)
+  var old = this.voxels.voxelAtPosition(pos, val)
+  var c = this.voxels.chunkAtPosition(pos)
+  var chunk = this.voxels.chunks[c.join('|')]
+  if (!chunk) return// todo - does self.emit('missingChunk', c.join('|')) make sense here?
+  this.addChunkToNextUpdate(chunk)
+  this.spatial.emit('change-block', pos, old, val)
+  this.emit('setBlock', pos, val, old)
+}
+
+Game.prototype.getBlock = function(pos) {
+  pos = this.parseVectorArguments(arguments)
+  return this.voxels.voxelAtPosition(pos)
+}
+
+Game.prototype.blockPosition = function(pos) {
+  pos = this.parseVectorArguments(arguments)
+  var ox = Math.floor(pos[0])
+  var oy = Math.floor(pos[1])
+  var oz = Math.floor(pos[2])
+  return [ox, oy, oz]
+}
+
+Game.prototype.blocks = function(low, high, iterator) {
+  var l = low, h = high
+  var d = [ h[0]-l[0], h[1]-l[1], h[2]-l[2] ]
+  if (!iterator) var voxels = new this.arrayType(d[0]*d[1]*d[2])
+  var i = 0
+  for(var z=l[2]; z<h[2]; ++z)
+  for(var y=l[1]; y<h[1]; ++y)
+  for(var x=l[0]; x<h[0]; ++x, ++i) {
+    if (iterator) iterator(x, y, z, i)
+    else voxels[i] = this.voxels.voxelAtPosition([x, y, z])
+  }
+  if (!iterator) return {voxels: voxels, dims: d}
+}
+
+// backwards compat
+Game.prototype.createAdjacent = function(hit, val) {
+  this.createBlock(hit.adjacent, val)
+}
+
+Game.prototype.appendTo = function (element) {
+  this.view.appendTo(element)
+}
+
+// # Defaults/options parsing
+
+Game.prototype.gravity = [0, -0.0000036, 0]
+Game.prototype.friction = 0.3
+Game.prototype.epilson = 1e-8
+Game.prototype.terminalVelocity = [0.9, 0.1, 0.9]
+
+Game.prototype.defaultButtons = {
+  'W': 'forward'
+, 'A': 'left'
+, 'S': 'backward'
+, 'D': 'right'
+, '<up>': 'forward'
+, '<left>': 'left'
+, '<down>': 'backward'
+, '<right>': 'right'
+, '<mouse 1>': 'fire'
+, '<mouse 3>': 'firealt'
+, '<space>': 'jump'
+, '<shift>': 'crouch'
+, '<control>': 'alt'
+}
+
+// used in methods that have identity function(pos) {}
+Game.prototype.parseVectorArguments = function(args) {
+  if (!args) return false
+  if (args[0] instanceof Array) return args[0]
+  return [args[0], args[1], args[2]]
+}
+
+Game.prototype.setConfigurablePositions = function(opts) {
+  var sp = opts.startingPosition
+  this.startingPosition = sp || [35, 1024, 35]
+  var wo = opts.worldOrigin
+  this.worldOrigin = wo || [0, 0, 0]
+}
+
+Game.prototype.setDimensions = function(opts) {
+  if (opts.container) this.container = opts.container
+  if (opts.container && opts.container.clientHeight) {
+    this.height = opts.container.clientHeight
+  } else {
+    this.height = typeof window === "undefined" ? 1 : window.innerHeight
+  }
+  if (opts.container && opts.container.clientWidth) {
+    this.width = opts.container.clientWidth
+  } else {
+    this.width = typeof window === "undefined" ? 1 : window.innerWidth
+  }
+}
+
+Game.prototype.notCapable = function(opts) {
+  var self = this
+  if( !Detector().webgl ) {
+    this.view = {
+      appendTo: function(el) {
+        el.appendChild(self.notCapableMessage())
+      }
+    }
+    return true
+  }
+  return false
+}
+
+Game.prototype.notCapableMessage = function() {
+  var wrapper = document.createElement('div')
+  wrapper.className = "errorMessage"
+  var a = document.createElement('a')
+  a.title = "You need WebGL and Pointer Lock (Chrome 23/Firefox 14) to play this game. Click here for more information."
+  a.innerHTML = a.title
+  a.href = "http://get.webgl.org"
+  wrapper.appendChild(a)
+  return wrapper
+}
+
+Game.prototype.onWindowResize = function() {
+  var width = window.innerWidth
+  var height = window.innerHeight
+  if (this.container) {
+    width = this.container.clientWidth
+    height = this.container.clientHeight
+  }
+  this.view.resizeWindow(width, height)
+}
+
+// # Physics/collision related methods
+
+Game.prototype.control = function(target) {
+  this.controlling = target
+  return this.controls.target(target)
+}
+
+Game.prototype.potentialCollisionSet = function() {
+  return [{ collide: this.collideTerrain.bind(this) }]
+}
+
+/**
+ * Get the position of the player under control.
+ * If there is no player under control, return
+ * current position of the game's camera.
+ *
+ * @return {Array} an [x, y, z] tuple
+ */
+
+Game.prototype.playerPosition = function() {
+  var target = this.controls.target()
+  var position = target
+    ? target.avatar.position
+    : this.camera.localToWorld(this.camera.position.clone())
+  return [position.x, position.y, position.z]
+}
+
+Game.prototype.playerAABB = function(position) {
+  var pos = position || this.playerPosition()
+  var lower = []
+  var upper = [1/2, this.playerHeight, 1/2]
+  var playerBottom = [1/4, this.playerHeight, 1/4]
+  vector.subtract(lower, pos, playerBottom)
+  var bbox = aabb(lower, upper)
+  return bbox
+}
+
+Game.prototype.collideTerrain = function(other, bbox, vec, resting) {
+  var self = this
+  var axes = ['x', 'y', 'z']
+  var vec3 = [vec.x, vec.y, vec.z]
+  this.collideVoxels(bbox, vec3, function hit(axis, tile, coords, dir, edge) {
+    if (!tile) return
+    if (Math.abs(vec3[axis]) < Math.abs(edge)) return
+    vec3[axis] = vec[axes[axis]] = edge
+    other.acceleration[axes[axis]] = 0
+    resting[axes[axis]] = dir
+    other.friction[axes[(axis + 1) % 3]] = other.friction[axes[(axis + 2) % 3]] = axis === 1 ? self.friction  : 1
+    return true
+  })
+}
+
+// # Three.js specific methods
+
+Game.prototype.addStats = function() {
+  stats = new Stats()
+  stats.domElement.style.position  = 'absolute'
+  stats.domElement.style.bottom  = '0px'
+  document.body.appendChild( stats.domElement )
+}
+
+Game.prototype.addLights = function(scene) {
+  var ambientLight, directionalLight
+  ambientLight = new THREE.AmbientLight(0xcccccc)
+  scene.add(ambientLight)
+  var light	= new THREE.DirectionalLight( 0xffffff , 1)
+  light.position.set( 1, 1, 0.5 ).normalize()
+  scene.add( light )
+}
+
+// # Chunk related methods
+
+Game.prototype.configureChunkLoading = function(opts) {
+  var self = this
+  if (!opts.generateChunks) return
+  if (!opts.generate) {
+    this.generate = function(x,y,z) {
+      return x*x+y*y+z*z <= 15*15 ? 1 : 0 // sphere world
+    }
+  } else {
+    this.generate = opts.generate
+  }
+  if (opts.generateVoxelChunk) {
+    this.generateVoxelChunk = opts.generateVoxelChunk
+  } else {
+    this.generateVoxelChunk = function(low, high) {
+      return voxel.generate(low, high, self.generate, self)
+    }
+  }
+}
+
+Game.prototype.worldWidth = function() {
+  return this.chunkSize * 2 * this.chunkDistance
+}
+
+Game.prototype.chunkToWorld = function(pos) {
+  return [
+    pos[0] * this.chunkSize,
+    pos[1] * this.chunkSize,
+    pos[2] * this.chunkSize
+  ]
+}
+
+Game.prototype.removeFarChunks = function(playerPosition) {
+  var self = this
+  playerPosition = playerPosition || this.playerPosition()
+  var nearbyChunks = this.voxels.nearbyChunks(playerPosition, this.removeDistance).map(function(chunkPos) {
+    return chunkPos.join('|')
+  })
+  Object.keys(self.voxels.chunks).map(function(chunkIndex) {
+    if (nearbyChunks.indexOf(chunkIndex) > -1) return
+    var chunk = self.voxels.chunks[chunkIndex]
+    var mesh = self.voxels.meshes[chunkIndex]
+    var pendingIndex = self.pendingChunks.indexOf(chunkIndex)
+    if (pendingIndex !== -1) self.pendingChunks.splice(pendingIndex, 1)
+    if (!chunk) return
+    var chunkPosition = chunk.position
+    if (mesh) {
+      self.scene.remove(mesh[self.meshType])
+      mesh[self.meshType].geometry.dispose()
+      delete mesh.data
+      delete mesh.geometry
+      delete mesh.meshed
+      delete mesh.surfaceMesh
+    }
+    delete self.voxels.chunks[chunkIndex]
+    self.emit('removeChunk', chunkPosition)
+  })
+  self.voxels.requestMissingChunks(playerPosition)
+}
+
+Game.prototype.addChunkToNextUpdate = function(chunk) {
+  this.chunksNeedsUpdate[chunk.position.join('|')] = chunk
+}
+
+Game.prototype.updateDirtyChunks = function() {
+  var self = this
+  Object.keys(this.chunksNeedsUpdate).forEach(function showChunkAtIndex(chunkIndex) {
+    var chunk = self.chunksNeedsUpdate[chunkIndex]
+    self.emit('dirtyChunkUpdate', chunk)
+    self.showChunk(chunk)
+  })
+  this.chunksNeedsUpdate = {}
+}
+
+Game.prototype.loadPendingChunks = function(count) {
+  var pendingChunks = this.pendingChunks
+
+  if (!this.asyncChunkGeneration) {
+    count = pendingChunks.length
+  } else {
+    count = count || (pendingChunks.length * 0.1)
+    count = Math.max(1, Math.min(count, pendingChunks.length))
+  }
+
+  for (var i = 0; i < count; i += 1) {
+    var chunkPos = pendingChunks[i].split('|')
+    var chunk = this.voxels.generateChunk(chunkPos[0]|0, chunkPos[1]|0, chunkPos[2]|0)
+
+    if (process.browser) this.showChunk(chunk)
+  }
+
+  if (count) pendingChunks.splice(0, count)
+}
+
+Game.prototype.getChunkAtPosition = function(pos) {
+  var chunkID = this.voxels.chunkAtPosition(pos).join('|')
+  var chunk = this.voxels.chunks[chunkID]
+  return chunk
+}
+
+Game.prototype.showChunk = function(chunk) {
+  var chunkIndex = chunk.position.join('|')
+  var bounds = this.voxels.getBounds.apply(this.voxels, chunk.position)
+  var scale = new THREE.Vector3(1, 1, 1)
+  var mesh = voxelMesh(chunk, this.mesher, scale, this.THREE)
+  this.voxels.chunks[chunkIndex] = chunk
+  if (this.voxels.meshes[chunkIndex]) this.scene.remove(this.voxels.meshes[chunkIndex][this.meshType])
+  this.voxels.meshes[chunkIndex] = mesh
+  if (process.browser) {
+    if (this.meshType === 'wireMesh') mesh.createWireMesh()
+    else mesh.createSurfaceMesh(this.materials.material)
+    this.materials.paint(mesh)
+  }
+  mesh.setPosition(bounds[0][0], bounds[0][1], bounds[0][2])
+  mesh.addToScene(this.scene)
+  this.emit('renderChunk', chunk)
+  return mesh
+}
+
+// # Debugging methods
+
+Game.prototype.addMarker = function(position) {
+  var geometry = new THREE.SphereGeometry( 0.1, 10, 10 )
+  var material = new THREE.MeshPhongMaterial( { color: 0xffffff, shading: THREE.FlatShading } )
+  var mesh = new THREE.Mesh( geometry, material )
+  mesh.position.copy(position)
+  this.scene.add(mesh)
+}
+
+Game.prototype.addAABBMarker = function(aabb, color) {
+  var geometry = new THREE.CubeGeometry(aabb.width(), aabb.height(), aabb.depth())
+  var material = new THREE.MeshBasicMaterial({ color: color || 0xffffff, wireframe: true, transparent: true, opacity: 0.5, side: THREE.DoubleSide })
+  var mesh = new THREE.Mesh(geometry, material)
+  mesh.position.set(aabb.x0() + aabb.width() / 2, aabb.y0() + aabb.height() / 2, aabb.z0() + aabb.depth() / 2)
+  this.scene.add(mesh)
+  return mesh
+}
+
+Game.prototype.addVoxelMarker = function(x, y, z, color) {
+  var bbox = aabb([x, y, z], [1, 1, 1])
+  return this.addAABBMarker(bbox, color)
+}
+
+Game.prototype.pin = pin
+
+// # Misc internal methods
+
+Game.prototype.onControlChange = function(gained, stream) {
+  this.paused = false
+
+  if (!gained && !this.optout) {
+    this.buttons.disable()
+    return
+  }
+
+  this.buttons.enable()
+  stream.pipe(this.controls.createWriteRotationStream())
+}
+
+Game.prototype.onControlOptOut = function() {
+  this.optout = true
+}
+
+Game.prototype.onFire = function(state) {
+  this.emit('fire', this.controlling, state)
+}
+
+Game.prototype.setInterval = tic.interval.bind(tic)
+Game.prototype.setTimeout = tic.timeout.bind(tic)
+
+Game.prototype.tick = function(delta) {
+  for(var i = 0, len = this.items.length; i < len; ++i) {
+    this.items[i].tick(delta)
+  }
+  
+  if (this.materials) this.materials.tick(delta)
+
+  if (this.pendingChunks.length) this.loadPendingChunks()
+  if (Object.keys(this.chunksNeedsUpdate).length > 0) this.updateDirtyChunks()
+  
+  tic.tick(delta)
+
+  this.emit('tick', delta)
+  
+  if (!this.controls) return
+  var playerPos = this.playerPosition()
+  this.spatial.emit('position', playerPos, playerPos)
+}
+
+Game.prototype.render = function(delta) {
+  this.view.render(this.scene)
+}
+
+Game.prototype.initializeTimer = function(rate) {
+  var self = this
+  var accum = 0
+  var now = 0
+  var last = null
+  var dt = 0
+  var wholeTick
+  
+  self.frameUpdated = true
+  self.interval = setInterval(timer, 0)
+  return self.interval
+  
+  function timer() {
+    if (self.paused) {
+      last = Date.now()
+      accum = 0
+      return
+    }
+    now = Date.now()
+    dt = now - (last || now)
+    last = now
+    accum += dt
+    if (accum < rate) return
+    wholeTick = ((accum / rate)|0)
+    if (wholeTick <= 0) return
+    wholeTick *= rate
+    
+    self.tick(wholeTick)
+    accum -= wholeTick
+    
+    self.frameUpdated = true
+  }
+}
+
+Game.prototype.initializeRendering = function(opts) {
+  var self = this
+
+  if (!opts.statsDisabled) self.addStats()
+
+  window.addEventListener('resize', self.onWindowResize.bind(self), false)
+
+  requestAnimationFrame(window).on('data', function(dt) {
+    self.emit('prerender', dt)
+    self.render(dt)
+    self.emit('postrender', dt)
+  })
+  if (typeof stats !== 'undefined') {
+    self.on('postrender', function() {
+      stats.update()
+    })
+  }
+}
+
+Game.prototype.initializeControls = function(opts) {
+  // player control
+  this.keybindings = opts.keybindings || this.defaultButtons
+  this.buttons = kb(document.body, this.keybindings)
+  this.buttons.disable()
+  this.optout = false
+  this.interact = interact(opts.interactElement || this.view.element, opts.interactMouseDrag)
+  this.interact
+      .on('attain', this.onControlChange.bind(this, true))
+      .on('release', this.onControlChange.bind(this, false))
+      .on('opt-out', this.onControlOptOut.bind(this))
+  this.hookupControls(this.buttons, opts)
+}
+
+Game.prototype.hookupControls = function(buttons, opts) {
+  opts = opts || {}
+  opts.controls = opts.controls || {}
+  opts.controls.onfire = this.onFire.bind(this)
+  this.controls = control(buttons, opts.controls)
+  this.items.push(this.controls)
+  this.controlling = null
+}
+
+Game.prototype.handleChunkGeneration = function() {
+  var self = this
+  this.voxels.on('missingChunk', function(chunkPos) {
+    self.pendingChunks.push(chunkPos.join('|'))
+  })
+  this.voxels.requestMissingChunks(this.worldOrigin)
+  this.loadPendingChunks(this.pendingChunks.length)
+}
+
+// teardown methods
+Game.prototype.destroy = function() {
+  clearInterval(this.timer)
+}
+
+})(require("__browserify_process"))
+},{"./lib/detector":40,"./lib/stats":39,"__browserify_process":4,"aabb-3d":57,"collide-3d-tilemap":47,"events":3,"gl-matrix":48,"inherits":46,"interact":58,"kb-controls":60,"path":27,"pin-it":50,"raf":45,"spatial-events":59,"three":49,"tic":64,"voxel":15,"voxel-control":41,"voxel-mesh":56,"voxel-physical":61,"voxel-raycast":43,"voxel-region-change":63,"voxel-texture":62,"voxel-view":44}],64:[function(require,module,exports){
 /*
  * tic
  * https://github.com/shama/tic
@@ -82168,7 +81586,7 @@ Tic.prototype.tick = function(dt) {
   });
 };
 
-},{}],60:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 var events = require('events');
 var util = require('util');
 
@@ -82289,7 +81707,69 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"events":3,"util":4}],63:[function(require,module,exports){
+},{"events":3,"util":2}],35:[function(require,module,exports){
+util            = require('util')
+CellLogicBase	= require("./CellLogicBase.js")
+
+DIRECTIONS      = require("../Directions.js")
+
+dircts          = require("../Directions.js").consts
+hdirs           = require("../Directions.js").horizConstsArr
+alldirs           = require("./../Directions.js").directionsArr
+
+function ThreeDCellLogic(game,engine,space) 
+{
+}
+
+util.inherits(ThreeDCellLogic,CellLogicBase)
+
+ThreeDCellLogic.prototype.moveRandomHorizonatal=function(swapIfBlocked){
+	var d=this.getRndFrom(hdirs)
+	if(this.canMove(d)){
+	  this.moveTo(d)
+	}else if(swapIfBlocked){
+		this.swapWith(d)
+	}
+}
+ThreeDCellLogic.prototype.moveRandomDirection=function(swapIfBlocked){
+	var d=this.getRndFrom(alldirs)
+	if(this.canMove(d)){
+	  this.moveTo(d)
+	}else if(swapIfBlocked){
+		this.swapWith(d)
+	}
+}
+
+ThreeDCellLogic.prototype.offsetPos=function(dir){
+  return DIRECTIONS.move(dir,this.data.position)
+}
+
+ThreeDCellLogic.prototype.canMove=function(dir){
+  return this.space.isEmptyAtP(this.offsetPos(dir))
+}
+
+ThreeDCellLogic.prototype.getInDirection=function(dir){
+  return this.space.getAtP(this.offsetPos(dir))
+}  
+
+ThreeDCellLogic.prototype.moveTo=function(dir){
+  this.clearPos()
+  this.data.position=this.offsetPos(dir);
+  return this.space.setAtP(this.data.position,this.data)
+}  
+
+ThreeDCellLogic.prototype.clearPos=function(){this.space.setAtP(this.data.position,0)}
+
+ThreeDCellLogic.prototype.swapWith=function(dir){
+  this.space.swapAt(this.data.position,this.offsetPos(dir))
+}  
+
+ThreeDCellLogic.prototype.collisionBelow=function(){
+  return this.space.getAtP(this.offsetPos(dircts.BOTTOM,this.data.position))
+}
+
+module.exports 	= ThreeDCellLogic
+},{"../Directions.js":23,"./../Directions.js":23,"./CellLogicBase.js":65,"util":2}],55:[function(require,module,exports){
 var walkSpeed = 1.0
 var startedWalking = 0.0
 var stoppedWalking = 0.0
@@ -82343,7 +81823,7 @@ exports.isWalking = function(){
 exports.setAcceleration = function(newA){
   acceleration = newA
 }
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 var events = require('events')
 var inherits = require('inherits')
 
@@ -82480,165 +81960,25 @@ Chunker.prototype.voxelVector = function(pos) {
   return [vx, vy, vz]
 };
 
-},{"events":3,"inherits":66}],39:[function(require,module,exports){
-util            = require('util')
-CellLogicBase	= require("./CellLogicBase.js")
-
-DIRECTIONS      = require("../Directions.js")
-
-dircts          = require("../Directions.js").consts
-hdirs           = require("../Directions.js").horizConstsArr
-alldirs           = require("./../Directions.js").directionsArr
-
-function ThreeDCellLogic(game,engine,space) 
-{
-}
-
-util.inherits(ThreeDCellLogic,CellLogicBase)
-
-ThreeDCellLogic.prototype.moveRandomHorizonatal=function(swapIfBlocked){
-	var d=this.getRndFrom(hdirs)
-	if(this.canMove(d)){
-	  this.moveTo(d)
-	}else if(swapIfBlocked){
-		this.swapWith(d)
-	}
-}
-ThreeDCellLogic.prototype.moveRandomDirection=function(swapIfBlocked){
-	var d=this.getRndFrom(alldirs)
-	if(this.canMove(d)){
-	  this.moveTo(d)
-	}else if(swapIfBlocked){
-		this.swapWith(d)
-	}
-}
-
-ThreeDCellLogic.prototype.offsetPos=function(dir){
-  return DIRECTIONS.move(dir,this.data.position)
-}
-
-ThreeDCellLogic.prototype.canMove=function(dir){
-  return this.space.isEmptyAtP(this.offsetPos(dir))
-}
-
-ThreeDCellLogic.prototype.getInDirection=function(dir){
-  return this.space.getAtP(this.offsetPos(dir))
-}  
-
-ThreeDCellLogic.prototype.moveTo=function(dir){
-  this.clearPos()
-  this.data.position=this.offsetPos(dir);
-  return this.space.setAtP(this.data.position,this.data)
-}  
-
-ThreeDCellLogic.prototype.clearPos=function(){this.space.setAtP(this.data.position,0)}
-
-ThreeDCellLogic.prototype.swapWith=function(dir){
-  this.space.swapAt(this.data.position,this.offsetPos(dir))
-}  
-
-ThreeDCellLogic.prototype.collisionBelow=function(){
-  return this.space.getAtP(this.offsetPos(dircts.BOTTOM,this.data.position))
-}
-
-module.exports 	= ThreeDCellLogic
-},{"util":4,"./CellLogicBase.js":67,"../Directions.js":25,"./../Directions.js":25}],43:[function(require,module,exports){
-var chunker = require('./chunker')
-
-module.exports = function(opts) {
-  if (!opts.generateVoxelChunk) opts.generateVoxelChunk = function(low, high) {
-    return generate(low, high, module.exports.generator['Valley'])
-  }
-  return chunker(opts)
-}
-
-module.exports.meshers = {
-  culled: require('./meshers/culled').mesher,
-  greedy: require('./meshers/greedy').mesher,
-  monotone: require('./meshers/monotone').mesher,
-  stupid: require('./meshers/stupid').mesher
-}
-
-module.exports.Chunker = chunker.Chunker
-module.exports.geometry = {}
-module.exports.generator = {}
-module.exports.generate = generate
-
-// from https://github.com/mikolalysenko/mikolalysenko.github.com/blob/master/MinecraftMeshes2/js/testdata.js#L4
-function generate(l, h, f, game) {
-  var d = [ h[0]-l[0], h[1]-l[1], h[2]-l[2] ]
-  var v = new Int8Array(d[0]*d[1]*d[2])
-  var n = 0
-  for(var k=l[2]; k<h[2]; ++k)
-  for(var j=l[1]; j<h[1]; ++j)
-  for(var i=l[0]; i<h[0]; ++i, ++n) {
-    v[n] = f(i,j,k,n,game)
-  }
-  return {voxels:v, dims:d}
-}
-
-// shape and terrain generator functions
-module.exports.generator['Sphere'] = function(i,j,k) {
-  return i*i+j*j+k*k <= 16*16 ? 1 : 0
-}
-
-module.exports.generator['Noise'] = function(i,j,k) {
-  return Math.random() < 0.1 ? Math.random() * 0xffffff : 0;
-}
-
-module.exports.generator['Dense Noise'] = function(i,j,k) {
-  return Math.round(Math.random() * 0xffffff);
-}
-
-module.exports.generator['Checker'] = function(i,j,k) {
-  return !!((i+j+k)&1) ? (((i^j^k)&2) ? 1 : 0xffffff) : 0;
-}
-
-module.exports.generator['Hill'] = function(i,j,k) {
-  return j <= 16 * Math.exp(-(i*i + k*k) / 64) ? 1 : 0;
-}
-
-module.exports.generator['Valley'] = function(i,j,k) {
-  return j <= (i*i + k*k) * 31 / (32*32*2) + 1 ? 1 : 0;
-}
-
-module.exports.generator['Hilly Terrain'] = function(i,j,k) {
-  var h0 = 3.0 * Math.sin(Math.PI * i / 12.0 - Math.PI * k * 0.1) + 27;    
-  if(j > h0+1) {
-    return 0;
-  }
-  if(h0 <= j) {
-    return 1;
-  }
-  var h1 = 2.0 * Math.sin(Math.PI * i * 0.25 - Math.PI * k * 0.3) + 20;
-  if(h1 <= j) {
-    return 2;
-  }
-  if(2 < j) {
-    return Math.random() < 0.1 ? 0x222222 : 0xaaaaaa;
-  }
-  return 3;
-}
-
-module.exports.scale = function ( x, fromLow, fromHigh, toLow, toHigh ) {
-  return ( x - fromLow ) * ( toHigh - toLow ) / ( fromHigh - fromLow ) + toLow
-}
-
-// convenience function that uses the above functions to prebake some simple voxel geometries
-module.exports.generateExamples = function() {
-  return {
-    'Sphere': generate([-16,-16,-16], [16,16,16], module.exports.generator['Sphere']),
-    'Noise': generate([0,0,0], [16,16,16], module.exports.generator['Noise']),
-    'Dense Noise': generate([0,0,0], [16,16,16], module.exports.generator['Dense Noise']),
-    'Checker': generate([0,0,0], [8,8,8], module.exports.generator['Checker']),
-    'Hill': generate([-16, 0, -16], [16,16,16], module.exports.generator['Hill']),
-    'Valley': generate([0,0,0], [32,32,32], module.exports.generator['Valley']),
-    'Hilly Terrain': generate([0, 0, 0], [32,32,32], module.exports.generator['Hilly Terrain'])
-  }
+},{"events":3,"inherits":66}],65:[function(require,module,exports){
+(function(){function CellLogicBase(game,engine,space) 
+{	
+	if (!(this instanceof CellLogicBase)) return new CellLogicBase()
+	//SimModule.call(this);
+	console.log("new CellLogicBase()",this) 
+	this.game	= game
+	this.engine	= engine
+	this.space	= space
 }
 
 
-},{"./chunker":68,"./meshers/greedy":69,"./meshers/monotone":70,"./meshers/stupid":71,"./meshers/culled":72}],66:[function(require,module,exports){
+CellLogicBase.prototype.process = function(data){
+	console.log("Cell Logic processing data")
+}
+
+module.exports 	= CellLogicBase
+})()
+},{}],66:[function(require,module,exports){
 module.exports = inherits
 
 function inherits (c, p, proto) {
@@ -82669,483 +82009,104 @@ function inherits (c, p, proto) {
 //inherits(Child, Parent)
 //new Child
 
-},{}],67:[function(require,module,exports){
-(function(){function CellLogicBase(game,engine,space) 
-{	
-	if (!(this instanceof CellLogicBase)) return new CellLogicBase()
-	//SimModule.call(this);
-	console.log("new CellLogicBase()",this) 
-	this.game	= game
-	this.engine	= engine
-	this.space	= space
-}
+},{}],60:[function(require,module,exports){
+var ever = require('ever')
+  , vkey = require('vkey')
+  , max = Math.max
 
+module.exports = function(el, bindings, state) {
+  if(bindings === undefined || !el.ownerDocument) {
+    state = bindings
+    bindings = el
+    el = this.document.body
+  }
 
-CellLogicBase.prototype.process = function(data){
-	console.log("Cell Logic processing data")
-}
+  var ee = ever(el)
+    , measured = {}
+    , enabled = true
 
-module.exports 	= CellLogicBase
-})()
-},{}],69:[function(require,module,exports){
-var GreedyMesh = (function() {
-//Cache buffer internally
-var mask = new Int32Array(4096);
+  state = state || {}
 
-return function(volume, dims) {
-  var vertices = [], faces = []
-    , dimsX = dims[0]
-    , dimsY = dims[1]
-    , dimsXY = dimsX * dimsY;
-
-  //Sweep over 3-axes
-  for(var d=0; d<3; ++d) {
-    var i, j, k, l, w, W, h, n, c
-      , u = (d+1)%3
-      , v = (d+2)%3
-      , x = [0,0,0]
-      , q = [0,0,0]
-      , du = [0,0,0]
-      , dv = [0,0,0]
-      , dimsD = dims[d]
-      , dimsU = dims[u]
-      , dimsV = dims[v]
-      , qdimsX, qdimsXY
-      , xd
-
-    if (mask.length < dimsU * dimsV) {
-      mask = new Int32Array(dimsU * dimsV);
+  // always initialize the state.
+  for(var key in bindings) {
+    if(bindings[key] === 'enabled' ||
+       bindings[key] === 'enable' ||
+       bindings[key] === 'disable' ||
+       bindings[key] === 'destroy') {
+      throw new Error(bindings[key]+' is reserved')
     }
+    state[bindings[key]] = 0
+    measured[key] = 1
+  }
 
-    q[d] =  1;
-    x[d] = -1;
+  ee.on('keyup', wrapped(onoff(kb, false)))
+  ee.on('keydown', wrapped(onoff(kb, true)))
+  ee.on('mouseup', wrapped(onoff(mouse, false)))
+  ee.on('mousedown', wrapped(onoff(mouse, true)))
 
-    qdimsX  = dimsX  * q[1]
-    qdimsXY = dimsXY * q[2]
+  state.enabled = function() {
+    return enabled
+  }
 
-    // Compute mask
-    while (x[d] < dimsD) {
-      xd = x[d]
-      n = 0;
+  state.enable = enable_disable(true)
+  state.disable = enable_disable(false)
+  state.destroy = function() {
+    ee.removeAllListeners()
+  } 
+  return state
 
-      for(x[v] = 0; x[v] < dimsV; ++x[v]) {
-        for(x[u] = 0; x[u] < dimsU; ++x[u], ++n) {
-          var a = xd >= 0      && volume[x[0]      + dimsX * x[1]          + dimsXY * x[2]          ]
-            , b = xd < dimsD-1 && volume[x[0]+q[0] + dimsX * x[1] + qdimsX + dimsXY * x[2] + qdimsXY]
-          if (a ? b : !b) {
-            mask[n] = 0; continue;
-          }
-          mask[n] = a ? a : -b;
-        }
+  function clear() {
+    // always initialize the state.
+    for(var key in bindings) {
+      state[bindings[key]] = 0
+      measured[key] = 1
+    }
+  }
+
+  function enable_disable(on_or_off) {
+    return function() {
+      clear()
+      enabled = on_or_off
+      return this
+    }
+  }
+
+  function wrapped(fn) {
+    return function(ev) {
+      if(enabled) {
+        ev.preventDefault()
+        fn(ev)
+      } else {
+        return
       }
+    }
+  }
 
-      ++x[d];
+  function onoff(find, on_or_off) {
+    return function(ev) {
+      var key = find(ev)
+        , binding = bindings[key]
 
-      // Generate mesh for mask using lexicographic ordering
-      n = 0;
-      for (j=0; j < dimsV; ++j) {
-        for (i=0; i < dimsU; ) {
-          c = mask[n];
-          if (!c) {
-            i++;  n++; continue;
-          }
+      if(binding) {
+        state[binding] += on_or_off ? max(measured[key]--, 0) : -(measured[key] = 1)
 
-          //Compute width
-          w = 1;
-          while (c === mask[n+w] && i+w < dimsU) w++;
-
-          //Compute height (this is slightly awkward)
-          for (h=1; j+h < dimsV; ++h) {
-            k = 0;
-            while (k < w && c === mask[n+k+h*dimsU]) k++
-            if (k < w) break;
-          }
-
-          // Add quad
-          // The du/dv arrays are reused/reset
-          // for each iteration.
-          du[d] = 0; dv[d] = 0;
-          x[u]  = i;  x[v] = j;
-
-          if (c > 0) {
-            dv[v] = h; dv[u] = 0;
-            du[u] = w; du[v] = 0;
-          } else {
-            c = -c;
-            du[v] = h; du[u] = 0;
-            dv[u] = w; dv[v] = 0;
-          }
-          var vertex_count = vertices.length;
-          vertices.push([x[0],             x[1],             x[2]            ]);
-          vertices.push([x[0]+du[0],       x[1]+du[1],       x[2]+du[2]      ]);
-          vertices.push([x[0]+du[0]+dv[0], x[1]+du[1]+dv[1], x[2]+du[2]+dv[2]]);
-          vertices.push([x[0]      +dv[0], x[1]      +dv[1], x[2]      +dv[2]]);
-          faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, c]);
-
-          //Zero-out mask
-          W = n + w;
-          for(l=0; l<h; ++l) {
-            for(k=n; k<W; ++k) {
-              mask[k+l*dimsU] = 0;
-            }
-          }
-
-          //Increment counters and continue
-          i += w; n += w;
+        if(!on_or_off && state[binding] < 0) {
+          state[binding] = 0
         }
       }
     }
   }
-  return { vertices:vertices, faces:faces };
-}
-})();
 
-if(exports) {
-  exports.mesher = GreedyMesh;
-}
-
-},{}],71:[function(require,module,exports){
-//The stupidest possible way to generate a Minecraft mesh (I think)
-function StupidMesh(volume, dims) {
-  var vertices = [], faces = [], x = [0,0,0], n = 0;
-  for(x[2]=0; x[2]<dims[2]; ++x[2])
-  for(x[1]=0; x[1]<dims[1]; ++x[1])
-  for(x[0]=0; x[0]<dims[0]; ++x[0], ++n)
-  if(!!volume[n]) {
-    for(var d=0; d<3; ++d) {
-      var t = [x[0], x[1], x[2]]
-        , u = [0,0,0]
-        , v = [0,0,0];
-      u[(d+1)%3] = 1;
-      v[(d+2)%3] = 1;
-      for(var s=0; s<2; ++s) {
-        t[d] = x[d] + s;
-        var tmp = u;
-        u = v;
-        v = tmp;
-        var vertex_count = vertices.length;
-        vertices.push([t[0],           t[1],           t[2]          ]);
-        vertices.push([t[0]+u[0],      t[1]+u[1],      t[2]+u[2]     ]);
-        vertices.push([t[0]+u[0]+v[0], t[1]+u[1]+v[1], t[2]+u[2]+v[2]]);
-        vertices.push([t[0]     +v[0], t[1]     +v[1], t[2]     +v[2]]);
-        faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, volume[n]]);
-      }
-    }
+  function mouse(ev) {
+    return '<mouse '+ev.which+'>'
   }
-  return { vertices:vertices, faces:faces };
+
+  function kb(ev) {
+    return vkey[ev.keyCode] || ev.char
+  }
 }
 
-
-if(exports) {
-  exports.mesher = StupidMesh;
-}
-
-},{}],70:[function(require,module,exports){
-"use strict";
-
-var MonotoneMesh = (function(){
-
-function MonotonePolygon(c, v, ul, ur) {
-  this.color  = c;
-  this.left   = [[ul, v]];
-  this.right  = [[ur, v]];
-};
-
-MonotonePolygon.prototype.close_off = function(v) {
-  this.left.push([ this.left[this.left.length-1][0], v ]);
-  this.right.push([ this.right[this.right.length-1][0], v ]);
-};
-
-MonotonePolygon.prototype.merge_run = function(v, u_l, u_r) {
-  var l = this.left[this.left.length-1][0]
-    , r = this.right[this.right.length-1][0]; 
-  if(l !== u_l) {
-    this.left.push([ l, v ]);
-    this.left.push([ u_l, v ]);
-  }
-  if(r !== u_r) {
-    this.right.push([ r, v ]);
-    this.right.push([ u_r, v ]);
-  }
-};
-
-
-return function(volume, dims) {
-  function f(i,j,k) {
-    return volume[i + dims[0] * (j + dims[1] * k)];
-  }
-  //Sweep over 3-axes
-  var vertices = [], faces = [];
-  for(var d=0; d<3; ++d) {
-    var i, j, k
-      , u = (d+1)%3   //u and v are orthogonal directions to d
-      , v = (d+2)%3
-      , x = new Int32Array(3)
-      , q = new Int32Array(3)
-      , runs = new Int32Array(2 * (dims[u]+1))
-      , frontier = new Int32Array(dims[u])  //Frontier is list of pointers to polygons
-      , next_frontier = new Int32Array(dims[u])
-      , left_index = new Int32Array(2 * dims[v])
-      , right_index = new Int32Array(2 * dims[v])
-      , stack = new Int32Array(24 * dims[v])
-      , delta = [[0,0], [0,0]];
-    //q points along d-direction
-    q[d] = 1;
-    //Initialize sentinel
-    for(x[d]=-1; x[d]<dims[d]; ) {
-      // --- Perform monotone polygon subdivision ---
-      var n = 0
-        , polygons = []
-        , nf = 0;
-      for(x[v]=0; x[v]<dims[v]; ++x[v]) {
-        //Make one pass over the u-scan line of the volume to run-length encode polygon
-        var nr = 0, p = 0, c = 0;
-        for(x[u]=0; x[u]<dims[u]; ++x[u], p = c) {
-          //Compute the type for this face
-          var a = (0    <= x[d]      ? f(x[0],      x[1],      x[2])      : 0)
-            , b = (x[d] <  dims[d]-1 ? f(x[0]+q[0], x[1]+q[1], x[2]+q[2]) : 0);
-          c = a;
-          if((!a) === (!b)) {
-            c = 0;
-          } else if(!a) {
-            c = -b;
-          }
-          //If cell type doesn't match, start a new run
-          if(p !== c) {
-            runs[nr++] = x[u];
-            runs[nr++] = c;
-          }
-        }
-        //Add sentinel run
-        runs[nr++] = dims[u];
-        runs[nr++] = 0;
-        //Update frontier by merging runs
-        var fp = 0;
-        for(var i=0, j=0; i<nf && j<nr-2; ) {
-          var p    = polygons[frontier[i]]
-            , p_l  = p.left[p.left.length-1][0]
-            , p_r  = p.right[p.right.length-1][0]
-            , p_c  = p.color
-            , r_l  = runs[j]    //Start of run
-            , r_r  = runs[j+2]  //End of run
-            , r_c  = runs[j+1]; //Color of run
-          //Check if we can merge run with polygon
-          if(r_r > p_l && p_r > r_l && r_c === p_c) {
-            //Merge run
-            p.merge_run(x[v], r_l, r_r);
-            //Insert polygon into frontier
-            next_frontier[fp++] = frontier[i];
-            ++i;
-            j += 2;
-          } else {
-            //Check if we need to advance the run pointer
-            if(r_r <= p_r) {
-              if(!!r_c) {
-                var n_poly = new MonotonePolygon(r_c, x[v], r_l, r_r);
-                next_frontier[fp++] = polygons.length;
-                polygons.push(n_poly);
-              }
-              j += 2;
-            }
-            //Check if we need to advance the frontier pointer
-            if(p_r <= r_r) {
-              p.close_off(x[v]);
-              ++i;
-            }
-          }
-        }
-        //Close off any residual polygons
-        for(; i<nf; ++i) {
-          polygons[frontier[i]].close_off(x[v]);
-        }
-        //Add any extra runs to frontier
-        for(; j<nr-2; j+=2) {
-          var r_l  = runs[j]
-            , r_r  = runs[j+2]
-            , r_c  = runs[j+1];
-          if(!!r_c) {
-            var n_poly = new MonotonePolygon(r_c, x[v], r_l, r_r);
-            next_frontier[fp++] = polygons.length;
-            polygons.push(n_poly);
-          }
-        }
-        //Swap frontiers
-        var tmp = next_frontier;
-        next_frontier = frontier;
-        frontier = tmp;
-        nf = fp;
-      }
-      //Close off frontier
-      for(var i=0; i<nf; ++i) {
-        var p = polygons[frontier[i]];
-        p.close_off(dims[v]);
-      }
-      // --- Monotone subdivision of polygon is complete at this point ---
-      
-      x[d]++;
-      
-      //Now we just need to triangulate each monotone polygon
-      for(var i=0; i<polygons.length; ++i) {
-        var p = polygons[i]
-          , c = p.color
-          , flipped = false;
-        if(c < 0) {
-          flipped = true;
-          c = -c;
-        }
-        for(var j=0; j<p.left.length; ++j) {
-          left_index[j] = vertices.length;
-          var y = [0.0,0.0,0.0]
-            , z = p.left[j];
-          y[d] = x[d];
-          y[u] = z[0];
-          y[v] = z[1];
-          vertices.push(y);
-        }
-        for(var j=0; j<p.right.length; ++j) {
-          right_index[j] = vertices.length;
-          var y = [0.0,0.0,0.0]
-            , z = p.right[j];
-          y[d] = x[d];
-          y[u] = z[0];
-          y[v] = z[1];
-          vertices.push(y);
-        }
-        //Triangulate the monotone polygon
-        var bottom = 0
-          , top = 0
-          , l_i = 1
-          , r_i = 1
-          , side = true;  //true = right, false = left
-        
-        stack[top++] = left_index[0];
-        stack[top++] = p.left[0][0];
-        stack[top++] = p.left[0][1];
-        
-        stack[top++] = right_index[0];
-        stack[top++] = p.right[0][0];
-        stack[top++] = p.right[0][1];
-        
-        while(l_i < p.left.length || r_i < p.right.length) {
-          //Compute next side
-          var n_side = false;
-          if(l_i === p.left.length) {
-            n_side = true;
-          } else if(r_i !== p.right.length) {
-            var l = p.left[l_i]
-              , r = p.right[r_i];
-            n_side = l[1] > r[1];
-          }
-          var idx = n_side ? right_index[r_i] : left_index[l_i]
-            , vert = n_side ? p.right[r_i] : p.left[l_i];
-          if(n_side !== side) {
-            //Opposite side
-            while(bottom+3 < top) {
-              if(flipped === n_side) {
-                faces.push([ stack[bottom], stack[bottom+3], idx, c]);
-              } else {
-                faces.push([ stack[bottom+3], stack[bottom], idx, c]);              
-              }
-              bottom += 3;
-            }
-          } else {
-            //Same side
-            while(bottom+3 < top) {
-              //Compute convexity
-              for(var j=0; j<2; ++j)
-              for(var k=0; k<2; ++k) {
-                delta[j][k] = stack[top-3*(j+1)+k+1] - vert[k];
-              }
-              var det = delta[0][0] * delta[1][1] - delta[1][0] * delta[0][1];
-              if(n_side === (det > 0)) {
-                break;
-              }
-              if(det !== 0) {
-                if(flipped === n_side) {
-                  faces.push([ stack[top-3], stack[top-6], idx, c ]);
-                } else {
-                  faces.push([ stack[top-6], stack[top-3], idx, c ]);
-                }
-              }
-              top -= 3;
-            }
-          }
-          //Push vertex
-          stack[top++] = idx;
-          stack[top++] = vert[0];
-          stack[top++] = vert[1];
-          //Update loop index
-          if(n_side) {
-            ++r_i;
-          } else {
-            ++l_i;
-          }
-          side = n_side;
-        }
-      }
-    }
-  }
-  return { vertices:vertices, faces:faces };
-}
-})();
-
-if(exports) {
-  exports.mesher = MonotoneMesh;
-}
-
-},{}],72:[function(require,module,exports){
-//Naive meshing (with face culling)
-function CulledMesh(volume, dims) {
-  //Precalculate direction vectors for convenience
-  var dir = new Array(3);
-  for(var i=0; i<3; ++i) {
-    dir[i] = [[0,0,0], [0,0,0]];
-    dir[i][0][(i+1)%3] = 1;
-    dir[i][1][(i+2)%3] = 1;
-  }
-  //March over the volume
-  var vertices = []
-    , faces = []
-    , x = [0,0,0]
-    , B = [[false,true]    //Incrementally update bounds (this is a bit ugly)
-          ,[false,true]
-          ,[false,true]]
-    , n = -dims[0]*dims[1];
-  for(           B[2]=[false,true],x[2]=-1; x[2]<dims[2]; B[2]=[true,(++x[2]<dims[2]-1)])
-  for(n-=dims[0],B[1]=[false,true],x[1]=-1; x[1]<dims[1]; B[1]=[true,(++x[1]<dims[1]-1)])
-  for(n-=1,      B[0]=[false,true],x[0]=-1; x[0]<dims[0]; B[0]=[true,(++x[0]<dims[0]-1)], ++n) {
-    //Read current voxel and 3 neighboring voxels using bounds check results
-    var p =   (B[0][0] && B[1][0] && B[2][0]) ? volume[n]                 : 0
-      , b = [ (B[0][1] && B[1][0] && B[2][0]) ? volume[n+1]               : 0
-            , (B[0][0] && B[1][1] && B[2][0]) ? volume[n+dims[0]]         : 0
-            , (B[0][0] && B[1][0] && B[2][1]) ? volume[n+dims[0]*dims[1]] : 0
-          ];
-    //Generate faces
-    for(var d=0; d<3; ++d)
-    if((!!p) !== (!!b[d])) {
-      var s = !p ? 1 : 0;
-      var t = [x[0],x[1],x[2]]
-        , u = dir[d][s]
-        , v = dir[d][s^1];
-      ++t[d];
-      
-      var vertex_count = vertices.length;
-      vertices.push([t[0],           t[1],           t[2]          ]);
-      vertices.push([t[0]+u[0],      t[1]+u[1],      t[2]+u[2]     ]);
-      vertices.push([t[0]+u[0]+v[0], t[1]+u[1]+v[1], t[2]+u[2]+v[2]]);
-      vertices.push([t[0]     +v[0], t[1]     +v[1], t[2]     +v[2]]);
-      faces.push([vertex_count, vertex_count+1, vertex_count+2, vertex_count+3, s ? b[d] : p]);
-    }
-  }
-  return { vertices:vertices, faces:faces };
-}
-
-
-if(exports) {
-  exports.mesher = CulledMesh;
-}
-
-},{}],48:[function(require,module,exports){
+},{"ever":67,"vkey":68}],58:[function(require,module,exports){
 var lock = require('pointer-lock')
   , drag = require('drag-stream')
   , full = require('fullscreen')
@@ -83252,104 +82213,7 @@ function usedrag(el) {
   return ee
 }
 
-},{"events":3,"stream":60,"pointer-lock":73,"drag-stream":74,"fullscreen":75}],54:[function(require,module,exports){
-var ever = require('ever')
-  , vkey = require('vkey')
-  , max = Math.max
-
-module.exports = function(el, bindings, state) {
-  if(bindings === undefined || !el.ownerDocument) {
-    state = bindings
-    bindings = el
-    el = this.document.body
-  }
-
-  var ee = ever(el)
-    , measured = {}
-    , enabled = true
-
-  state = state || {}
-
-  // always initialize the state.
-  for(var key in bindings) {
-    if(bindings[key] === 'enabled' ||
-       bindings[key] === 'enable' ||
-       bindings[key] === 'disable' ||
-       bindings[key] === 'destroy') {
-      throw new Error(bindings[key]+' is reserved')
-    }
-    state[bindings[key]] = 0
-    measured[key] = 1
-  }
-
-  ee.on('keyup', wrapped(onoff(kb, false)))
-  ee.on('keydown', wrapped(onoff(kb, true)))
-  ee.on('mouseup', wrapped(onoff(mouse, false)))
-  ee.on('mousedown', wrapped(onoff(mouse, true)))
-
-  state.enabled = function() {
-    return enabled
-  }
-
-  state.enable = enable_disable(true)
-  state.disable = enable_disable(false)
-  state.destroy = function() {
-    ee.removeAllListeners()
-  } 
-  return state
-
-  function clear() {
-    // always initialize the state.
-    for(var key in bindings) {
-      state[bindings[key]] = 0
-      measured[key] = 1
-    }
-  }
-
-  function enable_disable(on_or_off) {
-    return function() {
-      clear()
-      enabled = on_or_off
-      return this
-    }
-  }
-
-  function wrapped(fn) {
-    return function(ev) {
-      if(enabled) {
-        ev.preventDefault()
-        fn(ev)
-      } else {
-        return
-      }
-    }
-  }
-
-  function onoff(find, on_or_off) {
-    return function(ev) {
-      var key = find(ev)
-        , binding = bindings[key]
-
-      if(binding) {
-        state[binding] += on_or_off ? max(measured[key]--, 0) : -(measured[key] = 1)
-
-        if(!on_or_off && state[binding] < 0) {
-          state[binding] = 0
-        }
-      }
-    }
-  }
-
-  function mouse(ev) {
-    return '<mouse '+ev.which+'>'
-  }
-
-  function kb(ev) {
-    return vkey[ev.keyCode] || ev.char
-  }
-}
-
-},{"ever":76,"vkey":77}],78:[function(require,module,exports){
+},{"drag-stream":69,"events":3,"fullscreen":71,"pointer-lock":70,"stream":42}],72:[function(require,module,exports){
 (function(){//     keymaster.js
 //     (c) 2011-2012 Thomas Fuchs
 //     keymaster.js may be freely distributed under the MIT license.
@@ -83577,7 +82441,7 @@ module.exports = function(el, bindings, state) {
 
 })(this);
 })()
-},{}],73:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 module.exports = pointer
 
 pointer.available = available
@@ -83741,98 +82605,7 @@ function shim(el) {
     null
 }
 
-},{"events":3,"stream":60}],75:[function(require,module,exports){
-module.exports = fullscreen
-fullscreen.available = available
-
-var EE = require('events').EventEmitter
-
-function available() {
-  return !!shim(document.body)
-}
-
-function fullscreen(el) {
-  var ael = el.addEventListener || el.attachEvent
-    , doc = el.ownerDocument
-    , body = doc.body
-    , rfs = shim(el)
-    , ee = new EE
-
-  var vendors = ['', 'webkit', 'moz', 'ms', 'o']
-
-  for(var i = 0, len = vendors.length; i < len; ++i) {
-    ael.call(doc, vendors[i]+'fullscreenchange', onfullscreenchange)
-    ael.call(doc, vendors[i]+'fullscreenerror', onfullscreenerror)
-  }
-
-  ee.release = release
-  ee.request = request
-  ee.target = fullscreenelement
-
-  if(!shim) {
-    setTimeout(function() {
-      ee.emit('error', new Error('fullscreen is not supported'))
-    }, 0)
-  }
-  return ee
-
-  function onfullscreenchange() {
-    if(!fullscreenelement()) {
-      return ee.emit('release')
-    }
-    ee.emit('attain')
-  }
-
-  function onfullscreenerror() {
-    ee.emit('error')
-  }
-
-  function request() {
-    return rfs.call(el)
-  }
-
-  function release() {
-    (el.exitFullscreen ||
-    el.exitFullscreen ||
-    el.webkitExitFullScreen ||
-    el.webkitExitFullscreen ||
-    el.mozExitFullScreen ||
-    el.mozExitFullscreen ||
-    el.msExitFullScreen ||
-    el.msExitFullscreen ||
-    el.oExitFullScreen ||
-    el.oExitFullscreen).call(el)
-  } 
-
-  function fullscreenelement() {
-    return 0 ||
-      doc.fullScreenElement ||
-      doc.fullscreenElement ||
-      doc.webkitFullScreenElement ||
-      doc.webkitFullscreenElement ||
-      doc.mozFullScreenElement ||
-      doc.mozFullscreenElement ||
-      doc.msFullScreenElement ||
-      doc.msFullscreenElement ||
-      doc.oFullScreenElement ||
-      doc.oFullscreenElement ||
-      null
-  }
-}
-
-function shim(el) {
-  return (el.requestFullscreen ||
-    el.webkitRequestFullscreen ||
-    el.webkitRequestFullScreen ||
-    el.mozRequestFullscreen ||
-    el.mozRequestFullScreen ||
-    el.msRequestFullscreen ||
-    el.msRequestFullScreen ||
-    el.oRequestFullscreen ||
-    el.oRequestFullScreen)
-}
-
-},{"events":3}],77:[function(require,module,exports){
+},{"events":3,"stream":42}],68:[function(require,module,exports){
 (function(){var ua = typeof window !== 'undefined' ? window.navigator.userAgent : ''
   , isOSX = /OS X/.test(ua)
   , isOpera = /Opera/.test(ua)
@@ -83971,77 +82744,98 @@ for(i = 112; i < 136; ++i) {
 }
 
 })()
-},{}],62:[function(require,module,exports){
-var ever = require('ever')
-var vkey = require('vkey')
-var events = require('events')
+},{}],71:[function(require,module,exports){
+module.exports = fullscreen
+fullscreen.available = available
 
-var game
+var EE = require('events').EventEmitter
 
-module.exports = function(gameInstance) {
-  // cache the game instance
-  game = gameInstance
-  return function makeFly(physical, noKeyEvents) {
-    return new Fly(physical, noKeyEvents)
+function available() {
+  return !!shim(document.body)
+}
+
+function fullscreen(el) {
+  var ael = el.addEventListener || el.attachEvent
+    , doc = el.ownerDocument
+    , body = doc.body
+    , rfs = shim(el)
+    , ee = new EE
+
+  var vendors = ['', 'webkit', 'moz', 'ms', 'o']
+
+  for(var i = 0, len = vendors.length; i < len; ++i) {
+    ael.call(doc, vendors[i]+'fullscreenchange', onfullscreenchange)
+    ael.call(doc, vendors[i]+'fullscreenerror', onfullscreenerror)
   }
-}
 
-function Fly(physical, noKeyEvents) {
-  this.flySpeed = 0.8
-  this.physical = physical
-  if (!noKeyEvents) this.bindKeyEvents()
-}
+  ee.release = release
+  ee.request = request
+  ee.target = fullscreenelement
 
-Fly.prototype.bindKeyEvents = function(el) {
-  if (!el) el = document.body
-  var self = this
-  var counter = 0
-  var first = Date.now()
-  ever(el).on('keydown', onKeyDown)
-  
-  function onKeyDown(ev) {
-    var key = vkey[ev.keyCode] || ev.char
-    var binding = game.keybindings[key]
-    if (binding !== "jump") return
-    if (counter === 1) {
-      if (Date.now() - first > 500) {
-        return first = Date.now()
-      } else {
-        if (!self.flying) self.startFlying()
-      }
-      return counter = 0
+  if(!shim) {
+    setTimeout(function() {
+      ee.emit('error', new Error('fullscreen is not supported'))
+    }, 0)
+  }
+  return ee
+
+  function onfullscreenchange() {
+    if(!fullscreenelement()) {
+      return ee.emit('release')
     }
-    if (counter === 0) {
-      first = Date.now()
-      counter += 1
-    }
+    ee.emit('attain')
+  }
+
+  function onfullscreenerror() {
+    ee.emit('error')
+  }
+
+  function request() {
+    return rfs.call(el)
+  }
+
+  function release() {
+    (el.exitFullscreen ||
+    el.exitFullscreen ||
+    el.webkitExitFullScreen ||
+    el.webkitExitFullscreen ||
+    el.mozExitFullScreen ||
+    el.mozExitFullscreen ||
+    el.msExitFullScreen ||
+    el.msExitFullscreen ||
+    el.oExitFullScreen ||
+    el.oExitFullscreen).call(el)
+  } 
+
+  function fullscreenelement() {
+    return 0 ||
+      doc.fullScreenElement ||
+      doc.fullscreenElement ||
+      doc.webkitFullScreenElement ||
+      doc.webkitFullscreenElement ||
+      doc.mozFullScreenElement ||
+      doc.mozFullscreenElement ||
+      doc.msFullScreenElement ||
+      doc.msFullscreenElement ||
+      doc.oFullScreenElement ||
+      doc.oFullscreenElement ||
+      null
   }
 }
 
-Fly.prototype.startFlying = function() {
-  var self = this
-  this.flying = true
-  var physical = this.physical
-  physical.removeForce(game.gravity)
-  physical.onGameTick = function(dt) {
-    if (physical.atRestY() === -1) return self.stopFlying()
-    physical.friction.x = self.flySpeed
-    physical.friction.z = self.flySpeed
-    var press = game.controls.state
-    if (press['crouch']) return physical.velocity.y = -0.01
-    if (press['jump']) return physical.velocity.y = 0.01
-    physical.velocity.y = 0
-  }
-  game.on('tick', physical.onGameTick)
+function shim(el) {
+  return (el.requestFullscreen ||
+    el.webkitRequestFullscreen ||
+    el.webkitRequestFullScreen ||
+    el.mozRequestFullscreen ||
+    el.mozRequestFullScreen ||
+    el.msRequestFullscreen ||
+    el.msRequestFullScreen ||
+    el.oRequestFullscreen ||
+    el.oRequestFullScreen)
 }
 
-Fly.prototype.stopFlying = function() {
-  this.flying = false
-  var physical = this.physical
-  physical.subjectTo(game.gravity)
-  game.removeListener('tick', physical.onGameTick)
-}
-},{"events":3,"vkey":79,"ever":80}],64:[function(require,module,exports){
+},{"events":3}],53:[function(require,module,exports){
 var inherits = require('inherits')
 var events = require('events')
 var _ = require('underscore')
@@ -84208,7 +83002,190 @@ Highlighter.prototype.highlight = function () {
   if (!this.animate) this.mesh.position.set(this.targetPosition[0], this.targetPosition[1], this.targetPosition[2])
 }
 
-},{"events":3,"underscore":81,"inherits":82}],41:[function(require,module,exports){
+},{"events":3,"inherits":73,"underscore":74}],54:[function(require,module,exports){
+var ever = require('ever')
+var vkey = require('vkey')
+var events = require('events')
+
+var game
+
+module.exports = function(gameInstance) {
+  // cache the game instance
+  game = gameInstance
+  return function makeFly(physical, noKeyEvents) {
+    return new Fly(physical, noKeyEvents)
+  }
+}
+
+function Fly(physical, noKeyEvents) {
+  this.flySpeed = 0.8
+  this.physical = physical
+  if (!noKeyEvents) this.bindKeyEvents()
+}
+
+Fly.prototype.bindKeyEvents = function(el) {
+  if (!el) el = document.body
+  var self = this
+  var counter = 0
+  var spaceUpAfterFirstDown = false
+  var first = Date.now()
+  ever(el)
+    .on('keydown', onKeyDown)
+    .on('keyup', onKeyUp)
+  
+  function onKeyDown(ev) {
+    var key = vkey[ev.keyCode] || ev.char
+    var binding = game.keybindings[key]
+    if (binding !== "jump") return
+    if (counter === 1) {
+      if (Date.now() - first > 300) {
+        spaceUpAfterFirstDown = false
+        return first = Date.now()
+      } else {
+        if (!self.flying && spaceUpAfterFirstDown) {
+          self.startFlying()
+        }
+      }
+      spaceUpAfterFirstDown = false
+      return counter = 0
+    }
+    if (counter === 0) {
+      first = Date.now()
+      counter += 1
+    }
+  }
+  
+  function onKeyUp(ev) {
+    var key = vkey[ev.keyCode] || ev.char
+    if (key === '<space>' && counter === 1) {
+      spaceUpAfterFirstDown = true
+    }
+  }
+}
+
+Fly.prototype.startFlying = function() {
+  var self = this
+  this.flying = true
+  var physical = this.physical
+  physical.removeForce(game.gravity)
+  physical.onGameTick = function(dt) {
+    if (physical.atRestY() === -1) return self.stopFlying()
+    physical.friction.x = self.flySpeed
+    physical.friction.z = self.flySpeed
+    var press = game.controls.state
+    if (press['crouch']) return physical.velocity.y = -0.01
+    if (press['jump']) return physical.velocity.y = 0.01
+    physical.velocity.y = 0
+  }
+  game.on('tick', physical.onGameTick)
+}
+
+Fly.prototype.stopFlying = function() {
+  this.flying = false
+  var physical = this.physical
+  physical.subjectTo(game.gravity)
+  game.removeListener('tick', physical.onGameTick)
+}
+},{"events":3,"ever":75,"vkey":76}],57:[function(require,module,exports){
+module.exports = AABB
+
+var vec3 = require('gl-matrix').vec3
+
+function AABB(pos, vec) {
+  if(!(this instanceof AABB)) {
+    return new AABB(pos, vec)
+  }
+
+  this.base = pos
+  this.vec = vec
+
+  this.mag = vec3.length(this.vec)
+
+  this.max = vec3.create()
+  vec3.add(this.max, this.base, this.vec)
+}
+
+var cons = AABB
+  , proto = cons.prototype
+
+proto.width = function() {
+  return this.vec[0]
+}
+
+proto.height = function() {
+  return this.vec[1]
+}
+
+proto.depth = function() {
+  return this.vec[2]
+}
+
+proto.x0 = function() {
+  return this.base[0]
+}
+
+proto.y0 = function() {
+  return this.base[1]
+}
+
+proto.z0 = function() {
+  return this.base[2]
+}
+
+proto.x1 = function() {
+  return this.max[0]
+}
+
+proto.y1 = function() {
+  return this.max[1]
+}
+
+proto.z1 = function() {
+  return this.max[2]
+}
+
+proto.translate = function(by) {
+  vec3.add(this.max, this.max, by)
+  vec3.add(this.base, this.base, by)
+  return this
+}
+
+proto.expand = function(aabb) {
+  var max = vec3.create()
+    , min = vec3.create()
+
+  vec3.max(max, aabb.max, this.max)
+  vec3.min(min, aabb.base, this.base)
+  vec3.sub(max, max, min)
+
+  return new AABB(min, max)
+}
+
+proto.intersects = function(aabb) {
+  if(aabb.base[0] > this.max[0]) return false
+  if(aabb.base[1] > this.max[1]) return false
+  if(aabb.base[2] > this.max[2]) return false
+  if(aabb.max[0] < this.base[0]) return false
+  if(aabb.max[1] < this.base[1]) return false
+  if(aabb.max[2] < this.base[2]) return false
+
+  return true
+}
+
+proto.union = function(aabb) {
+  if(!this.intersects(aabb)) return null
+
+  var base_x = Math.max(aabb.base[0], this.base[0])
+    , base_y = Math.max(aabb.base[1], this.base[1])
+    , base_z = Math.max(aabb.base[2], this.base[2])
+    , max_x = Math.min(aabb.max[0], this.max[0])
+    , max_y = Math.min(aabb.max[1], this.max[1])
+    , max_z = Math.min(aabb.max[2], this.max[2])
+
+  return new AABB([base_x, base_y, base_z], [max_x - base_x, max_y - base_y, max_z - base_z])
+}
+
+},{"gl-matrix":48}],56:[function(require,module,exports){
 var THREE = require('three')
 
 module.exports = function(data, mesher, scaleFactor, three) {
@@ -84378,106 +83355,7 @@ Mesh.prototype.faceVertexUv = function(i) {
 }
 ;
 
-},{"three":50}],51:[function(require,module,exports){
-module.exports = AABB
-
-var vec3 = require('gl-matrix').vec3
-
-function AABB(pos, vec) {
-  if(!(this instanceof AABB)) {
-    return new AABB(pos, vec)
-  }
-
-  this.base = pos
-  this.vec = vec
-
-  this.mag = vec3.length(this.vec)
-
-  this.max = vec3.create()
-  vec3.add(this.max, this.base, this.vec)
-}
-
-var cons = AABB
-  , proto = cons.prototype
-
-proto.width = function() {
-  return this.vec[0]
-}
-
-proto.height = function() {
-  return this.vec[1]
-}
-
-proto.depth = function() {
-  return this.vec[2]
-}
-
-proto.x0 = function() {
-  return this.base[0]
-}
-
-proto.y0 = function() {
-  return this.base[1]
-}
-
-proto.z0 = function() {
-  return this.base[2]
-}
-
-proto.x1 = function() {
-  return this.max[0]
-}
-
-proto.y1 = function() {
-  return this.max[1]
-}
-
-proto.z1 = function() {
-  return this.max[2]
-}
-
-proto.translate = function(by) {
-  vec3.add(this.max, this.max, by)
-  vec3.add(this.base, this.base, by)
-  return this
-}
-
-proto.expand = function(aabb) {
-  var max = vec3.create()
-    , min = vec3.create()
-
-  vec3.max(max, aabb.max, this.max)
-  vec3.min(min, aabb.base, this.base)
-  vec3.sub(max, max, min)
-
-  return new AABB(min, max)
-}
-
-proto.intersects = function(aabb) {
-  if(aabb.base[0] > this.max[0]) return false
-  if(aabb.base[1] > this.max[1]) return false
-  if(aabb.base[2] > this.max[2]) return false
-  if(aabb.max[0] < this.base[0]) return false
-  if(aabb.max[1] < this.base[1]) return false
-  if(aabb.max[2] < this.base[2]) return false
-
-  return true
-}
-
-proto.union = function(aabb) {
-  if(!this.intersects(aabb)) return null
-
-  var base_x = Math.max(aabb.base[0], this.base[0])
-    , base_y = Math.max(aabb.base[1], this.base[1])
-    , base_z = Math.max(aabb.base[2], this.base[2])
-    , max_x = Math.min(aabb.max[0], this.max[0])
-    , max_y = Math.min(aabb.max[1], this.max[1])
-    , max_z = Math.min(aabb.max[2], this.max[2])
-
-  return new AABB([base_x, base_y, base_z], [max_x - base_x, max_y - base_y, max_z - base_z])
-}
-
-},{"gl-matrix":53}],52:[function(require,module,exports){
+},{"three":49}],59:[function(require,module,exports){
 module.exports = SpatialEventEmitter
 
 var slice = [].slice
@@ -84609,7 +83487,7 @@ function finite(bbox) {
          isFinite(bbox.z1())
 }
 
-},{"./tree":83,"aabb-3d":51}],56:[function(require,module,exports){
+},{"./tree":77,"aabb-3d":57}],61:[function(require,module,exports){
 module.exports = physical
 
 var aabb = require('aabb-3d')
@@ -84803,9 +83681,11 @@ proto.attractTo = function(vector, mass) {
 }
 
 proto.aabb = function() {
+  var pos = this.avatar.position
+  var d = this.dimensions
   return aabb(
-      [this.avatar.position.x, this.avatar.position.y, this.avatar.position.z]
-    , this.dimensions
+    [pos.x - (d[0]/2), pos.y, pos.z - (d[2]/2)],
+    this.dimensions
   )
 }
 
@@ -84826,7 +83706,7 @@ proto.atRestZ = function() {
   return this.resting.z
 }
 
-},{"aabb-3d":51,"three":50}],65:[function(require,module,exports){
+},{"aabb-3d":57,"three":49}],51:[function(require,module,exports){
 var keymaster = require('./lib/keymaster.js')
 var inherits = require('inherits')
 var events = require('events')
@@ -85001,7 +83881,7 @@ HUD.prototype.switchToolbar = function(num) {
   var dataID = active.getAttribute('data-id')
   this.emit('select', dataID ? dataID : active.innerText)
 }
-},{"events":3,"./lib/keymaster.js":78,"inherits":84,"element-class":85}],86:[function(require,module,exports){
+},{"./lib/keymaster.js":72,"element-class":79,"events":3,"inherits":78}],80:[function(require,module,exports){
 /*
  * atlaspack
  * https://github.com/shama/atlaspack
@@ -85259,7 +84139,7 @@ Atlas.prototype._debug = function() {
   });
 };
 
-},{}],58:[function(require,module,exports){
+},{}],63:[function(require,module,exports){
 module.exports = coordinates
 
 var aabb = require('aabb-3d')
@@ -85287,7 +84167,7 @@ function coordinates(spatial, box, regionWidth) {
  
   return emitter
 }
-},{"events":3,"aabb-3d":51}],57:[function(require,module,exports){
+},{"aabb-3d":57,"events":3}],62:[function(require,module,exports){
 var tic = require('tic')();
 var createAtlas = require('atlaspack');
 
@@ -85674,146 +84554,69 @@ function memoize(func) {
   return memoized;
 }
 
-},{"atlaspack":86,"tic":59}],79:[function(require,module,exports){
-(function(){var ua = typeof window !== 'undefined' ? window.navigator.userAgent : ''
-  , isOSX = /OS X/.test(ua)
-  , isOpera = /Opera/.test(ua)
-  , maybeFirefox = !/like Gecko/.test(ua) && !isOpera
+},{"atlaspack":80,"tic":64}],78:[function(require,module,exports){
+module.exports = inherits
 
-var i, output = module.exports = {
-  0:  isOSX ? '<menu>' : '<UNK>'
-, 1:  '<mouse 1>'
-, 2:  '<mouse 2>'
-, 3:  '<break>'
-, 4:  '<mouse 3>'
-, 5:  '<mouse 4>'
-, 6:  '<mouse 5>'
-, 8:  '<backspace>'
-, 9:  '<tab>'
-, 12: '<clear>'
-, 13: '<enter>'
-, 16: '<shift>'
-, 17: '<control>'
-, 18: '<alt>'
-, 19: '<pause>'
-, 20: '<caps-lock>'
-, 21: '<ime-hangul>'
-, 23: '<ime-junja>'
-, 24: '<ime-final>'
-, 25: '<ime-kanji>'
-, 27: '<escape>'
-, 28: '<ime-convert>'
-, 29: '<ime-nonconvert>'
-, 30: '<ime-accept>'
-, 31: '<ime-mode-change>'
-, 27: '<escape>'
-, 32: '<space>'
-, 33: '<page-up>'
-, 34: '<page-down>'
-, 35: '<end>'
-, 36: '<home>'
-, 37: '<left>'
-, 38: '<up>'
-, 39: '<right>'
-, 40: '<down>'
-, 41: '<select>'
-, 42: '<print>'
-, 43: '<execute>'
-, 44: '<snapshot>'
-, 45: '<insert>'
-, 46: '<delete>'
-, 47: '<help>'
-, 91: '<meta>'  // meta-left -- no one handles left and right properly, so we coerce into one.
-, 92: '<meta>'  // meta-right
-, 93: isOSX ? '<meta>' : '<menu>'      // chrome,opera,safari all report this for meta-right (osx mbp).
-, 95: '<sleep>'
-, 106: '<num-*>'
-, 107: '<num-+>'
-, 108: '<num-enter>'
-, 109: '<num-->'
-, 110: '<num-.>'
-, 111: '<num-/>'
-, 144: '<num-lock>'
-, 145: '<scroll-lock>'
-, 160: '<shift-left>'
-, 161: '<shift-right>'
-, 162: '<control-left>'
-, 163: '<control-right>'
-, 164: '<alt-left>'
-, 165: '<alt-right>'
-, 166: '<browser-back>'
-, 167: '<browser-forward>'
-, 168: '<browser-refresh>'
-, 169: '<browser-stop>'
-, 170: '<browser-search>'
-, 171: '<browser-favorites>'
-, 172: '<browser-home>'
-
-  // ff/osx reports '<volume-mute>' for '-'
-, 173: isOSX && maybeFirefox ? '-' : '<volume-mute>'
-, 174: '<volume-down>'
-, 175: '<volume-up>'
-, 176: '<next-track>'
-, 177: '<prev-track>'
-, 178: '<stop>'
-, 179: '<play-pause>'
-, 180: '<launch-mail>'
-, 181: '<launch-media-select>'
-, 182: '<launch-app 1>'
-, 183: '<launch-app 2>'
-, 186: ';'
-, 187: '='
-, 188: ','
-, 189: '-'
-, 190: '.'
-, 191: '/'
-, 192: '`'
-, 219: '['
-, 220: '\\'
-, 221: ']'
-, 222: "'"
-, 223: '<meta>'
-, 224: '<meta>'       // firefox reports meta here.
-, 226: '<alt-gr>'
-, 229: '<ime-process>'
-, 231: isOpera ? '`' : '<unicode>'
-, 246: '<attention>'
-, 247: '<crsel>'
-, 248: '<exsel>'
-, 249: '<erase-eof>'
-, 250: '<play>'
-, 251: '<zoom>'
-, 252: '<no-name>'
-, 253: '<pa-1>'
-, 254: '<clear>'
+function inherits (c, p, proto) {
+  proto = proto || {}
+  var e = {}
+  ;[c.prototype, proto].forEach(function (s) {
+    Object.getOwnPropertyNames(s).forEach(function (k) {
+      e[k] = Object.getOwnPropertyDescriptor(s, k)
+    })
+  })
+  c.prototype = Object.create(p.prototype, e)
+  c.super = p
 }
 
-for(i = 58; i < 65; ++i) {
-  output[i] = String.fromCharCode(i)
+//function Child () {
+//  Child.super.call(this)
+//  console.error([this
+//                ,this.constructor
+//                ,this.constructor === Child
+//                ,this.constructor.super === Parent
+//                ,Object.getPrototypeOf(this) === Child.prototype
+//                ,Object.getPrototypeOf(Object.getPrototypeOf(this))
+//                 === Parent.prototype
+//                ,this instanceof Child
+//                ,this instanceof Parent])
+//}
+//function Parent () {}
+//inherits(Child, Parent)
+//new Child
+
+},{}],73:[function(require,module,exports){
+module.exports = inherits
+
+function inherits (c, p, proto) {
+  proto = proto || {}
+  var e = {}
+  ;[c.prototype, proto].forEach(function (s) {
+    Object.getOwnPropertyNames(s).forEach(function (k) {
+      e[k] = Object.getOwnPropertyDescriptor(s, k)
+    })
+  })
+  c.prototype = Object.create(p.prototype, e)
+  c.super = p
 }
 
-// 0-9
-for(i = 48; i < 58; ++i) {
-  output[i] = (i - 48)+''
-}
+//function Child () {
+//  Child.super.call(this)
+//  console.error([this
+//                ,this.constructor
+//                ,this.constructor === Child
+//                ,this.constructor.super === Parent
+//                ,Object.getPrototypeOf(this) === Child.prototype
+//                ,Object.getPrototypeOf(Object.getPrototypeOf(this))
+//                 === Parent.prototype
+//                ,this instanceof Child
+//                ,this instanceof Parent])
+//}
+//function Parent () {}
+//inherits(Child, Parent)
+//new Child
 
-// A-Z
-for(i = 65; i < 91; ++i) {
-  output[i] = String.fromCharCode(i)
-}
-
-// num0-9
-for(i = 96; i < 107; ++i) {
-  output[i] = '<num-'+(i - 96)+'>'
-}
-
-// F1-F24
-for(i = 112; i < 136; ++i) {
-  output[i] = 'F'+(i-111)
-}
-
-})()
-},{}],81:[function(require,module,exports){
+},{}],74:[function(require,module,exports){
 (function(){//     Underscore.js 1.4.4
 //     http://underscorejs.org
 //     (c) 2009-2013 Jeremy Ashkenas, DocumentCloud Inc.
@@ -87042,69 +85845,146 @@ for(i = 112; i < 136; ++i) {
 }).call(this);
 
 })()
-},{}],82:[function(require,module,exports){
-module.exports = inherits
-
-function inherits (c, p, proto) {
-  proto = proto || {}
-  var e = {}
-  ;[c.prototype, proto].forEach(function (s) {
-    Object.getOwnPropertyNames(s).forEach(function (k) {
-      e[k] = Object.getOwnPropertyDescriptor(s, k)
-    })
-  })
-  c.prototype = Object.create(p.prototype, e)
-  c.super = p
-}
-
-//function Child () {
-//  Child.super.call(this)
-//  console.error([this
-//                ,this.constructor
-//                ,this.constructor === Child
-//                ,this.constructor.super === Parent
-//                ,Object.getPrototypeOf(this) === Child.prototype
-//                ,Object.getPrototypeOf(Object.getPrototypeOf(this))
-//                 === Parent.prototype
-//                ,this instanceof Child
-//                ,this instanceof Parent])
-//}
-//function Parent () {}
-//inherits(Child, Parent)
-//new Child
-
-},{}],84:[function(require,module,exports){
-module.exports = inherits
-
-function inherits (c, p, proto) {
-  proto = proto || {}
-  var e = {}
-  ;[c.prototype, proto].forEach(function (s) {
-    Object.getOwnPropertyNames(s).forEach(function (k) {
-      e[k] = Object.getOwnPropertyDescriptor(s, k)
-    })
-  })
-  c.prototype = Object.create(p.prototype, e)
-  c.super = p
-}
-
-//function Child () {
-//  Child.super.call(this)
-//  console.error([this
-//                ,this.constructor
-//                ,this.constructor === Child
-//                ,this.constructor.super === Parent
-//                ,Object.getPrototypeOf(this) === Child.prototype
-//                ,Object.getPrototypeOf(Object.getPrototypeOf(this))
-//                 === Parent.prototype
-//                ,this instanceof Child
-//                ,this instanceof Parent])
-//}
-//function Parent () {}
-//inherits(Child, Parent)
-//new Child
-
 },{}],76:[function(require,module,exports){
+(function(){var ua = typeof window !== 'undefined' ? window.navigator.userAgent : ''
+  , isOSX = /OS X/.test(ua)
+  , isOpera = /Opera/.test(ua)
+  , maybeFirefox = !/like Gecko/.test(ua) && !isOpera
+
+var i, output = module.exports = {
+  0:  isOSX ? '<menu>' : '<UNK>'
+, 1:  '<mouse 1>'
+, 2:  '<mouse 2>'
+, 3:  '<break>'
+, 4:  '<mouse 3>'
+, 5:  '<mouse 4>'
+, 6:  '<mouse 5>'
+, 8:  '<backspace>'
+, 9:  '<tab>'
+, 12: '<clear>'
+, 13: '<enter>'
+, 16: '<shift>'
+, 17: '<control>'
+, 18: '<alt>'
+, 19: '<pause>'
+, 20: '<caps-lock>'
+, 21: '<ime-hangul>'
+, 23: '<ime-junja>'
+, 24: '<ime-final>'
+, 25: '<ime-kanji>'
+, 27: '<escape>'
+, 28: '<ime-convert>'
+, 29: '<ime-nonconvert>'
+, 30: '<ime-accept>'
+, 31: '<ime-mode-change>'
+, 27: '<escape>'
+, 32: '<space>'
+, 33: '<page-up>'
+, 34: '<page-down>'
+, 35: '<end>'
+, 36: '<home>'
+, 37: '<left>'
+, 38: '<up>'
+, 39: '<right>'
+, 40: '<down>'
+, 41: '<select>'
+, 42: '<print>'
+, 43: '<execute>'
+, 44: '<snapshot>'
+, 45: '<insert>'
+, 46: '<delete>'
+, 47: '<help>'
+, 91: '<meta>'  // meta-left -- no one handles left and right properly, so we coerce into one.
+, 92: '<meta>'  // meta-right
+, 93: isOSX ? '<meta>' : '<menu>'      // chrome,opera,safari all report this for meta-right (osx mbp).
+, 95: '<sleep>'
+, 106: '<num-*>'
+, 107: '<num-+>'
+, 108: '<num-enter>'
+, 109: '<num-->'
+, 110: '<num-.>'
+, 111: '<num-/>'
+, 144: '<num-lock>'
+, 145: '<scroll-lock>'
+, 160: '<shift-left>'
+, 161: '<shift-right>'
+, 162: '<control-left>'
+, 163: '<control-right>'
+, 164: '<alt-left>'
+, 165: '<alt-right>'
+, 166: '<browser-back>'
+, 167: '<browser-forward>'
+, 168: '<browser-refresh>'
+, 169: '<browser-stop>'
+, 170: '<browser-search>'
+, 171: '<browser-favorites>'
+, 172: '<browser-home>'
+
+  // ff/osx reports '<volume-mute>' for '-'
+, 173: isOSX && maybeFirefox ? '-' : '<volume-mute>'
+, 174: '<volume-down>'
+, 175: '<volume-up>'
+, 176: '<next-track>'
+, 177: '<prev-track>'
+, 178: '<stop>'
+, 179: '<play-pause>'
+, 180: '<launch-mail>'
+, 181: '<launch-media-select>'
+, 182: '<launch-app 1>'
+, 183: '<launch-app 2>'
+, 186: ';'
+, 187: '='
+, 188: ','
+, 189: '-'
+, 190: '.'
+, 191: '/'
+, 192: '`'
+, 219: '['
+, 220: '\\'
+, 221: ']'
+, 222: "'"
+, 223: '<meta>'
+, 224: '<meta>'       // firefox reports meta here.
+, 226: '<alt-gr>'
+, 229: '<ime-process>'
+, 231: isOpera ? '`' : '<unicode>'
+, 246: '<attention>'
+, 247: '<crsel>'
+, 248: '<exsel>'
+, 249: '<erase-eof>'
+, 250: '<play>'
+, 251: '<zoom>'
+, 252: '<no-name>'
+, 253: '<pa-1>'
+, 254: '<clear>'
+}
+
+for(i = 58; i < 65; ++i) {
+  output[i] = String.fromCharCode(i)
+}
+
+// 0-9
+for(i = 48; i < 58; ++i) {
+  output[i] = (i - 48)+''
+}
+
+// A-Z
+for(i = 65; i < 91; ++i) {
+  output[i] = String.fromCharCode(i)
+}
+
+// num0-9
+for(i = 96; i < 107; ++i) {
+  output[i] = '<num-'+(i - 96)+'>'
+}
+
+// F1-F24
+for(i = 112; i < 136; ++i) {
+  output[i] = 'F'+(i-111)
+}
+
+})()
+},{}],67:[function(require,module,exports){
 var EventEmitter = require('events').EventEmitter;
 
 module.exports = function (elem) {
@@ -87216,7 +86096,44 @@ Ever.typeOf = (function () {
     };
 })();;
 
-},{"events":3,"./init.json":87,"./types.json":88}],61:[function(require,module,exports){
+},{"./init.json":81,"./types.json":82,"events":3}],79:[function(require,module,exports){
+module.exports = function(opts) {
+  return new ElementClass(opts)
+}
+
+function ElementClass(opts) {
+  if (!(this instanceof ElementClass)) return new ElementClass(opts)
+  var self = this
+  if (!opts) opts = {}
+  if (opts instanceof HTMLElement) opts = {el: opts}
+  this.opts = opts
+  this.el = opts.el || document.body
+  if (typeof this.el !== 'object') this.el = document.querySelector(this.el)
+}
+
+ElementClass.prototype.add = function(className) {
+  var el = this.el
+  if (!el) return
+  if (el.className === "") return el.className = className
+  var classes = el.className.split(' ')
+  if (classes.indexOf(className) > -1) return classes
+  classes.push(className)
+  el.className = classes.join(' ')
+  return classes
+}
+
+ElementClass.prototype.remove = function(className) {
+  var el = this.el
+  if (!el) return
+  if (el.className === "") return
+  var classes = el.className.split(' ')
+  var idx = classes.indexOf(className)
+  if (idx > -1) classes.splice(idx, 1)
+  el.className = classes.join(' ')
+  return classes
+}
+
+},{}],52:[function(require,module,exports){
 var skin = require('minecraft-skin');
 
 module.exports = function (game) {
@@ -87296,44 +86213,50 @@ function parseXYZ (x, y, z) {
     return { x: Number(x), y: Number(y), z: Number(z) };
 }
 
-},{"minecraft-skin":89}],85:[function(require,module,exports){
-module.exports = function(opts) {
-  return new ElementClass(opts)
+},{"minecraft-skin":83}],81:[function(require,module,exports){
+module.exports={
+  "initEvent" : [
+    "type",
+    "canBubble", 
+    "cancelable"
+  ],
+  "initUIEvent" : [
+    "type",
+    "canBubble", 
+    "cancelable", 
+    "view", 
+    "detail"
+  ],
+  "initMouseEvent" : [
+    "type",
+    "canBubble", 
+    "cancelable", 
+    "view", 
+    "detail", 
+    "screenX", 
+    "screenY", 
+    "clientX", 
+    "clientY", 
+    "ctrlKey", 
+    "altKey", 
+    "shiftKey", 
+    "metaKey", 
+    "button",
+    "relatedTarget"
+  ],
+  "initMutationEvent" : [
+    "type",
+    "canBubble", 
+    "cancelable", 
+    "relatedNode", 
+    "prevValue", 
+    "newValue", 
+    "attrName", 
+    "attrChange"
+  ]
 }
 
-function ElementClass(opts) {
-  if (!(this instanceof ElementClass)) return new ElementClass(opts)
-  var self = this
-  if (!opts) opts = {}
-  if (opts instanceof HTMLElement) opts = {el: opts}
-  this.opts = opts
-  this.el = opts.el || document.body
-  if (typeof this.el !== 'object') this.el = document.querySelector(this.el)
-}
-
-ElementClass.prototype.add = function(className) {
-  var el = this.el
-  if (!el) return
-  if (el.className === "") return el.className = className
-  var classes = el.className.split(' ')
-  if (classes.indexOf(className) > -1) return classes
-  classes.push(className)
-  el.className = classes.join(' ')
-  return classes
-}
-
-ElementClass.prototype.remove = function(className) {
-  var el = this.el
-  if (!el) return
-  if (el.className === "") return
-  var classes = el.className.split(' ')
-  var idx = classes.indexOf(className)
-  if (idx > -1) classes.splice(idx, 1)
-  el.className = classes.join(' ')
-  return classes
-}
-
-},{}],88:[function(require,module,exports){
+},{}],82:[function(require,module,exports){
 module.exports={
   "MouseEvent" : [
     "click",
@@ -87378,50 +86301,119 @@ module.exports={
   ]
 }
 
-},{}],87:[function(require,module,exports){
-module.exports={
-  "initEvent" : [
-    "type",
-    "canBubble", 
-    "cancelable"
-  ],
-  "initUIEvent" : [
-    "type",
-    "canBubble", 
-    "cancelable", 
-    "view", 
-    "detail"
-  ],
-  "initMouseEvent" : [
-    "type",
-    "canBubble", 
-    "cancelable", 
-    "view", 
-    "detail", 
-    "screenX", 
-    "screenY", 
-    "clientX", 
-    "clientY", 
-    "ctrlKey", 
-    "altKey", 
-    "shiftKey", 
-    "metaKey", 
-    "button",
-    "relatedTarget"
-  ],
-  "initMutationEvent" : [
-    "type",
-    "canBubble", 
-    "cancelable", 
-    "relatedNode", 
-    "prevValue", 
-    "newValue", 
-    "attrName", 
-    "attrChange"
-  ]
+},{}],75:[function(require,module,exports){
+var EventEmitter = require('events').EventEmitter;
+
+module.exports = function (elem) {
+    return new Ever(elem);
+};
+
+function Ever (elem) {
+    this.element = elem;
 }
 
-},{}],89:[function(require,module,exports){
+Ever.prototype = new EventEmitter;
+
+Ever.prototype.on = function (name, cb, useCapture) {
+    if (!this._events) this._events = {};
+    if (!this._events[name]) this._events[name] = [];
+    this._events[name].push(cb);
+    this.element.addEventListener(name, cb, useCapture || false);
+
+    return this;
+};
+Ever.prototype.addListener = Ever.prototype.on;
+
+Ever.prototype.removeListener = function (type, listener, useCapture) {
+    if (!this._events) this._events = {};
+    this.element.removeEventListener(type, listener, useCapture || false);
+    
+    var xs = this.listeners(type);
+    var ix = xs.indexOf(listener);
+    if (ix >= 0) xs.splice(ix, 1);
+
+    return this;
+};
+
+Ever.prototype.removeAllListeners = function (type) {
+    var self = this;
+    function removeAll (t) {
+        var xs = self.listeners(t);
+        for (var i = 0; i < xs.length; i++) {
+            self.removeListener(t, xs[i]);
+        }
+    }
+    
+    if (type) {
+        removeAll(type)
+    }
+    else if (self._events) {
+        for (var key in self._events) {
+            if (key) removeAll(key);
+        }
+    }
+    return EventEmitter.prototype.removeAllListeners.apply(self, arguments);
+}
+
+var initSignatures = require('./init.json');
+
+Ever.prototype.emit = function (name, ev) {
+    if (typeof name === 'object') {
+        ev = name;
+        name = ev.type;
+    }
+    
+    if (!isEvent(ev)) {
+        var type = Ever.typeOf(name);
+        
+        var opts = ev || {};
+        if (opts.type === undefined) opts.type = name;
+        
+        ev = document.createEvent(type + 's');
+        var init = typeof ev['init' + type] === 'function'
+            ? 'init' + type : 'initEvent'
+        ;
+        
+        var sig = initSignatures[init];
+        var used = {};
+        var args = [];
+        
+        for (var i = 0; i < sig.length; i++) {
+            var key = sig[i];
+            args.push(opts[key]);
+            used[key] = true;
+        }
+        ev[init].apply(ev, args);
+        
+        // attach remaining unused options to the object
+        for (var key in opts) {
+            if (!used[key]) ev[key] = opts[key];
+        }
+    }
+    return this.element.dispatchEvent(ev);
+};
+
+function isEvent (ev) {
+    var s = Object.prototype.toString.call(ev);
+    return /\[object \S+Event\]/.test(s);
+}
+
+Ever.types = require('./types.json');
+Ever.typeOf = (function () {
+    var types = {};
+    for (var key in Ever.types) {
+        var ts = Ever.types[key];
+        for (var i = 0; i < ts.length; i++) {
+            types[ts[i]] = key;
+        }
+    }
+    
+    return function (name) {
+        return types[name] || 'Event';
+    };
+})();;
+
+},{"./init.json":84,"./types.json":85,"events":3}],83:[function(require,module,exports){
 var THREE
 
 module.exports = function(three, image, sizeRatio) {
@@ -87793,256 +86785,7 @@ Skin.prototype.createPlayerObject = function(scene) {
   playerGroup.scale = this.scale
   return playerGroup
 }
-},{}],80:[function(require,module,exports){
-var EventEmitter = require('events').EventEmitter;
-
-module.exports = function (elem) {
-    return new Ever(elem);
-};
-
-function Ever (elem) {
-    this.element = elem;
-}
-
-Ever.prototype = new EventEmitter;
-
-Ever.prototype.on = function (name, cb, useCapture) {
-    if (!this._events) this._events = {};
-    if (!this._events[name]) this._events[name] = [];
-    this._events[name].push(cb);
-    this.element.addEventListener(name, cb, useCapture || false);
-
-    return this;
-};
-Ever.prototype.addListener = Ever.prototype.on;
-
-Ever.prototype.removeListener = function (type, listener, useCapture) {
-    if (!this._events) this._events = {};
-    this.element.removeEventListener(type, listener, useCapture || false);
-    
-    var xs = this.listeners(type);
-    var ix = xs.indexOf(listener);
-    if (ix >= 0) xs.splice(ix, 1);
-
-    return this;
-};
-
-Ever.prototype.removeAllListeners = function (type) {
-    var self = this;
-    function removeAll (t) {
-        var xs = self.listeners(t);
-        for (var i = 0; i < xs.length; i++) {
-            self.removeListener(t, xs[i]);
-        }
-    }
-    
-    if (type) {
-        removeAll(type)
-    }
-    else if (self._events) {
-        for (var key in self._events) {
-            if (key) removeAll(key);
-        }
-    }
-    return EventEmitter.prototype.removeAllListeners.apply(self, arguments);
-}
-
-var initSignatures = require('./init.json');
-
-Ever.prototype.emit = function (name, ev) {
-    if (typeof name === 'object') {
-        ev = name;
-        name = ev.type;
-    }
-    
-    if (!isEvent(ev)) {
-        var type = Ever.typeOf(name);
-        
-        var opts = ev || {};
-        if (opts.type === undefined) opts.type = name;
-        
-        ev = document.createEvent(type + 's');
-        var init = typeof ev['init' + type] === 'function'
-            ? 'init' + type : 'initEvent'
-        ;
-        
-        var sig = initSignatures[init];
-        var used = {};
-        var args = [];
-        
-        for (var i = 0; i < sig.length; i++) {
-            var key = sig[i];
-            args.push(opts[key]);
-            used[key] = true;
-        }
-        ev[init].apply(ev, args);
-        
-        // attach remaining unused options to the object
-        for (var key in opts) {
-            if (!used[key]) ev[key] = opts[key];
-        }
-    }
-    return this.element.dispatchEvent(ev);
-};
-
-function isEvent (ev) {
-    var s = Object.prototype.toString.call(ev);
-    return /\[object \S+Event\]/.test(s);
-}
-
-Ever.types = require('./types.json');
-Ever.typeOf = (function () {
-    var types = {};
-    for (var key in Ever.types) {
-        var ts = Ever.types[key];
-        for (var i = 0; i < ts.length; i++) {
-            types[ts[i]] = key;
-        }
-    }
-    
-    return function (name) {
-        return types[name] || 'Event';
-    };
-})();;
-
-},{"events":3,"./init.json":90,"./types.json":91}],68:[function(require,module,exports){
-var events = require('events')
-var inherits = require('inherits')
-
-module.exports = function(opts) {
-  return new Chunker(opts)
-}
-
-module.exports.Chunker = Chunker
-
-function Chunker(opts) {
-  this.distance = opts.chunkDistance || 2
-  this.chunkSize = opts.chunkSize || 32
-  this.cubeSize = opts.cubeSize || 25
-  this.generateVoxelChunk = opts.generateVoxelChunk
-  this.chunks = {}
-  this.meshes = {}
-
-  if (this.chunkSize & this.chunkSize-1 !== 0)
-    throw new Error('chunkSize must be a power of 2')
-  var bits = 0;
-  for (var size = this.chunkSize; size > 0; size >>= 1) bits++;
-  this.chunkBits = bits - 1;
-}
-
-inherits(Chunker, events.EventEmitter)
-
-Chunker.prototype.nearbyChunks = function(position, distance) {
-  var current = this.chunkAtPosition(position)
-  var x = current[0]
-  var y = current[1]
-  var z = current[2]
-  var dist = distance || this.distance
-  var nearby = []
-  for (var cx = (x - dist); cx !== (x + dist); ++cx) {
-    for (var cy = (y - dist); cy !== (y + dist); ++cy) {
-      for (var cz = (z - dist); cz !== (z + dist); ++cz) {
-        nearby.push([cx, cy, cz])
-      }
-    }
-  }
-  return nearby
-}
-
-Chunker.prototype.requestMissingChunks = function(position) {
-  var self = this
-  this.nearbyChunks(position).map(function(chunk) {
-    if (!self.chunks[chunk.join('|')]) {
-      self.emit('missingChunk', chunk)
-    }
-  })
-}
-
-Chunker.prototype.getBounds = function(x, y, z) {
-  var bits = this.chunkBits
-  var low = [x << bits, y << bits, z << bits]
-  var high = [(x+1) << bits, (y+1) << bits, (z+1) << bits]
-  return [low, high]
-}
-
-Chunker.prototype.generateChunk = function(x, y, z) {
-  var self = this
-  var bounds = this.getBounds(x, y, z)
-  var chunk = this.generateVoxelChunk(bounds[0], bounds[1], x, y, z)
-  var position = [x, y, z]
-  chunk.position = position
-  this.chunks[position.join('|')] = chunk
-  return chunk
-}
-
-Chunker.prototype.chunkAtCoordinates = function(x, y, z) {
-  var bits = this.chunkBits;
-  var cx = x >> bits;
-  var cy = y >> bits;
-  var cz = z >> bits;
-  var chunkPos = [cx, cy, cz];
-  return chunkPos;
-}
-
-Chunker.prototype.chunkAtPosition = function(position) {
-  var cubeSize = this.cubeSize;
-  var x = Math.floor(position[0] / cubeSize)
-  var y = Math.floor(position[1] / cubeSize)
-  var z = Math.floor(position[2] / cubeSize)
-  var chunkPos = this.chunkAtCoordinates(x, y, z)
-  return chunkPos
-};
-
-Chunker.prototype.voxelIndexFromCoordinates = function(x, y, z) {
-  var bits = this.chunkBits
-  var mask = (1 << bits) - 1
-  var vidx = (x & mask) + ((y & mask) << bits) + ((z & mask) << bits * 2)
-  return vidx
-}
-
-Chunker.prototype.voxelIndexFromPosition = function(pos) {
-  var v = this.voxelVector(pos)
-  return this.voxelIndex(v)
-}
-
-Chunker.prototype.voxelAtCoordinates = function(x, y, z, val) {
-  var ckey = this.chunkAtCoordinates(x, y, z).join('|')
-  var chunk = this.chunks[ckey]
-  if (!chunk) return false
-  var vidx = this.voxelIndexFromCoordinates(x, y, z)
-  var v = chunk.voxels[vidx]
-  if (typeof val !== 'undefined') {
-    chunk.voxels[vidx] = val
-  }
-  return v
-}
-
-Chunker.prototype.voxelAtPosition = function(pos, val) {
-  var cubeSize = this.cubeSize;
-  var x = Math.floor(pos[0] / cubeSize)
-  var y = Math.floor(pos[1] / cubeSize)
-  var z = Math.floor(pos[2] / cubeSize)
-  var v = this.voxelAtCoordinates(x, y, z, val)
-  return v;
-}
-
-// deprecated
-Chunker.prototype.voxelIndex = function(voxelVector) {
-  var vidx = this.voxelIndexFromCoordinates(voxelVector[0], voxelVector[1], voxelVector[2])
-  return vidx
-}
-
-// deprecated
-Chunker.prototype.voxelVector = function(pos) {
-  var cubeSize = this.cubeSize
-  var mask = (1 << this.chunkBits) - 1
-  var vx = (Math.floor(pos[0] / cubeSize)) & mask
-  var vy = (Math.floor(pos[1] / cubeSize)) & mask
-  var vz = (Math.floor(pos[2] / cubeSize)) & mask
-  return [vx, vy, vz]
-};
-
-},{"events":3,"inherits":47}],83:[function(require,module,exports){
+},{}],77:[function(require,module,exports){
 module.exports = Tree
 
 var aabb = require('aabb-3d')
@@ -88168,7 +86911,7 @@ proto.send = function(event, bbox, args) {
   }
 }
 
-},{"aabb-3d":51}],74:[function(require,module,exports){
+},{"aabb-3d":57}],69:[function(require,module,exports){
 module.exports = dragstream
 
 var Stream = require('stream')
@@ -88236,7 +86979,7 @@ function dragstream(el) {
   }
 }
 
-},{"stream":60,"domnode-dom":92,"through":93}],90:[function(require,module,exports){
+},{"domnode-dom":86,"stream":42,"through":87}],84:[function(require,module,exports){
 module.exports={
   "initEvent" : [
     "type",
@@ -88279,7 +87022,7 @@ module.exports={
   ]
 }
 
-},{}],91:[function(require,module,exports){
+},{}],85:[function(require,module,exports){
 module.exports={
   "MouseEvent" : [
     "click",
@@ -88324,7 +87067,7 @@ module.exports={
   ]
 }
 
-},{}],93:[function(require,module,exports){
+},{}],87:[function(require,module,exports){
 (function(process){var Stream = require('stream')
 
 // through
@@ -88425,10 +87168,10 @@ function through (write, end) {
 
 
 })(require("__browserify_process"))
-},{"stream":60,"__browserify_process":2}],92:[function(require,module,exports){
+},{"__browserify_process":4,"stream":42}],86:[function(require,module,exports){
 module.exports = require('./lib/index')
 
-},{"./lib/index":94}],94:[function(require,module,exports){
+},{"./lib/index":88}],88:[function(require,module,exports){
 var WriteStream = require('./writable')
   , ReadStream = require('./readable')
   , DOMStream = {}
@@ -88466,7 +87209,7 @@ DOMStream.createEventStream = function(el, type, preventDefault) {
 module.exports = DOMStream
 
 
-},{"./writable":95,"./readable":96}],95:[function(require,module,exports){
+},{"./readable":90,"./writable":89}],89:[function(require,module,exports){
 module.exports = DOMStream
 
 var Stream = require('stream').Stream
@@ -88548,7 +87291,7 @@ proto.constructTextPlain = function(data) {
   return [textNode]
 }
 
-},{"stream":60}],96:[function(require,module,exports){
+},{"stream":42}],90:[function(require,module,exports){
 module.exports = DOMStream
 
 var Stream = require('stream').Stream
@@ -88657,5 +87400,5 @@ function valueFromElement(el) {
   return el.value
 }
 
-},{"stream":60}]},{},[5])
+},{"stream":42}]},{},[5])
 ;
